@@ -4,27 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>15.객체 : 데이터 불러오기 : 변수</title>
+  <title>객체 : 데이터를 저장 (키와 값) : 표현 방법6 : 배열 속에 객체</title>
 </head>
 <body>
   
   <script>
-
+    // 객체 : 데이터를 저장 (키와 값) : 배열 속에 객체
     const obj = {
-        a: 100,
-        b: 200,
-        c: "javascript"
+      a: 100,
+      b: [200,300],
+      c: {x: 400, y: 500},
+      d:"javascript"
     };
 
-    const name1 = obj.a;
-    const name2 = obj.b;
-    const name3 = obj.c;
 
-    document.write(name1)
-    document.write(name2)
-    document.write(name3)
+    document.write(obj.a);
+    document.write(obj.b[0]);
+    document.write(obj.b[1]);
+    document.write(obj.c.x);
+    document.write(obj.c.y);
+    document.write(obj.d);
 
   </script>
-
+  
 </body>
 </html>
