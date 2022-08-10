@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>07. 배열 : 데이터 불러오기 : forEach()</title>
+</head>
+<body>
+  
+  <script>
+
+    const num = [100, 200, 300, 400, 500];
+
+    document.write(num[0]);
+    document.write(num[1]);
+    document.write(num[2]);
+    document.write(num[3]);
+    document.write(num[4]);
+
+    //for문
+    for(i=0; i<num.length; i++){
+        document.write(num[i]);
+    }
+
+    //forEach()
+    num.forEach(function(el){
+          document.write(el);
+    })
+
+    //forEach(element, index, array)
+    num.forEach(function(element,index,array){
+          document.write(element);
+          document.write(index);
+          document.write(array);
+    })
+  </script>
+
+</body>
+</html>
