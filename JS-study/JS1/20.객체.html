@@ -4,27 +4,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>15.객체 : 데이터 불러오기 : 변수</title>
+  <title>20. 객체 : 데이터 불러오기 : 펼침연산자</title>
 </head>
 <body>
-  
   <script>
 
     const obj = {
         a: 100,
         b: 200,
         c: "javascript"
-    };
+    }
 
-    const name1 = obj.a;
-    const name2 = obj.b;
-    const name3 = obj.c;
+    const spread = { ...obj, d: "jquery"}
 
-    document.write(name1)
-    document.write(name2)
-    document.write(name3)
+    document.write(spread.a);
+    document.write(spread.b);
+    document.write(spread.c);
+    document.write(spread.d);
 
   </script>
-
 </body>
 </html>

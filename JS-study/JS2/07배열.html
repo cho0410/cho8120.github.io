@@ -4,36 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>07. 배열 : 데이터 불러오기 : forEach()</title>
+  <title>배열 : 여러개의 데이터를 저장 : 표현 방법2</title>
 </head>
 <body>
   
   <script>
+    // 배열 : 여러개의 데이터를 저장 
+    const arr = new Array(100, 200,"javascript");
 
-    const num = [100, 200, 300, 400, 500];
+    document.write(arr[0]);
+    document.write(arr[1]);
+    document.write(arr[2]);
 
-    document.write(num[0]);
-    document.write(num[1]);
-    document.write(num[2]);
-    document.write(num[3]);
-    document.write(num[4]);
-
-    //for문
-    for(i=0; i<num.length; i++){
-        document.write(num[i]);
-    }
-
-    //forEach()
-    num.forEach(function(el){
-          document.write(el);
-    })
-
-    //forEach(element, index, array)
-    num.forEach(function(element,index,array){
-          document.write(element);
-          document.write(index);
-          document.write(array);
-    })
   </script>
 
 </body>

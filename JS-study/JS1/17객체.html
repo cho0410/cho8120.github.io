@@ -4,37 +4,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>객체 : 데이터를 저장(키와 값) : 표현 방법8 : 객체 속에 함수</title>
+  <title>17. 객체 : 데이터 불러오기 : map()</title>
 </head>
 <body>
   
   <script>
 
-    const obj ={
-      a: 100,
-      b: [200,300],
-      c: {x:400, y:500},
-      d: "javascript",
-      e:function(){
-          document.write("javascript가 실행되었습니다.");
-      },
-      f: function(){
-          document.write(obj.d + "가 실행되었습니다.");
-      },
-      g: function(){
-          document.write(this.d + "가 실행되었습니다.");
-      }
-    }
+    const obj = [
+      {a: 100, b: 200, c:"javascript"}
+    ]
 
-    document.write(obj.a);
-    document.write(obj.b);
-    document.write(obj.b[0]);
-    document.write(obj.b[1]);
-    document.write(obj.c.x);
-    document.write(obj.c.y);
-    obj.e();
-    obj.f();
-    obj.g();
+    obj.map((el)=>{
+      document.write(el.a);
+      document.write(el.b);
+      document.write(el.c);
+    })
+
   </script>
 
 </body>

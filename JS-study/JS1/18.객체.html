@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>18.객체 : 데이터 불러오기 : hasOwnProperty()</title>
+</head>
+<body>
+  
+  <script>
+
+      const obj = {
+          a: 100,
+          b: 200,
+          c: "javascript"
+      }
+      
+      document.write(obj.hasOwnProperty('a'));
+      document.write(obj.hasOwnProperty('b'));
+      document.write(obj.hasOwnProperty('c'));
+      document.write(obj.hasOwnProperty('d'));
+      document.write('a' in obj);
+      document.write('b' in obj);
+      document.write('a' in obj);
+      document.write('d' in obj);
+
+
+  </script>
+
+</body>
+</html>

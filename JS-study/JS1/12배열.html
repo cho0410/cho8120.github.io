@@ -4,18 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>08. 배열 : 데이터 불러오기 : for of</title>
+  <title>12.배열 : 데이터 불러오기 : 배열구조분해할당</title>
 </head>
 <body>
   
   <script>
 
-    const num = [100, 200, 300, 400, 500];
+    let a, b, c;
 
-    for( let i of num){
-          document.write(i);
-    }
+    [a, b, c] = [100, 200, "javascript"];
 
+    document.write(a);
+    document.write(b);
+    document.write(c);
   </script>
 
 </body>
