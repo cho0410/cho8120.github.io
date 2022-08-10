@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>변수 : 변수의 종류 : 지역변수 + 전역변수</title>
+</head>
+<body>
+  
+  <script>
+
+    let x = 100;  //  전역변수
+    let y = 200;  //  전역변수
+
+    function func(){
+        let x = 100;          // 지역변수
+        let z = "javascript"; // 지역변수
+        x = 200;              // 전역변수 100->200
+        y = 300;              // 전역변수 200->300
+
+        document.write(x);
+        document.write(y);
+        document.write(z);
+    }
+    func();
+
+    document.write(x);
+    document.write(y);
+    document.write(z);
+
+  </script>
+
+</body>
+</html>
