@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>24. 함수 유형 : 객체 안에 변수와 함수를 이용한 형태</title>
+</head>
+<body>
+  <script>
+    const info = {
+        num1 : 1,
+        name1 : "조초롱",
+        job1 : "웹 퍼블리셔",
+        num2 : 2,
+        name2 : "조초롱1",
+        job2 : "프론트앤드개발자",
+
+        result1 : function(){
+              document.write(this.num1 + ".내 이름은" + this.name1 + "이며, 직업은"  + this.job1 + "입니다.");
+        },
+        result2 : function(){
+              document.write(this.num2 + ".내 이름은" + this.name2 + "이며, 직업은" + this.job2 + "입니다.");
+        }
+    }
+
+    info.result1();
+    info.result2();
+  </script>
+</body>
+</html>

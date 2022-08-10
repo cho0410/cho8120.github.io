@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>데이터 제어하기</title>
+</head>
+<body>
+  
+  <script>
+
+
+    //if 문 
+    //true, false, 1, 0, "1", "0", null ,undefined, [], {}
+    // if(true){
+    //     document.write("실행되었습니다.(true)");
+    // } else {
+    //     document.write("실행되었습니다.(false)");
+    // }
+
+    //IF문 생략
+    // const num = 100;
+
+    // if(num == 100) document.write("실행되었습니다(true)");
+    // else document.write("실행되었습니다.(false)");
+
+
+    //다중 if문
+    // const num = 100;
+    // if(num == 90){
+    //     document.write("실행되었습니다.(num==90)");
+    // } else if (num == 100){
+    //     document.write("실행되었습니다.(num==100)");
+    // } else if (num == 110){
+    //     document.write("실행되었습니다.(num==110)");
+    // } else if (num == 120){
+    //     document.write("실행되었습니다.(num==120)");
+    // } else {
+    //     document.write("실행되었습니다.(num==값이없음)");
+    // }
+
+
+    //중첩 if문
+    // const num = 100;
+
+    // if(num == 100){
+    //       document.write("실행되었습니다.(1)");
+    //       if(num == 100){
+    //         document.write("실행되었습니다.(2)");
+    //         if(num ==100){
+    //           document.write("실행되었습니다.(3)");
+    //         }
+    //      }
+    //   } else {
+    //       document.write("실행되었습니다.(4)");
+    //   }
+
+    //삼항 연산자(조건부 연산자)
+    // const num = 100;
+      // if(num == 100){
+      //     document.write("true");
+      // } else {
+      //     document.write("false");
+      // }
+
+    // (num == 100) ? document.write("true") : document.write("false");
+
+
+    //switch문
+    // const num = 100;
+
+    // switch(num){
+    //   case 100 : 
+    //       document.write("실행되었습니다(num==100)");
+    //   break;
+    //   case 200 :
+    //       document.write("실행되었습니다(num==200)");
+    //   break;
+    //   case 300 :
+    //       document.write("실행되었습니다(num==300)");
+    //   break;
+    //   case 400 : 
+    //       document.write("실행되었습니다(num==400)");
+    //   break;
+    //   default :
+    //       document.write("실행되었습니다.(num==값이없음)");
+    // }
+
+
+    //while문
+    //let num = 1;
+    //while (num <= 5){
+    //    document.write(num + ".실행되었습니다.");
+    //    num++;
+    // }
+
+
+    // do while문
+    //let num = 1;
+    //do{
+    //    document.write(num + ".실행되었습니다.");
+    //   num++;
+    //} while (num <= 5)
+
+
+    //for문
+    //for(let i=1; i<=5; i++){
+    //    document.write(i + ".실행되었습니다");
+    //}
+
+    //중첩 for문
+    //for(let i=1; i<=2; i++){
+     // document.write(i + ".실행(i)되었습니다.");
+     // for(let j=1; j<=3; j++){
+     //   document.write(j + ".실행(i)되었습니다.");
+    //  }
+    //}
+
+    // break문
+    //while문을 이용해서 0~20까지 출력
+    //let num = 1;
+    //while(num <= 20){
+     // document.write(num);
+     // if(num == 10){
+      //      break;
+     // }
+    //    num++;
+    //}
+
+    //for문을 이용해서 0~20출력
+    //for(let i = 1; i <= 20; i++){
+    //    document.write(i);
+    //      if(i==10){
+    //        break;
+    //      }
+    //}
+
+    //continue문
+    let num = 0;
+    while(num < 10){
+      num++;
+      if (num == 5){
+          continue;
+      }
+      document.write(num);
+    }
+
+    for(let i = 1; i<=10; i++){
+        if( i == 5){
+            continue;
+        }
+        document.write(i);
+    }
+
+
+
+  </script>
+
+</body>
+</html>

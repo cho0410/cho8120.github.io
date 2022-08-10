@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>23. 함수 유형 : 함수와 배열, 객체를 이용한 형태</title>
+</head>
+<body>
+  
+  <script>
+    function func(num, name, job){
+        document.write(num + ".내 이름은" + name + "이며, 직업은" + job + "입니다.");
+    }
+
+    const info = [
+      {
+        num : "1",
+        name : "조초롱",
+        job : "웹퍼블리셔"
+      },{
+        num : "2",
+        name : "조초롱",
+        job : "프론트앤드개발자"
+      }
+    ]
+
+    func(info[0].num, info[0].name, info[0].job);
+    func(info[1].num, info[1].name, info[1].job);
+  </script>
+
+</body>
+</html>

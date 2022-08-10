@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>29. 클래스 상속</title>
+</head>
+<body>
+  
+  <script>
+
+    class study {
+      //무조건실행되는함수
+      constructor(num, name, job){
+          this.num = num;
+          this.name = name;
+          this.job = job;
+      }
+      result(){
+            document.write(this.num + ".내 이름은" + this.name + "이며, 직업은" + this.job + "입니다.");
+      }
+    }
+
+    class study2 extends study {
+        constructor(num, name, job, age){
+              super(num, name, job);
+              this.age = age;
+        }
+        result2(){
+              document.write(this.num + ".내 이름은" + this.name + "이며, 직업은" + this.job + "이며 나이는" + this.age + "살 입니다.");
+        }
+    }
+
+    const info1 = new study("1","조초롱","웹퍼블리셔");
+    const info2 = new study("2","조초롱1","프론트앤드개발자",20);
+
+    info1.result();
+    info2.result();
+    // info2.result2();
+
+  </script>
+
+
+</body>
+</html>

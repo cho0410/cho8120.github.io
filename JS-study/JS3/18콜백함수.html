@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>18. 콜배감수 : 다른 함수에 인수로 넘겨지는 함수</title>
+</head>
+<body>
+  <script>
+    function func(){
+      document.write("함수가 실행 되었습니다.2")
+    }
+
+    function callback(str){
+        document.write("함수가 실행되었습니다.1");
+        str();
+    }
+    callback(func);
+  </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>20. 콜백 함수 : 동기 / 비동기</title>
+</head>
+<body>
+  <script>
+
+    function funcA(){
+        document.write("funcA가 실행되었습니다.");
+    }
+    function funcB(){
+        document.write("funcB가 실행되었습니다.");
+        document.write("<br>");
+    }
+    funcA();
+    funcB();
+
+    // function funcC(){
+    //   setTimeout(()=>{
+    //       console.log("C");
+    //   },1000)
+    // }
+    // function funcD(){
+    //     console.log("D");
+    // }
+    // funcC();
+    // funcD();
+    
+    function funcE(callback){
+        setTimeout(()=>{
+            document.write("E");
+            callback();
+        },2000);
+    }
+    function funcF(){
+        document.write("F");
+    }
+    funcE(function(){
+        funcF();
+    });
+
+
+  </script>
+</body>
+</html>

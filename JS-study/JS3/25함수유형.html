@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>25. 함수 유형 : 객체 생성자 함수</title>
+</head>
+<body>
+  <script>
+
+    function func(num,name,job){
+      this.num = num;
+      this.name = name;
+      this.job = job;
+
+      this.result = function(){
+            document.write(this.num + ".내 이름은" + this.name + "이며, 직업은" + this.job + "입니다.");
+      }
+    }
+
+    //인스턴스 생성
+    const info1 = new func("1", "조초롱", "웹퍼블리셔");
+    const info2 = new func("2", "조초롱1", "프론트앤드개발자");
+
+    info1.result();
+    info2.result();
+  </script>
+</body>
+</html>
