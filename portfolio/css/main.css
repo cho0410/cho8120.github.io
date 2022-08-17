@@ -1,0 +1,402 @@
+@charset "utf-8";
+
+@import url(reset.css);
+@src: url:("./css/fonts/FontsFree-Net-Fabringo");
+
+.tt1 {
+  font-family: 'Keania One';
+}
+
+.tt2 {
+  font-family: 'Faster One', cursive;
+}
+
+.tt3 {
+  font-family: 'Fabringo';
+}
+
+.tt4 {
+  font-family: 'Fanwood Text', cursive;
+}
+
+.tt5 {
+  font-family: 'Fabringo';
+}
+
+.tt6 {
+  font-family: 'Fascinate', cursive;
+}
+
+
+
+/* ************************** 레이아웃 구성시작 ************************ */
+
+
+/* ************************** 공통영역 선언시작 ************************ */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: arial, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+
+/* ************************** 개별영역 선언시작 *********************** */
+
+/* ******* 인트로 ********** */
+
+#wrap #intro {
+  background: url(../images/background.jpg) no-repeat top center;
+  height: 1100px;
+}
+
+#intro .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-47%, -42%);
+  font-size: 16em;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#intro .title .t-1 {
+  position: relative;
+  top: -45px;
+  left: 163px;
+}
+
+#intro .title .t-2 {
+  position: relative;
+  top: 37px;
+  left: 75px;
+  transform: rotate(-736deg);
+}
+
+#intro .title .t-3 {
+  position: relative;
+  top: -64px;
+  left: 52px;
+}
+
+#intro .title .t-4 {
+  position: relative;
+  top: 37px;
+  left: 21px;
+}
+
+#intro .title .t-5 {
+  position: relative;
+  top: -64px;
+}
+
+#intro .title .t-6 {
+  position: relative;
+  top: 37px;
+  left: -109px;
+  transform: rotate(-736deg);
+}
+
+#intro .title .t-7 {
+  position: relative;
+  top: -64px;
+  left: -126px;
+}
+
+#intro .title .t-8 {
+  position: relative;
+  top: 53px;
+  left: -155px;
+  transform: rotate(5deg);
+}
+
+#intro .title .t-9 {
+  position: relative;
+  top: -65px;
+  right: 195px;
+  transform: rotate(-709deg);
+}
+
+#intro .image {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+#intro .image .i1 {
+  position: relative;
+  top: 478px;
+  left: 645px;
+}
+
+#intro .image .i2 {
+  position: relative;
+  right: 134px;
+  bottom: 47px;
+}
+
+#intro .image .i3 {
+  position: relative;
+  right: 427px;
+  bottom: -15px;
+}
+
+#intro .image .i4 {
+  position: relative;
+  top: 437px;
+  left: 479px;
+}
+
+#intro .image .i5 {
+  position: relative;
+  right: 240px;
+  bottom: 44px;
+}
+
+#intro .image .i6 {
+  position: relative;
+  left: 986px;
+  bottom: 212px;
+}
+
+#intro .image .i7 {
+  position: relative;
+  top: 237px;
+  left: 33px;
+}
+
+#intro .image .i8 {
+  position: relative;
+  bottom: 225px;
+  right: 315px;
+}
+
+#intro .image .i9 {
+  position: relative;
+  right: 556px;
+  top: 186px;
+}
+
+#intro .image .i10 {
+  position: relative;
+  right: 129px;
+  bottom: 22px;
+}
+
+#intro .image .i11 {
+  position: relative;
+  left: 582px;
+  bottom: 425px;
+}
+
+#intro .image .i12 {
+  position: relative;
+  right: 614px;
+  top: 122px;
+}
+
+/* ******* 어바웃 ********** */
+#about {
+  height: 1100px;
+  background-color: #000;
+  color: #fff;
+}
+
+#about .contents .left-box {
+  width: 70%;
+  float: left;
+}
+
+#about .contents .left-box .a-img1 {
+  position: relative;
+  top: 337px;
+  left: 188px;
+  z-index: 10;
+}
+
+#about .contents .left-box .a-img2 {
+  position: relative;
+  top: 133px;
+  left: 27px;
+
+}
+
+#about .contents .right-box {
+  width: 30%;
+  float: right;
+  margin-top: 218px;
+}
+
+#about .contents .right-box .t1 {
+  font: 700 80px/84px 'Syncopate';
+  margin-bottom: 21px;
+  position: relative;
+  right: 354px;
+  bottom: 62px;
+}
+
+#about .contents .right-box p {
+  font: 400 18px/28px 'Syncopate';
+  position: relative;
+  right: 208px;
+  bottom: 31px;
+}
+
+#about .contents .right-box .a-img3 {
+  position: relative;
+  bottom: 540px;
+  right: 60px;
+}
+
+#about .contents .img {
+  position: relative;
+  bottom: 303px;
+  right: 203px;
+}
+
+#about .contents .img .i-img1 {
+  position: relative;
+  top: -105px;
+  left: 417px;
+}
+
+#about .contents .img .i-img2 {
+  position: relative;
+  left: 88px;
+  top: 107px;
+}
+
+#about .contents .img .i-img3 {
+  position: relative;
+  top: -34px;
+  left: 259px;
+}
+
+#about .contents .img .i-img4 {
+  position: relative;
+  top: -8px;
+  right: 58px;
+}
+
+#about .contents .img .i-img5 {
+  position: relative;
+  left: -359px;
+  top: 75px;
+}
+
+#about .contents .img .i-img6 {
+  position: relative;
+  top: 45px;
+  right: -21px;
+}
+
+#about .contents .img .i-img7 {
+  position: relative;
+  top: 81px;
+  right: 193px;
+}
+
+#about .contents .img .i-img8 {
+  position: relative;
+  right: -32px;
+  bottom: 117px;
+}
+
+
+
+
+
+/******************************* 미디어쿼리 선언시작 **********************************/
+
+/************************* Desktop Area Start *************************/
+/* @media screen and (max-width:1199px) {
+  #intro .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14em;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+} */
+
+/************************* Tablet Area Start *************************/
+/* @media screen and (max-width:991px) {
+  #intro .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 13em;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+} */
+
+/************************* Mobile Area Start *************************/
+/* @media screen and (max-width:767px) {
+  #intro .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12em;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+} */
+
+/* @media screen and (max-width:735px) {
+  #intro .title {
+    width: auto;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    font-size: 9em;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+} */
+
+/* @media screen and (max-width:480px) {
+  #intro .title {
+    transform: translate(-50%, -50%);
+    font-size: 8em;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+} */
