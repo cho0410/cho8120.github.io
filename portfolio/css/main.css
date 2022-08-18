@@ -61,19 +61,24 @@ h6 {
 
 
 /* ************************** 개별영역 선언시작 *********************** */
-#wrap{
+
+#wrap {
   width: 100%;
   height: auto;
+  background-color: #f2f2f2;
 }
 
-#wrap>div {
+#portfolio {
   height: 100vh;
-  padding: 105px 30px;
 }
+#contact{
+  height: 100vh;
+}
+
 
 /* ******* 인트로 ********** */
 
-#wrap #intro {
+#intro {
   background: url(../images/background.jpg) no-repeat top center;
   height: 1100px;
 }
