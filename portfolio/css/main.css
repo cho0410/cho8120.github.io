@@ -63,23 +63,91 @@ h6 {
 /* ************************** 개별영역 선언시작 *********************** */
 
 #wrap {
+  max-width: 1920px;
   width: 100%;
-  height: auto;
+  margin: 0 auto;
 }
 
-#portfolio {
+#wrap>div {
+  width: 100vw;
   height: 100vh;
-}
-#contact{
-  height: 100vh;
+  position: relative;
 }
 
+#wrap>div:nth-child(even) {
+  background: #000;
+}
+
+#work {
+  z-index: 7000;
+  background-color: #999;
+}
+
+#work1 {
+  z-index: 6000;
+  background-color: #888;
+}
+
+#work2 {
+  z-index: 5000;
+  background-color: #777;
+}
+
+#work3 {
+  z-index: 4000;
+  background-color: #fc0;
+}
+
+#work4 {
+  background-color: #666;
+  z-index: 3000;
+  height: 400vh;
+}
+
+#work4 .sec4 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 400vh;
+  height: 100%;
+  display: flex;
+}
+
+#work4 .sec4 article {
+  width: 600vh;
+  height: 100vh;
+  position: relative;
+}
+
+#work4 .sec4 article:nth-child(1) {
+  background: rgb(255, 95, 95);
+}
+
+#work4 .sec4 article:nth-child(2) {
+  background: rgb(255, 195, 95);
+}
+
+#work4 .sec4 article:nth-child(3) {
+  background: rgb(155, 195, 95);
+} 
+#work4 .sec4 article:nth-child(4) {
+  background: rgb(255, 95, 95);
+}
+
+#work4 .sec4 article:nth-child(5) {
+  background: rgb(255, 195, 95);
+}
+
+#work4 .sec4 article:nth-child(6) {
+  background: rgb(155, 195, 95);
+} 
 
 /* ******* 인트로 ********** */
 
 #intro {
   background: url(../images/background.jpg) no-repeat top center;
   height: 1100px;
+  z-index: 9000;
 }
 
 #intro .title {
@@ -235,6 +303,7 @@ h6 {
   height: 1100px;
   background-color: #000;
   color: #fff;
+  z-index: 8000;
 }
 
 #about .contents .left-box {
