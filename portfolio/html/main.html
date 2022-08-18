@@ -76,20 +76,69 @@
           </div>
         </div>
       </div>
-
-
     </div>
 
+    <!-- Portfolio Area Start -->
+    <div id="work">
+      <h2>Portfolio Title</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam iure sapiente expedita enim nobis,
+        dignissimos officia vel earum doloribus mollitia eius libero optio numquam quibusdam eos omnis aut porro?</p>
+    </div>
 
+    <!-- Contact Area Start -->
+    <div id="work1">
+      <h2>Contact Title</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam iure sapiente expedita enim nobis,
+        dignissimos officia vel earum doloribus mollitia eius libero optio numquam quibusdam eos omnis aut porro?</p>
+    </div>
+    <div id="work2">
+      <h2>Contact Title</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam iure sapiente expedita enim nobis,
+        dignissimos officia vel earum doloribus mollitia eius libero optio numquam quibusdam eos omnis aut porro?</p>
+    </div>
+    <div id="work3">
+      <h2>Contact Title</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam iure sapiente expedita enim nobis,
+        dignissimos officia vel earum doloribus mollitia eius libero optio numquam quibusdam eos omnis aut porro?</p>
+    </div>
+    <div id="work4">
+      <div class="sec4">
+        <article><span class="content__item__num">04-1</span></article>
+        <article><span class="content__item__num">04-2</span></article>
+        <article><span class="content__item__num">04-3</span></article>
+        <article><span class="content__item__num">04-4</span></article>
+        <article><span class="content__item__num">04-5</span></article>
+        <article><span class="content__item__num">04-6</span></article>
+        <article><span class="content__item__num">04-7</span></article>
+    </div>
 
-    <!-- jQuery Insert -->
-    <script src='http://code.jquery.com/jquery-1.9.1.min.js'></script>
+  </div>
 
-    <!-- Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
 
-    <!-- My JS -->
-    <script src='../js/main.js'></script>
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+  <!-- My JS -->
+  <!-- <script src='../js/main.js'></script> -->
+
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  <script>
+      function scroll(){
+          let scrollTop = window.pageYOffset || document.documentElement.scrollTop || window.scrollY
+
+          //4번째 섹션에 왔을 때 스크롤탑을 0으로 초기화해서 시작
+          let offset = scrollTop - document.querySelector("#work4").offsetTop;
+
+          if(scrollTop >= document.querySelector("#work4").offsetTop){
+              //document.querySelector(".sec4").style.backgroundColor = "blue";
+              gsap.to(".sec4", {left: -offset, ease: "linear"})
+          }
+
+          requestAnimationFrame(scroll);
+      }
+      scroll();
+  </script>
 
 </body>
 
