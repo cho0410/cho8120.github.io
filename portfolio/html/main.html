@@ -54,7 +54,7 @@
       <div class="contents">
         <div class="left-box">
           <img src="../images/a-image5.png" alt="image13" class="a-img1">
-          <img src="../images/my.jpg" alt="img" style="border-radius:50%;" class="a-img2">
+          <img src="../images/my.jpg" alt="img" class="a-img2">
         </div>
 
         <div class="right-box">
@@ -78,40 +78,87 @@
       </div>
     </div>
 
-    <!-- Portfolio Area Start -->
+    <!-- <div id="skill">
+      <h1 class="s-title">MY SKILL</h1>
+      <ul class="gnb">
+        <li>REACT</li>
+        <li>JAVASCRIPT</li>
+        <li>VUE.JS</li>
+        <li>SCSS</li>
+        <li>HTML</li>
+        <li>FIGMA</li>
+        <li>PHOTOSHOP</li>
+        <li>XD</li>
+        <li>ILLUSTRATOR</li>
+      </ul>
+
+      <div class="w-content">
+        <div class="box">
+          <img src="../images/react.png" alt="image" class="w-img1">
+          <img src="../images/javascript.png" alt="image" class="w-img2">
+          <img src="../images/vue.png" alt="image" class="w-img3">
+          <img src="../images/html5.png" alt="image" class="w-img4">
+          <img src="../images/css3.png" alt="image" class="w-img5">
+          <img src="../images/figma.png" alt="image" class="w-img6">
+          <img src="../images/512px-Adobe_Photoshop_CC_icon.png" alt="image" class="w-img7">
+          <img src="../images/xd.png" alt="image" class="w-img8">
+          <img src="../images/Adobe_Illustrator_CC_icon.png" alt="image" class="w-img9">
+          <img src="../images/scss.png" alt="image" class="w-img10">
+        </div>
+
+      </div>
+    </div> -->
+
+
+
+    <!-- work Area Start -->
     <div id="work">
-      <h2>Portfolio Title</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam iure sapiente expedita enim nobis,
-        dignissimos officia vel earum doloribus mollitia eius libero optio numquam quibusdam eos omnis aut porro?</p>
+      <div class="b-img"></div>
+      <div class="w-title">
+        <span class="wt-1 tt2">W</span>
+        <span class="wt-2 tt3">O</span>
+        <span class="wt-3 tt5">R</span>
+        <span class="wt-4 tt1">K</span>
+
+      </div>
+      <div class="w-image">
+        <img src="../images/image1.png" alt="image1" class="wi1">
+        <img src="../images/image2.png" alt="image2" class="wi2">
+        <img src="../images/image3.png" alt="image3" class="wi3">
+        <img src="../images/image4.png" alt="image4" class="wi4">
+        <img src="../images/image5.png" alt="image5" class="wi5">
+        <img src="../images/image6.png" alt="image6" class="wi6">
+        <img src="../images/image7.png" alt="image7" class="wi7">
+        <img src="../images/image8.png" alt="image8" class="wi8">
+        <img src="../images/image9.png" alt="image9" class="wi9">
+        <img src="../images/image10.png" alt="image10" class="wi10">
+        <img src="../images/image11.png" alt="image11" class="wi11">
+        <img src="../images/image12.png" alt="image12" class="wi12">
+      </div>
     </div>
 
+    <div id="w-page1">
+      <section class="left">
+        <img src="../images/i2.png" alt="image" class="i1">
+        <img src="../images/i5.png" alt="image" class="i2">
+      </section>
+      <section class="right">
+        <img src="../images/i4.png" alt="image" class="i3">
+        <h1 class="title">WEBSTANDARD</h1>
+        <p class="text">웹 표준을 가장 준수하여 만든 사이트입니다.<br>
+          웹 접근성을 위해 스킵메뉴작업, IR기법을 이용한<br>
+          이미지 숨김처리, 이미지 작업을 진행하였습니다.<br>
+          slick slider 라이브러리를 이용하여 향상된<br>
+          기능을 제공하는 이미지 슬라이드 작업을 하였습니다.</p>
+        <img src="../images/i3.png" alt="image" class="i4">
+        <img src="../images/i1.png" alt="image" class="i5">
+        </section>
 
+  </div>
 
-  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
-
-  <!-- Bootstrap JS -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
   <!-- My JS -->
-  <!-- <script src='../js/main.js'></script> -->
-
-  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
-  <script>
-      function scroll(){
-          let scrollTop = window.pageYOffset || document.documentElement.scrollTop || window.scrollY
-
-          //4번째 섹션에 왔을 때 스크롤탑을 0으로 초기화해서 시작
-          let offset = scrollTop - document.querySelector("#work4").offsetTop;
-
-          if(scrollTop >= document.querySelector("#work4").offsetTop){
-              //document.querySelector(".sec4").style.backgroundColor = "blue";
-              gsap.to(".sec4", {left: -offset, ease: "linear"})
-          }
-
-          requestAnimationFrame(scroll);
-      }
-      scroll();
-  </script>
+  <script src='../js/main.js'></script>
 
 </body>
 
