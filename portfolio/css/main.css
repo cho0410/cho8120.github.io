@@ -557,6 +557,164 @@ h6 {
   font-size: 14px;
   font-weight: 400;
 }
+/* ******* work page2 ********** */
+
+#w-page2 {
+  background: #000;
+  color: #fff;
+  display: flex;
+}
+
+#w-page2 .left {
+  position: relative;
+}
+
+#w-page2 .left .i1 {
+  position: absolute;
+  top: 175px;
+  left: 199px;
+}
+
+#w-page2 .left .i2 {
+  position: absolute;
+  bottom: 49px;
+  left: 165px;
+  width: 410px;
+  height: 126px;
+}
+
+#w-page2 .left .i3 {
+  display: block;
+  margin: 184px 77px;
+}
+
+#w-page2 .right {
+  position: absolute;
+  right: 0;
+}
+
+#w-page2 .right .i3{
+  position: relative;
+  top: 112px;
+  right: 310px;
+}
+#w-page2 .right .title{
+  position: absolute;
+  top: 264px;
+  right: 528px;
+  font-family: 'Syncopate';
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#w-page2 .right .text{
+  position: relative;
+  top: 238px;
+  right: 309px;
+  font-family: 'Syncopate';
+  font-size: 25px;
+}
+
+#w-page2 .right .i4{
+  position: relative;
+  top: 259px;
+  right: 301px;
+}
+
+#w-page2 .right .i5 {
+  position: relative;
+  top: 53px;
+  left: 152px;
+}
+
+#w-page2 .right  .btn-t{
+  color: #fff;
+  position: relative;
+  top: 228px;
+  right: 258px;
+  font-family: 'Syncopate';
+  font-size: 14px;
+  font-weight: 400;
+}
+/* ******* work page3 ********** */
+
+#w-page3 {
+  background: #000;
+  color: #fff;
+  display: flex;
+}
+
+#w-page3 .left {
+  position: relative;
+}
+
+#w-page3 .left .i1 {
+  position: absolute;
+  top: 175px;
+  left: 199px;
+}
+
+#w-page3 .left .i2 {
+  position: absolute;
+  bottom: 49px;
+  left: 165px;
+  width: 410px;
+  height: 126px;
+}
+
+#w-page3 .left .i3 {
+  display: block;
+  margin: 184px 77px;
+}
+
+#w-page3 .right {
+  position: absolute;
+  right: 0;
+}
+
+#w-page3 .right .i3{
+  position: relative;
+  top: 112px;
+  right: 310px;
+}
+#w-page3 .right .title{
+  position: absolute;
+  top: 264px;
+  right: 528px;
+  font-family: 'Syncopate';
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#w-page3 .right .text{
+  position: relative;
+  top: 238px;
+  right: 309px;
+  font-family: 'Syncopate';
+  font-size: 25px;
+}
+
+#w-page3 .right .i4{
+  position: relative;
+  top: 259px;
+  right: 301px;
+}
+
+#w-page3 .right .i5 {
+  position: relative;
+  top: 53px;
+  left: 152px;
+}
+
+#w-page3 .right  .btn-t{
+  color: #fff;
+  position: relative;
+  top: 228px;
+  right: 258px;
+  font-family: 'Syncopate';
+  font-size: 14px;
+  font-weight: 400;
+}
 
 
 
