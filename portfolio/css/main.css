@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 @import url(reset.css);
-@src: url:("./css/fonts/FontsFree-Net-Fabringo");
+@src: url:("../css/fonts/FontsFree-Net-Fabringo");
 
 .tt1 {
   font-family: 'Keania One';
@@ -34,7 +34,6 @@
 
 /* ************************** 공통영역 선언시작 ************************ */
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -63,8 +62,8 @@ h6 {
 /* ************************** 개별영역 선언시작 *********************** */
 
 #wrap {
-  max-width: 1920px;
   width: 100%;
+  height: 100vh;
   margin: 0 auto;
 }
 
@@ -269,7 +268,6 @@ h6 {
 
 #about .contents .right-box .t1 {
   font: 700 100px/84px 'Fabringo';
-  ;
   margin-bottom: 21px;
   position: relative;
   right: 354px;
@@ -350,6 +348,61 @@ h6 {
 }
 
 /* ******* skill ********** */
+#skill .s-title {
+  font-family: 'Syncopate';
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 48px;
+  padding: 105px 0 0 174px;
+}
+#skill .list{
+  padding: 36px 0 0 144px;
+}
+#skill .list>li{
+  list-style-type: none;
+  float: left;
+  border: 2px solid #000;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-left: 30px;
+  padding: 5px;
+  font-family: 'Syncopate';
+  font-weight: 600;
+}
+#skill .w-img0{
+  position: relative;
+  left: 215px;
+  top: -150px;
+  transform: rotate(-29deg);
+}
+
+#skill .w-img11{
+  position: absolute;
+  bottom: 100px;
+  left: 102px;
+  transform: rotate(394deg);
+}
+
+#skill .w-content{
+  width: 1088px;
+  border: 3px solid #333;
+  border-radius: 46px;
+  margin: -121px auto;
+}
+
+#skill .w-content .box1,
+#skill .w-content .box2{
+  display: flex;
+  padding: 54px;
+}
+
+#skill .w-content .box1 img,
+#skill .w-content .box2 img{
+  width: 117px;
+  height: 101px;
+  margin: 0 auto;
+}
+
 
 
 /* ******* work ********** */
