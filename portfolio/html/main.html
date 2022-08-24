@@ -33,7 +33,6 @@
       <li><a href="#section7">s6</a></li>
       <li><a href="#section8">s7</a></li>
       <li><a href="#section9">s8</a></li>
-      <li><a href="#section10">s9</a></li>
     </ul>
   </nav>
   <!-- //nav -->
@@ -348,70 +347,71 @@
   </main>
 
 
-  <!-- My JS -->
-  <script>
-    // 메뉴 움직이는 효과
-    function scrollMenu() {
-      document.querySelectorAll(".paraNav ul li a").forEach(elem => {
-        elem.addEventListener("click", (e) => {
-          e.preventDefault();
-          document.querySelector(elem.getAttribute("href")).scrollIntoView({
-            behavior: "smooth"
-          })
+<!-- script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script>
+  // 메뉴 움직이는 효과
+  function scrollMenu() {
+    document.querySelectorAll(".paraNav ul li a").forEach(elem => {
+      elem.addEventListener("click", (e) => {
+        e.preventDefault();
+        document.querySelector(elem.getAttribute("href")).scrollIntoView({
+          behavior: "smooth"
         })
-      });
-    }
-
-    function scrollProgress() {
-      let scrollTop = window.pageYOffset || window.scrollY || document.documentElement.scrollTop;
-
-      //let offset1 = scrollTop - document.getElementById("section1").offsetTop;
-      //let offset2 = scrollTop - document.getElementById("section2").offsetTop;
-      //let offset3 = scrollTop - document.getElementById("section3").offsetTop;
-      //let offset4 = scrollTop - document.getElementById("section4").offsetTop;
-      //let offset5 = scrollTop - document.getElementById("section5").offsetTop;
-      //let offset6 = scrollTop - document.getElementById("section6").offsetTop;
-      //let offset7 = scrollTop - document.getElementById("section7").offsetTop;
-      //let offset8 = scrollTop - document.getElementById("section8").offsetTop;
-      //let offset9 = scrollTop - document.getElementById("section9").offsetTop;
-      //
-      //document.getElementById("section1").style.transform = "translateX(" + offset1 + "px)";
-      //document.getElementById("section2").style.transform = "translateX(" + offset2 + "px)";
-      //document.getElementById("section3").style.transform = "translateX(" + offset3 + "px)";
-      //document.getElementById("section4").style.transform = "translateX(" + offset4 + "px)";
-      //document.getElementById("section5").style.transform = "translateX(" + offset5 + "px)";
-      //document.getElementById("section6").style.transform = "translateX(" + offset6 + "px)";
-      //document.getElementById("section7").style.transform = "translateX(" + offset7 + "px)";
-      //document.getElementById("section8").style.transform = "translateX(" + offset8 + "px)";
-      //document.getElementById("section9").style.transform = "translateX(" + offset9 + "px)";
-
-      //forEach()
-      document.querySelectorAll(".content__item").forEach(item => {
-        let offset1 = (scrollTop - item.offsetTop) * 0.1;
-        let offset2 = (scrollTop - item.offsetTop) * 0.1;
-
-        item.querySelector(".content__item__img").style.transform = "translateX(" + offset1 + "px)";
-        item.querySelector(".content__item__desc").style.transform = "translateX(" + -offset2 + "px)";
-        item.querySelector(".content__item__num").style.transform = "rotate(" + offset2 + "deg)";
-      });
-
-      //출력
-      document.querySelector(".paraScroll span").innerHTML = parseInt(scrollTop);
-
-      //메뉴
-      document.querySelectorAll(".content__item").forEach((item, index) => {
-        if (scrollTop >= item.offsetTop - 2) {
-          document.querySelectorAll(".paraNav ul li").forEach(li => {
-            li.classList.remove("active");
-          })
-          document.querySelector(".paraNav ul li:nth-child(" + (index + 1) + ")").classList.add("active");
-        }
       })
-    }
+    });
+  }
 
-    window.addEventListener("scroll", scrollProgress);
-    scrollMenu();
-  </script>
+  function scrollProgress() {
+    let scrollTop = window.pageYOffset || window.scrollY || document.documentElement.scrollTop;
+
+    //let offset1 = scrollTop - document.getElementById("section1").offsetTop;
+    //let offset2 = scrollTop - document.getElementById("section2").offsetTop;
+    //let offset3 = scrollTop - document.getElementById("section3").offsetTop;
+    //let offset4 = scrollTop - document.getElementById("section4").offsetTop;
+    //let offset5 = scrollTop - document.getElementById("section5").offsetTop;
+    //let offset6 = scrollTop - document.getElementById("section6").offsetTop;
+    //let offset7 = scrollTop - document.getElementById("section7").offsetTop;
+    //let offset8 = scrollTop - document.getElementById("section8").offsetTop;
+    //let offset9 = scrollTop - document.getElementById("section9").offsetTop;
+    //
+    //document.getElementById("section1").style.transform = "translateX(" + offset1 + "px)";
+    //document.getElementById("section2").style.transform = "translateX(" + offset2 + "px)";
+    //document.getElementById("section3").style.transform = "translateX(" + offset3 + "px)";
+    //document.getElementById("section4").style.transform = "translateX(" + offset4 + "px)";
+    //document.getElementById("section5").style.transform = "translateX(" + offset5 + "px)";
+    //document.getElementById("section6").style.transform = "translateX(" + offset6 + "px)";
+    //document.getElementById("section7").style.transform = "translateX(" + offset7 + "px)";
+    //document.getElementById("section8").style.transform = "translateX(" + offset8 + "px)";
+    //document.getElementById("section9").style.transform = "translateX(" + offset9 + "px)";
+
+    //forEach()
+    document.querySelectorAll(".content__item").forEach(item => {
+      let offset1 = (scrollTop - item.offsetTop) * 0.1;
+      let offset2 = (scrollTop - item.offsetTop) * 0.1;
+
+      item.querySelector(".content__item__img").style.transform = "translateX(" + offset1 + "px)";
+      item.querySelector(".content__item__desc").style.transform = "translateX(" + -offset2 + "px)";
+      item.querySelector(".content__item__num").style.transform = "rotate(" + offset2 + "deg)";
+    });
+
+    //출력
+    document.querySelector(".paraScroll span").innerHTML = parseInt(scrollTop);
+
+    //메뉴
+    document.querySelectorAll(".content__item").forEach((item, index) => {
+      if (scrollTop >= item.offsetTop - 2) {
+        document.querySelectorAll(".paraNav ul li").forEach(li => {
+          li.classList.remove("active");
+        })
+        document.querySelector(".paraNav ul li:nth-child(" + (index + 1) + ")").classList.add("active");
+      }
+    })
+  }
+
+  window.addEventListener("scroll", scrollProgress);
+  scrollMenu();
+</script>
 
 </body>
 
