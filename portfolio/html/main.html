@@ -16,12 +16,32 @@
 
 </head>
 
-<body>
+<body class="parallax">
 
-  <main id="parallax__cont">
+  <!-- info -->
+  <div class="paraScroll">scrollTop() : <span>0</span>px</div>
+  <!-- //info -->
+
+  <!-- nav -->
+  <nav class="paraNav">
+    <ul>
+      <li class="active"><a href="#section1">s1</a></li>
+      <li><a href="#section2">s2</a></li>
+      <li><a href="#section4">s3</a></li>
+      <li><a href="#section5">s4</a></li>
+      <li><a href="#section6">s5</a></li>
+      <li><a href="#section7">s6</a></li>
+      <li><a href="#section8">s7</a></li>
+      <li><a href="#section9">s8</a></li>
+      <li><a href="#section10">s9</a></li>
+    </ul>
+  </nav>
+  <!-- //nav -->
+
+  <main id="paraCont">
 
     <!-- section1 Area Start -->
-    <section id="section1" class="content__item">
+    <section id="section1"  class="content__item">
       <div class="title">
         <span class="t-1 tt1">P</span>
         <span class="t-2 tt2">O</span>
@@ -51,16 +71,16 @@
     <!-- section1 Area End -->
 
     <!-- section2 Area Start -->
-    <section id="section2">
+    <section id="section2" class="content__item">
       <div class="contents">
         <div class="left-box">
           <img src="../images/a-image5.png" alt="image13" class="a-img1">
-          <img src="../images/my.jpg" alt="img" class="a-img2">
+          <img src="../images/my.jpg" alt="img" class="a-img2 content__item__img">
         </div>
 
         <div class="right-box">
-          <span class="t1">FRONTEND<br>&nbsp;&nbsp;&nbsp;DEVELOPER<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PORTFOLIO</span>
-          <p>어떤 웹에 관심이 많았던 저는 웹디자인을 배우는 과정에서 처<br>음으로 코딩을 접하게 되었습니다.<br>
+          <span class="t1 content__item__desc">FRONTEND<br>&nbsp;&nbsp;&nbsp;DEVELOPER<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PORTFOLIO</span>
+          <p class="content__item__desc">어떤 웹에 관심이 많았던 저는 웹디자인을 배우는 과정에서 처<br>음으로 코딩을 접하게 되었습니다.<br>
             배워보지도 못한 영역이라 처음엔 개념이 안 잡혀있어서<br>
             어려웠지만, 매일매일 메모장에 그날의 수업이다.</p>
           <img src="../images/a-image4.png" alt="image14" class="a-img3">
@@ -84,7 +104,7 @@
 
 
     <!-- section4 Area Start -->
-    <section id="section4">
+    <section id="section4"  class="content__item">
       <div class="b-img"></div>
       <div class="w-title">
         <span class="wt-1 tt2">W</span>
@@ -111,16 +131,16 @@
 
 
     <!-- section5 Area Start -->
-    <section id="section5">
-      <span class="num">01</span>
+    <section id="section5" class="content__item">
+      <span class="num content__item__num">01</span>
       <section class="left">
-        <img src="../images/i2.png" alt="image" class="i1">
+        <img src="../images/i2.png" alt="image" class="i1 content__item__img">
         <img src="../images/i5.png" alt="image" class="i2">
       </section>
       <section class="right">
         <img src="../images/i4.png" alt="image" class="i3">
-        <h1 class="title">WEBSTANDARD</h1>
-        <p class="text">웹 표준을 가장 준수하여 만든 사이트입니다.<br>
+        <h1 class="title content__item__desc split">WEBSTANDARD</h1>
+        <p class="text content__item__desc">웹 표준을 가장 준수하여 만든 사이트입니다.<br>
           웹 접근성을 위해 스킵메뉴작업, IR기법을 이용한<br>
           이미지 숨김처리, 이미지 작업을 진행하였습니다.<br>
           slick slider 라이브러리를 이용하여 향상된<br>
@@ -133,16 +153,16 @@
 
 
     <!-- section6 Area Start -->
-    <section id="section6">
-      <span class="num">02</span>
+    <section id="section6" class="content__item">
+      <span class="num content__item__num">02</span>
       <section class="left">
-        <img src="../images/i2.png" alt="image" class="i1">
+        <img src="../images/i2.png" alt="image" class="i1 content__item__img">
         <img src="../images/i5.png" alt="image" class="i2">
       </section>
       <section class="right">
         <img src="../images/i4.png" alt="image" class="i3">
-        <h1 class="title">WEBSTANDARD</h1>
-        <p class="text">웹 표준을 가장 준수하여 만든 사이트입니다.<br>
+        <h1 class="title content__item__desc">WEBSTANDARD</h1>
+        <p class="text content__item__desc">웹 표준을 가장 준수하여 만든 사이트입니다.<br>
           웹 접근성을 위해 스킵메뉴작업, IR기법을 이용한<br>
           이미지 숨김처리, 이미지 작업을 진행하였습니다.<br>
           slick slider 라이브러리를 이용하여 향상된<br>
@@ -155,16 +175,16 @@
 
 
     <!-- section7 Area Start -->
-    <section id="section7">
-      <span class="num">03</span>
+    <section id="section7" class="content__item">
+      <span class="num content__item__num">03</span>
       <section class="left">
-        <img src="../images/i2.png" alt="image" class="i1">
+        <img src="../images/i2.png" alt="image" class="i1 content__item__img">
         <img src="../images/i5.png" alt="image" class="i2">
       </section>
       <section class="right">
         <img src="../images/i4.png" alt="image" class="i3">
-        <h1 class="title">WEBSTANDARD</h1>
-        <p class="text">웹 표준을 가장 준수하여 만든 사이트입니다.<br>
+        <h1 class="title  content__item__desc">WEBSTANDARD</h1>
+        <p class="text  content__item__desc">웹 표준을 가장 준수하여 만든 사이트입니다.<br>
           웹 접근성을 위해 스킵메뉴작업, IR기법을 이용한<br>
           이미지 숨김처리, 이미지 작업을 진행하였습니다.<br>
           slick slider 라이브러리를 이용하여 향상된<br>
@@ -177,7 +197,7 @@
     </section>
 
     <!-- section8 Area Start -->
-    <section id="section8">
+    <section id="section8" class="content__item">
       <div class="b-img"></div>
       <div class="w-title">
         <span class="wt-1 tt2">S</span>
@@ -205,16 +225,16 @@
     </section>
 
     <!-- section9 Area Start -->
-    <section id="section9">
-      <span class="num">01</span>
+    <section id="section9" class="content__item">
+      <span class="num content__item__num">01</span>
       <section class="left">
-        <img src="../images/i2.png" alt="image" class="i1">
+        <img src="../images/i2.png" alt="image" class="i1  content__item__img">
         <img src="../images/i5.png" alt="image" class="i2">
       </section>
       <section class="right">
         <img src="../images/i4.png" alt="image" class="i3">
-        <h1 class="title">TETRIS GAME</h1>
-        <p class="text">웹 표준을 가장 준수하여 만든 사이트입니다.<br>
+        <h1 class="title content__item__desc">TETRIS GAME</h1>
+        <p class="text  content__item__desc">웹 표준을 가장 준수하여 만든 사이트입니다.<br>
           웹 접근성을 위해 스킵메뉴작업, IR기법을 이용한<br>
           이미지 숨김처리, 이미지 작업을 진행하였습니다.<br>
           slick slider 라이브러리를 이용하여 향상된<br>
@@ -229,16 +249,16 @@
     </section>
 
     <!-- section10 Area Start -->
-    <section id="section10">
-      <span class="num">02</span>
+    <section id="section10" class="content__item">
+      <span class="num content__item__num">02</span>
       <section class="left">
-        <img src="../images/i2.png" alt="image" class="i1">
+        <img src="../images/i2.png" alt="image" class="i1  content__item__img">
         <img src="../images/i5.png" alt="image" class="i2">
       </section>
       <section class="right">
         <img src="../images/i4.png" alt="image" class="i3">
-        <h1 class="title">MUSIC PLAYER</h1>
-        <p class="text">웹 표준을 가장 준수하여 만든 사이트입니다.<br>
+        <h1 class="title content__item__desc">MUSIC PLAYER</h1>
+        <p class="text content__item__desc">웹 표준을 가장 준수하여 만든 사이트입니다.<br>
           웹 접근성을 위해 스킵메뉴작업, IR기법을 이용한<br>
           이미지 숨김처리, 이미지 작업을 진행하였습니다.<br>
           slick slider 라이브러리를 이용하여 향상된<br>
@@ -251,16 +271,16 @@
     </section>
 
     <!-- section11 Area Start -->
-    <section id="section11">
-      <span class="num">03</span>
+    <section id="section11" class="content__item">
+      <span class="num content__item__num">03</span>
       <section class="left">
-        <img src="../images/i2.png" alt="image" class="i1">
+        <img src="../images/i2.png" alt="image" class="i1 content__item__img">
         <img src="../images/i5.png" alt="image" class="i2">
       </section>
       <section class="right">
         <img src="../images/i4.png" alt="image" class="i3">
-        <h1 class="title">SEARCH GAME</h1>
-        <p class="text">웹 표준을 가장 준수하여 만든 사이트입니다.<br>
+        <h1 class="title content__item__desc">SEARCH GAME</h1>
+        <p class="text content__item__desc">웹 표준을 가장 준수하여 만든 사이트입니다.<br>
           웹 접근성을 위해 스킵메뉴작업, IR기법을 이용한<br>
           이미지 숨김처리, 이미지 작업을 진행하였습니다.<br>
           slick slider 라이브러리를 이용하여 향상된<br>
@@ -271,7 +291,7 @@
       </section>
     </section>
 
-    <footer id="footer">
+    <footer id="footer" class="content__item">
       <div class="footer inner">
         <div class="f_cont">
           <div class="f_left">
@@ -326,11 +346,72 @@
 
 
   </main>
-</body>
 
 
-<!-- My JS -->
+  <!-- My JS -->
+  <script>
+    // 메뉴 움직이는 효과
+    function scrollMenu() {
+      document.querySelectorAll(".paraNav ul li a").forEach(elem => {
+        elem.addEventListener("click", (e) => {
+          e.preventDefault();
+          document.querySelector(elem.getAttribute("href")).scrollIntoView({
+            behavior: "smooth"
+          })
+        })
+      });
+    }
 
+    function scrollProgress() {
+      let scrollTop = window.pageYOffset || window.scrollY || document.documentElement.scrollTop;
+
+      //let offset1 = scrollTop - document.getElementById("section1").offsetTop;
+      //let offset2 = scrollTop - document.getElementById("section2").offsetTop;
+      //let offset3 = scrollTop - document.getElementById("section3").offsetTop;
+      //let offset4 = scrollTop - document.getElementById("section4").offsetTop;
+      //let offset5 = scrollTop - document.getElementById("section5").offsetTop;
+      //let offset6 = scrollTop - document.getElementById("section6").offsetTop;
+      //let offset7 = scrollTop - document.getElementById("section7").offsetTop;
+      //let offset8 = scrollTop - document.getElementById("section8").offsetTop;
+      //let offset9 = scrollTop - document.getElementById("section9").offsetTop;
+      //
+      //document.getElementById("section1").style.transform = "translateX(" + offset1 + "px)";
+      //document.getElementById("section2").style.transform = "translateX(" + offset2 + "px)";
+      //document.getElementById("section3").style.transform = "translateX(" + offset3 + "px)";
+      //document.getElementById("section4").style.transform = "translateX(" + offset4 + "px)";
+      //document.getElementById("section5").style.transform = "translateX(" + offset5 + "px)";
+      //document.getElementById("section6").style.transform = "translateX(" + offset6 + "px)";
+      //document.getElementById("section7").style.transform = "translateX(" + offset7 + "px)";
+      //document.getElementById("section8").style.transform = "translateX(" + offset8 + "px)";
+      //document.getElementById("section9").style.transform = "translateX(" + offset9 + "px)";
+
+      //forEach()
+      document.querySelectorAll(".content__item").forEach(item => {
+        let offset1 = (scrollTop - item.offsetTop) * 0.1;
+        let offset2 = (scrollTop - item.offsetTop) * 0.1;
+
+        item.querySelector(".content__item__img").style.transform = "translateX(" + offset1 + "px)";
+        item.querySelector(".content__item__desc").style.transform = "translateX(" + -offset2 + "px)";
+        item.querySelector(".content__item__num").style.transform = "rotate(" + offset2 + "deg)";
+      });
+
+      //출력
+      document.querySelector(".paraScroll span").innerHTML = parseInt(scrollTop);
+
+      //메뉴
+      document.querySelectorAll(".content__item").forEach((item, index) => {
+        if (scrollTop >= item.offsetTop - 2) {
+          document.querySelectorAll(".paraNav ul li").forEach(li => {
+            li.classList.remove("active");
+          })
+          document.querySelector(".paraNav ul li:nth-child(" + (index + 1) + ")").classList.add("active");
+        }
+      })
+    }
+
+    window.addEventListener("scroll", scrollProgress);
+    scrollMenu();
+  </script>
 
 </body>
 
