@@ -76,13 +76,13 @@ h6 {
 }
 
 
-#parallax__cont {
+#paraCont {
   width: 100%;
   height: 100vh;
   margin: 0 auto;
 }
 
-#parallax__cont>section {
+#paraCont>section {
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -92,6 +92,56 @@ h6 {
   background: #000;
 }
 
+/* info */
+.paraScroll {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 1000;
+  background: rgba(0, 0, 0, .4);
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 12px;
+  padding: 0px 20px;
+}
+
+
+/* nav */
+.paraNav {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  z-index: 1000;
+  background: rgba(0, 0, 0, .4);
+  padding: 15px 20px;
+  border-radius: 50px;
+  transition: top 0.4s ease;
+}
+
+.paraNav li {
+  display: inline-block;
+  list-style: none;
+}
+
+.paraNav li a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 30px;
+}
+
+.paraNav li.active a {
+  background: #fff;
+  color: #000;
+}
 
 /* ******* 인트로 ********** */
 
@@ -1115,7 +1165,7 @@ h6 {
 
 /* footer  */
 
-#footer{
+#footer {
   color: #fff;
   background: #000;
   width: 100vw;
@@ -1132,7 +1182,7 @@ h6 {
   padding: 0 0 0 166px;
 }
 
-#footer .footer .f_cont .f_left .col-sm-12 .title{
+#footer .footer .f_cont .f_left .col-sm-12 .title {
   font-size: 6vw;
   font-weight: 900;
   font-family: 'Fabringo';
@@ -1150,7 +1200,7 @@ h6 {
 }
 
 #footer .footer .f_cont .f_left .col-sm-12 ul li i {
-  font-size:20px;
+  font-size: 20px;
 }
 
 #footer ul li div {
@@ -1208,7 +1258,7 @@ h6 {
   padding: 10px 30px;
   margin: 10px 0;
   font-size: 16px;
-  font-family:'Fabringo';
+  font-family: 'Fabringo';
   color: #333;
   cursor: pointer;
 }
