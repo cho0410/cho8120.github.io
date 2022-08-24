@@ -161,10 +161,13 @@ h6 {
   align-items: center;
 }
 
-#section1 .title .t-1 {
+#section1 .title .t-1{
   position: relative;
   top: -45px;
   left: 163px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
+  z-index: 1;
 }
 
 #section1 .title .t-2 {
@@ -178,6 +181,9 @@ h6 {
   position: relative;
   top: -64px;
   left: 52px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
+  z-index: 1;
 }
 
 #section1 .title .t-4 {
@@ -189,6 +195,9 @@ h6 {
 #section1 .title .t-5 {
   position: relative;
   top: -64px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
+  z-index: 1;
 }
 
 #section1 .title .t-6 {
@@ -202,6 +211,9 @@ h6 {
   position: relative;
   top: -64px;
   left: -126px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
+  z-index: 1;
 }
 
 #section1 .title .t-8 {
