@@ -8,7 +8,7 @@
 }
 
 .tt2 {
-  font-family: 'Faster One', cursive;
+  font-family: 'Vollkorn', cursive;
 }
 
 .tt3 {
@@ -164,7 +164,7 @@ h6 {
 #section1 .title .t-1{
   position: relative;
   top: -45px;
-  left: 163px;
+  left: 47px;
   text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
   -webkit-text-stroke: 4px #fff;
   z-index: 1;
@@ -173,14 +173,15 @@ h6 {
 #section1 .title .t-2 {
   position: relative;
   top: 37px;
-  left: 75px;
-  transform: rotate(-736deg);
+  left: 35px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 3px #fff;
 }
 
 #section1 .title .t-3 {
   position: relative;
   top: -64px;
-  left: 52px;
+  left: 23px;
   text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
   -webkit-text-stroke: 4px #fff;
   z-index: 1;
@@ -189,7 +190,9 @@ h6 {
 #section1 .title .t-4 {
   position: relative;
   top: 37px;
-  left: 21px;
+  left: 13px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
 }
 
 #section1 .title .t-5 {
@@ -203,14 +206,15 @@ h6 {
 #section1 .title .t-6 {
   position: relative;
   top: 37px;
-  left: -109px;
-  transform: rotate(-736deg);
+  left: -44px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
 }
 
 #section1 .title .t-7 {
   position: relative;
   top: -64px;
-  left: -126px;
+  left: -58px;
   text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
   -webkit-text-stroke: 4px #fff;
   z-index: 1;
@@ -219,15 +223,17 @@ h6 {
 #section1 .title .t-8 {
   position: relative;
   top: 53px;
-  left: -155px;
-  transform: rotate(5deg);
+  left: -80px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
 }
 
 #section1 .title .t-9 {
   position: relative;
   top: -65px;
-  right: 195px;
-  transform: rotate(-709deg);
+  right: 96px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
 }
 
 #section1 .image {
@@ -240,19 +246,19 @@ h6 {
 #section1 .image .i1 {
   position: relative;
   top: 478px;
-  left: 645px;
+  left: 638px;
 }
 
 #section1 .image .i2 {
   position: relative;
-  right: 134px;
-  bottom: 47px;
+  right: 167px;
+  bottom: 67px;
 }
 
 #section1 .image .i3 {
   position: relative;
-  right: 427px;
-  bottom: -15px;
+  right: 496px;
+  bottom: 32px;
 }
 
 #section1 .image .i4 {
@@ -263,14 +269,14 @@ h6 {
 
 #section1 .image .i5 {
   position: relative;
-  right: 240px;
-  bottom: 44px;
+  right: 168px;
+  bottom: 92px;
 }
 
 #section1 .image .i6 {
   position: relative;
-  left: 986px;
-  bottom: 212px;
+  bottom: 267px;
+  left: 1014px;
 }
 
 #section1 .image .i7 {
@@ -281,7 +287,7 @@ h6 {
 
 #section1 .image .i8 {
   position: relative;
-  bottom: 225px;
+  bottom: 271px;
   right: 315px;
 }
 
@@ -299,7 +305,7 @@ h6 {
 
 #section1 .image .i11 {
   position: relative;
-  left: 582px;
+  left: 615px;
   bottom: 425px;
 }
 
