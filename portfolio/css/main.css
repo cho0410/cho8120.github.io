@@ -1,0 +1,1964 @@
+@charset "utf-8";
+
+@import url(reset.css);
+@src: url:("../css/fonts/FontsFree-Net-Fabringo");
+
+.tt1 {
+  font-family: 'Keania One';
+}
+
+.tt2 {
+  font-family: 'Vollkorn', cursive;
+}
+
+.tt3 {
+  font-family: 'Fabringo';
+}
+
+.tt4 {
+  font-family: 'Fanwood Text', cursive;
+}
+
+.tt5 {
+  font-family: 'Fabringo';
+}
+
+.tt6 {
+  font-family: 'Fascinate', cursive;
+}
+
+
+
+/* ************************** 레이아웃 구성시작 ************************ */
+
+
+/* ************************** 공통영역 선언시작 ************************ */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: arial, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+#parallax__nav {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 15px 20px;
+  border-radius: 50px;
+}
+
+#parallax__nav li {
+  list-style: none;
+  display: inline;
+}
+
+#parallax__nav li a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  line-height: 30px;
+}
+
+#parallax__nav li.active a {
+  background: #fff;
+  color: #000;
+  border-radius: 50%;
+}
+
+/* parallax__cont */
+#parallax__cont {}
+
+.content__item {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#section1 {
+  background-color: #fff;
+
+}
+#section1 {
+  background: url(../images/background.jpg) no-repeat ;
+  z-index: 10000;
+}
+
+#section1 .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-47%, -42%);
+  font-size: 16em;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#section1 .title .t-1{
+  position: relative;
+  top: -45px;
+  left: 47px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
+  z-index: 1;
+}
+
+#section1 .title .t-2 {
+  position: relative;
+  top: 37px;
+  left: 35px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 3px #fff;
+}
+
+#section1 .title .t-3 {
+  position: relative;
+  top: -64px;
+  left: 23px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
+  z-index: 1;
+}
+
+#section1 .title .t-4 {
+  position: relative;
+  top: 37px;
+  left: 13px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
+}
+
+#section1 .title .t-5 {
+  position: relative;
+  top: -64px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
+  z-index: 1;
+}
+
+#section1 .title .t-6 {
+  position: relative;
+  top: 37px;
+  left: -44px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
+}
+
+#section1 .title .t-7 {
+  position: relative;
+  top: -64px;
+  left: -58px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
+  z-index: 1;
+}
+
+#section1 .title .t-8 {
+  position: relative;
+  top: 53px;
+  left: -80px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
+}
+
+#section1 .title .t-9 {
+  position: relative;
+  top: -65px;
+  right: 96px;
+  text-shadow: -8px -8px 0px #000, -12px -12px 0px #000, -16px -16px 0px #000;
+  -webkit-text-stroke: 4px #fff;
+}
+
+#section1 .image {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+#section1 .image .i1 {
+  position: relative;
+  top: 478px;
+  left: 638px;
+}
+
+#section1 .image .i2 {
+  position: relative;
+  right: 167px;
+  bottom: 67px;
+}
+
+#section1 .image .i3 {
+  position: relative;
+  right: 496px;
+  bottom: 32px;
+}
+
+#section1 .image .i4 {
+  position: relative;
+  top: 437px;
+  left: 479px;
+}
+
+#section1 .image .i5 {
+  position: relative;
+  right: 168px;
+  bottom: 92px;
+}
+
+#section1 .image .i6 {
+  position: relative;
+  bottom: 267px;
+  left: 1014px;
+}
+
+#section1 .image .i7 {
+  position: relative;
+  top: 237px;
+  left: 33px;
+}
+
+#section1 .image .i8 {
+  position: relative;
+  bottom: 271px;
+  right: 315px;
+}
+
+#section1 .image .i9 {
+  position: relative;
+  right: 556px;
+  top: 186px;
+}
+
+#section1 .image .i10 {
+  position: relative;
+  right: 129px;
+  bottom: 22px;
+}
+
+#section1 .image .i11 {
+  position: relative;
+  left: 615px;
+  bottom: 425px;
+}
+
+#section1 .image .i12 {
+  position: relative;
+  right: 614px;
+  top: 122px;
+}
+
+/* **********section2************* */
+#section2 {
+  background-color: #000;
+  color: #fff;
+  z-index: 10000;
+}
+
+#section2 .contents .left-box {
+  width: 70%;
+  float: left;
+}
+
+#section2 .contents .left-box .a-img1 {
+  position: relative;
+  top: 208px;
+  left: 142px;
+  z-index: 10;
+}
+
+#section2 .contents .left-box .a-img2 {
+  position: relative;
+  top: 133px;
+  left: 27px;
+
+}
+
+#section2 .contents .right-box {
+  width: 30%;
+  float: right;
+  margin-top: 218px;
+}
+
+#section2 .contents .right-box .t1 {
+  font: 700 80px/84px 'Abhaya Libre SemiBold';
+  margin-bottom: 21px;
+  position: relative;
+  right: 194px;
+  color: #000;
+  bottom: -42px;
+  font-family: 'Jacques Francois Shadow';
+  text-shadow: -4px -4px 0px #fff, -6px -6px 0px #fff, -8px -8px 0px #fff;
+  -webkit-text-stroke: 2px #fff;
+}
+
+#section2 .contents .right-box p {
+  font: 400 18px/28px 'Syncopate';
+  position: relative;
+  right: 208px;
+  bottom: -67px;
+}
+
+#section2 .contents .left-box .a-img2 {
+  width: 668px;
+  height: 668px;
+  border-radius: 50%;
+}
+
+#section2 .contents .right-box .a-img3 {
+  position: relative;
+  bottom: 332px;
+  right: 190px;
+  transform: rotate(5deg);
+}
+
+#section2 .contents .img {
+  position: relative;
+  bottom: 197px;
+  right: 203px;
+}
+
+#section2 .contents .img .i-img1 {
+  position: relative;
+  top: -105px;
+  left: 417px;
+}
+
+#section2 .contents .img .i-img2 {
+  position: relative;
+  left: 88px;
+  top: 107px;
+}
+
+#section2 .contents .img .i-img3 {
+  position: relative;
+  top: -34px;
+  left: 259px;
+}
+
+#section2 .contents .img .i-img4 {
+  position: relative;
+  top: -8px;
+  right: 58px;
+}
+
+#section2 .contents .img .i-img5 {
+  position: relative;
+  left: -359px;
+  top: 75px;
+}
+
+#section2 .contents .img .i-img6 {
+  position: relative;
+  top: 45px;
+  right: -21px;
+}
+
+#section2 .contents .img .i-img7 {
+  position: relative;
+  top: 81px;
+  right: 193px;
+}
+
+#section2 .contents .img .i-img8 {
+  position: relative;
+  right: -32px;
+  bottom: 117px;
+}
+
+/* **********section3************* */
+
+#section3 {
+  background: url(../images/w-bg.png) no-repeat center;
+  background-color: #000;
+  color: #fff;
+  z-index: 9000;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #fff;
+  -webkit-text-stroke: 5px #000;
+  line-height: 176px;
+  font-weight: 400;
+  font-size: 150px;
+  position: relative;
+}
+
+#section3 .w-title{
+  padding: 251px 0 0 428px;
+}
+#section3 .w-title .p1{
+  padding-left: 232px;
+}
+
+/* ******* section4 ********** */
+#section4 {
+  background-color: #000;
+  z-index: 8000;
+  color: #fff;
+  display: flex;
+}
+
+#section4 .left{
+  position: relative;
+}
+
+#section4 .left .i1{
+  position: absolute;
+  top: 11px;
+  left: 237px;
+  width: 95px;
+  height: 146px;
+}
+
+#section4 .left .i4{
+  position: absolute;
+  width: 349px;
+  height: 126px;
+  bottom: 36px;
+  left: 122px;
+}
+
+#section4 .left .i6{
+  position: absolute;
+  top: 192px;
+  left: 259px;
+  width: 688px;
+  height: 474px;
+}
+#section4 .right{
+  position: absolute;
+  right: 0;
+} 
+
+#section4 .right .title{
+  font-size: 60px;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #fff;
+  -webkit-text-stroke: 1px #fff;
+  color: #000;
+  position: absolute;
+  top: 258px;
+  right: 381px;
+}
+
+#section4 .right .text{
+  position: absolute;
+  top: 357px;
+  left: -92px;
+}
+
+#section4 .right .i2{
+  position: relative;
+  top: 474px;
+  right: 88px;
+}
+
+#section4 .right .i2-1{
+  position: relative;
+  top: 475px;
+  right: 86px;
+}
+
+#section4 .right .i3{
+  position: relative;
+  right: 369px;
+  width: 408px;
+  height: 124px;
+  top: 119px;
+}
+
+#section4 .right .btn-t{
+  position: relative;
+  top: 433px;
+  right: 48px;
+}
+
+#section4 .right .btn-t1{
+  position: relative;
+  top: 412px;
+  left: 109px;
+}
+
+#section4 .right .i5{
+  position: absolute;
+  top: 506px;
+  left: 294px;
+}
+/* ******* section5 ********** */
+#section5 {
+  background-color: #000;
+  z-index: 7000;
+  color: #fff;
+  display: flex;
+}
+
+#section5 .left{
+  position: absolute;
+  right: 0;
+}
+
+#section5 .left .i4{
+  position: absolute;
+  width: 349px;
+  height: 126px;
+  top: 733px;
+  right: 154px;
+}
+
+#section5 .left .i6{
+  position: absolute;
+  top: 192px;
+  right: 222px;
+  width: 688px;
+  height: 474px;
+}
+#section5 .right{
+  position: absolute;
+  left: 0;
+} 
+
+#section5 .right .title{
+  font-size: 60px;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #fff;
+  -webkit-text-stroke: 1px #fff;
+  color: #000;
+  position: absolute;
+  top: 258px;
+  left: 381px;
+}
+
+#section5 .right .text{
+  position: absolute;
+  top: 357px;
+  right: -97px;
+  text-align: right;
+}
+
+#section5 .right .i2{
+  position: relative;
+  top: 475px;
+  left: 665px;
+}
+
+#section5 .right .i2-1{
+  position: relative;
+  top: 475px;
+  left: 330px;
+}
+
+#section5 .right .i3{
+  position: relative;
+  left: 293px;
+  width: 408px;
+  height: 124px;
+  top: 86px;
+}
+
+#section5 .right .btn-t{
+  position: relative;
+  top: 436px;
+  left: 705px;
+}
+
+#section5 .right .btn-t1{
+  position: relative;
+  top: 412px;
+  left: 522px;
+}
+
+#section5 .right .i5{
+  position: absolute;
+  top: 686px;
+  left: 0px;
+  transform: rotate(179deg);
+}
+/* ******* section6 ********** */
+#section6 {
+  background-color: #000;
+  z-index: 8000;
+  color: #fff;
+  display: flex;
+}
+
+#section6 .left{
+  position: relative;
+  left:0;
+}
+
+#section6 .left .i1{
+  position: absolute;
+  top: 11px;
+  left: 237px;
+  width: 95px;
+  height: 146px;
+}
+
+#section6 .left .i4{
+  position: absolute;
+  width: 349px;
+  height: 126px;
+  bottom: 36px;
+  left: 122px;
+}
+
+#section6 .left .i6{
+  position: absolute;
+  top: 192px;
+  left: 259px;
+  width: 688px;
+  height: 474px;
+}
+#section6 .right{
+  position: absolute;
+  right: 0;
+} 
+
+#section6 .right .title{
+  font-size: 60px;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #fff;
+  -webkit-text-stroke: 1px #fff;
+  color: #000;
+  position: absolute;
+  top: 258px;
+  right: 381px;
+}
+
+#section6 .right .text{
+  position: relative;
+  top: 357px;
+  right: 446px;
+}
+
+#section6 .right .i2{
+  position: relative;
+  top: 417px;
+  right: 443px;
+}
+
+#section6 .right .i2-1{
+  position: relative;
+  top: 417px;
+  right: 433px;
+}
+
+#section6 .right .i3{
+  position: relative;
+  right: 369px;
+  width: 408px;
+  height: 124px;
+  top: 119px;
+}
+
+#section6 .right .btn-t{
+  position: relative;
+  top: 380px;
+  right: 405px;
+}
+
+#section6 .right .btn-t1{
+  position: relative;
+  top: 356px;
+  right: 235px;
+}
+
+#section6 .right .i4{
+  position: absolute;
+  top: 24px;
+  right: 617px;
+  transform: rotate(8deg);
+}
+#section6 .right .i5{
+  position: absolute;
+  top: 558px;
+  right: 0
+}
+/* ******* section7 ********** */
+#section7 {
+  background-color: #000;
+  color: #fff;
+  z-index: 5000;
+}
+
+#section7 .left{
+  position: absolute;
+  right: 0;
+}
+
+#section7 .left .i4{
+  position: absolute;
+  width: 349px;
+  height: 126px;
+  top: 733px;
+  right: 154px;
+}
+
+#section7 .left .i6{
+  position: absolute;
+  top: 192px;
+  right: 222px;
+  width: 688px;
+  height: 474px;
+}
+#section7 .right{
+  position: absolute;
+  left: 0;
+} 
+
+#section7 .right .title{
+  font-size: 60px;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #fff;
+  -webkit-text-stroke: 1px #fff;
+  color: #000;
+  position: absolute;
+  top: 258px;
+  left: 381px;
+}
+
+#section7 .right .text{
+  position: absolute;
+  top: 357px;
+  right: -97px;
+  text-align: right;
+}
+
+#section7 .right .i2{
+  position: relative;
+  top: 475px;
+  left: 665px;
+}
+
+#section7 .right .i2-1{
+  position: relative;
+  top: 475px;
+  left: 330px;
+}
+
+#section7 .right .i3{
+  position: relative;
+  left: 293px;
+  width: 408px;
+  height: 124px;
+  top: 86px;
+}
+
+#section7 .right .btn-t{
+  position: relative;
+  top: 436px;
+  left: 705px;
+}
+
+#section7 .right .btn-t1{
+  position: relative;
+  top: 412px;
+  left: 522px;
+}
+
+#section7 .right .i5{
+  position: absolute;
+  top: 686px;
+  left: 0px;
+  transform: rotate(179deg);
+}
+/* ******* section8 ********** */
+#section8 {
+  background-color: #000;
+  z-index: 4000;
+}
+#section8 {
+  background-color: #000;
+  z-index: 8000;
+  color: #fff;
+  display: flex;
+}
+
+#section8 .left{
+  position: relative;
+  left:0;
+}
+
+#section8 .left .i1{
+  position: absolute;
+  top: 11px;
+  left: 237px;
+  width: 95px;
+  height: 146px;
+}
+
+#section8 .left .i4{
+  position: absolute;
+  width: 349px;
+  height: 126px;
+  bottom: 36px;
+  left: 122px;
+}
+
+#section8 .left .i6{
+  position: absolute;
+  top: 192px;
+  left: 259px;
+  width: 688px;
+  height: 474px;
+}
+#section8 .right{
+  position: absolute;
+  right: 0;
+} 
+
+#section8 .right .title{
+  font-size: 60px;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #fff;
+  -webkit-text-stroke: 1px #fff;
+  color: #000;
+  position: absolute;
+  top: 258px;
+  right: 381px;
+}
+
+#section8 .right .text{
+  position: relative;
+  top: 357px;
+  right: 446px;
+}
+
+#section8 .right .i2{
+  position: relative;
+  top: 417px;
+  right: 443px;
+}
+
+#section8 .right .i2-1{
+  position: relative;
+  top: 417px;
+  right: 433px;
+}
+
+#section8 .right .i3{
+  position: relative;
+  right: 369px;
+  width: 408px;
+  height: 124px;
+  top: 119px;
+}
+
+#section8 .right .btn-t{
+  position: relative;
+  top: 380px;
+  right: 405px;
+}
+
+#section8 .right .btn-t1{
+  position: relative;
+  top: 356px;
+  right: 235px;
+}
+
+#section8 .right .i4{
+  position: absolute;
+  top: 24px;
+  right: 617px;
+  transform: rotate(8deg);
+}
+#section8 .right .i5{
+  position: absolute;
+  top: 558px;
+  right: 0
+}
+/* ******* section9 ********** */
+#section9 {
+  background-color: #000;
+  color: #fff;
+  z-index: 3000;
+}
+
+#section9 .left{
+  position: absolute;
+  right: 0;
+}
+
+#section9 .left .i4{
+  position: absolute;
+  width: 349px;
+  height: 126px;
+  top: 733px;
+  right: 154px;
+}
+
+#section9 .left .i6{
+  position: absolute;
+  top: 192px;
+  right: 222px;
+  width: 688px;
+  height: 474px;
+}
+#section9 .right{
+  position: absolute;
+  left: 0;
+} 
+
+#section9 .right .title{
+  font-size: 60px;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #fff;
+  -webkit-text-stroke: 1px #fff;
+  color: #000;
+  position: absolute;
+  top: 258px;
+  left: 381px;
+}
+
+#section9 .right .text{
+  position: absolute;
+  top: 357px;
+  right: -97px;
+  text-align: right;
+}
+
+#section9 .right .i2{
+  position: relative;
+  top: 475px;
+  left: 665px;
+}
+
+#section9 .right .i2-1{
+  position: relative;
+  top: 475px;
+  left: 330px;
+}
+
+#section9 .right .i3{
+  position: relative;
+  left: 293px;
+  width: 408px;
+  height: 124px;
+  top: 86px;
+}
+
+#section9 .right .btn-t{
+  position: relative;
+  top: 436px;
+  left: 705px;
+}
+
+#section9 .right .btn-t1{
+  position: relative;
+  top: 412px;
+  left: 522px;
+}
+
+#section9 .right .i5{
+  position: absolute;
+  top: 523px;
+  left: -61px;
+  transform: rotate(159deg);
+}
+/* ******* section10 ********** */
+#section10 {
+  background: url(../images/j-bg.svg)no-repeat center;
+  z-index: 2000;
+  position: relative;
+}
+
+#section10>span{
+  font-family: 'Jacques Francois Shadow';
+  text-shadow: -4px -4px 0px #000, -8px -8px 0px #000;
+  -webkit-text-stroke: 2px #fff;
+  color: #000;
+  line-height: 176px;
+  font-weight: 400;
+  font-size: 150px;
+  position:relative;
+}
+
+#section10 .wt-1 .p1{
+  margin-left: 254px;
+}
+
+#section10 .t-icon{
+  position: relative;
+  left: 336px;
+  top: 171px;
+}
+
+#section10 .wt-1{
+  position: relative;
+  top: 168px;
+  left: 569px;
+}
+
+#section10 .f-icon{
+  position: absolute;
+  left: 223px;
+}
+
+/* ******* section11 ********** */
+
+#section11 {
+  z-index: 3000;
+}
+#section11 .left{
+  float: left;
+}
+
+#section11 .left .h-icon{
+  background: url(../images/j-bg1.svg);
+  width: 931px;
+  height: 519px;
+  position: absolute;
+  left: 177px;
+  top: 216px;
+}
+
+#section11 .left .h-icon .j-i2{
+  position: absolute;
+  left: -96px;
+  bottom: 412px;
+}
+
+#section11 .left .h-icon .j-mac{
+  position: absolute;
+  left: 161px;
+  top: 54px;
+  width: 601px;
+  height: 453px;
+}
+
+#section11 .right{
+  float: right;
+}
+
+
+#section11 .right .r-i1{
+  position: absolute;
+  right: 305px;
+  top: 168px;
+}
+
+#section11 .right span{
+  font-size: 60px;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #000, -8px -8px 0px #000;
+  -webkit-text-stroke: 1px #000;
+  color: #fff;
+  position: absolute;
+  top: 322px;
+  right: 338px;
+}
+
+#section11 .right p{
+  position: absolute;
+  top: 420px;
+  right: 314px;
+}
+
+#section11 .right .btn-1{
+  position: absolute;
+  top: 587px;
+  right: 526px;
+}
+#section11 .right .btn-t1{
+  position: absolute;
+  top: 612px;
+  right: 562px;
+}
+#section11 .right .btn-2{
+  position: absolute;
+  top: 588px;
+  right: 330px;
+}
+#section11 .right .btn-t2{
+  position: absolute;
+  top: 612px;
+  right: 374px;
+}
+
+
+/* ******* section12 ********** */
+#section12 {
+  z-index: 4000;
+}
+
+#section12 .left{
+  float: left;
+}
+
+#section12 .left .h-icon{
+  background: url(../images/j-bg1.svg);
+  width: 931px;
+  height: 519px;
+  position: absolute;
+  left: 177px;
+  top: 216px;
+}
+
+#section12 .left .h-icon .j-i2{
+  position: absolute;
+  left: -96px;
+  bottom: 412px;
+}
+
+#section12 .left .h-icon .j-mac{
+  position: absolute;
+  left: 161px;
+  top: 54px;
+  width: 601px;
+  height: 453px;
+}
+
+#section12 .right{
+  float: right;
+}
+
+
+#section12 .right .r-i1{
+  position: absolute;
+  right: 305px;
+  top: 168px;
+}
+
+#section12 .right span{
+  font-size: 60px;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #000, -8px -8px 0px #000;
+  -webkit-text-stroke: 1px #000;
+  color: #fff;
+  position: absolute;
+  top: 322px;
+  right: 338px;
+}
+
+#section12 .right p{
+  position: absolute;
+  top: 420px;
+  right: 314px;
+}
+
+#section12 .right .btn-1{
+  position: absolute;
+  top: 587px;
+  right: 526px;
+}
+#section12 .right .btn-t1{
+  position: absolute;
+  top: 612px;
+  right: 562px;
+}
+#section12 .right .btn-2{
+  position: absolute;
+  top: 588px;
+  right: 330px;
+}
+#section12 .right .btn-t2{
+  position: absolute;
+  top: 612px;
+  right: 374px;
+}
+
+/* ******* section13 ********** */
+#section13 {
+  z-index: 5000;
+}
+#section13 .left{
+  float: left;
+}
+
+#section13 .left .h-icon{
+  background: url(../images/j-bg1.svg);
+  width: 931px;
+  height: 519px;
+  position: absolute;
+  left: 177px;
+  top: 216px;
+}
+
+#section13 .left .h-icon .j-i2{
+  position: absolute;
+  left: -96px;
+  bottom: 412px;
+}
+
+#section13 .left .h-icon .j-mac{
+  position: absolute;
+  left: 161px;
+  top: 54px;
+  width: 601px;
+  height: 453px;
+}
+
+#section13 .right{
+  float: right;
+}
+
+
+#section13 .right .r-i1{
+  position: absolute;
+  right: 305px;
+  top: 168px;
+}
+
+#section13 .right span{
+  font-size: 60px;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #000, -8px -8px 0px #000;
+  -webkit-text-stroke: 1px #000;
+  color: #fff;
+  position: absolute;
+  top: 322px;
+  right: 338px
+}
+
+#section13 .right p{
+  position: absolute;
+  top: 420px;
+  right: 314px;
+}
+
+#section13 .right .btn-1{
+  position: absolute;
+  top: 587px;
+  right: 526px;
+}
+#section13 .right .btn-t1{
+  position: absolute;
+  top: 612px;
+  right: 562px;
+}
+#section13 .right .btn-2{
+  position: absolute;
+  top: 588px;
+  right: 330px;
+}
+#section13 .right .btn-t2{
+  position: absolute;
+  top: 612px;
+  right: 374px;
+}
+/* ******* section14 ********** */
+#section14 {
+  z-index: 6000;
+}
+
+#section14 .left{
+  float: left;
+}
+
+#section14 .left .h-icon{
+  background: url(../images/j-bg1.svg);
+  width: 931px;
+  height: 519px;
+  position: absolute;
+  left: 177px;
+  top: 216px;
+}
+
+#section14 .left .h-icon .j-i2{
+  position: absolute;
+  left: -96px;
+  bottom: 412px;
+}
+
+#section14 .left .h-icon .j-mac{
+  position: absolute;
+  left: 161px;
+  top: 54px;
+  width: 601px;
+  height: 453px;
+}
+
+#section14 .right{
+  float: right;
+}
+
+
+#section14 .right .r-i1{
+  position: absolute;
+  right: 305px;
+  top: 168px;
+}
+
+#section14 .right span{
+  font-size: 60px;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #000, -8px -8px 0px #000;
+  -webkit-text-stroke: 1px #000;
+  color: #fff;
+  position: absolute;
+  top: 322px;
+  right: 338px;
+}
+
+#section14 .right p{
+  position: absolute;
+  top: 420px;
+  right: 314px;
+}
+
+#section14 .right .btn-1{
+  position: absolute;
+  top: 587px;
+  right: 526px;
+}
+#section14 .right .btn-t1{
+  position: absolute;
+  top: 612px;
+  right: 562px
+}
+#section14 .right .btn-2{
+  position: absolute;
+  top: 588px;
+  right: 330px;
+}
+#section14 .right .btn-t2{
+  position: absolute;
+  top: 612px;
+  right: 374px;
+}
+
+/* ******* section15 ********** */
+#section15 {
+  z-index: 8000;
+  background: url(../images/j-bg.svg)no-repeat center;
+  position: relative;
+}
+
+#section15>span{
+  font-family: 'Jacques Francois Shadow';
+  text-shadow: -4px -4px 0px #000, -8px -8px 0px #000;
+  -webkit-text-stroke: 2px #fff;
+  color: #000;
+  line-height: 176px;
+  font-weight: 400;
+  font-size: 190px;
+  position:relative;
+}
+
+#section15 .wt-1 .p1{
+  margin-left: 254px;
+}
+
+#section15 .t-icon{
+  position: relative;
+  left: 880px;
+  top: 558px;
+}
+
+#section15 .wt-1{
+  position: relative;
+  top: 157px;
+  left: 452px;
+}
+
+#section15 .f-icon .f1{
+  position: absolute;
+  left: 223px;
+  bottom: 104px;
+}
+
+#section15 .f-icon .i2 {
+  position: absolute;
+  top: 183px;
+  left: 675px;
+}
+
+#section15 .f-icon .i3 {
+  position: absolute;
+  left: 399px;
+  top: 237px;
+}
+
+#section15 .f-icon .i4 {
+  position: relative;
+  top: 437px;
+  left: 479px;
+}
+
+#section15 .f-icon .i5 {
+  position: absolute;
+  left: 682px;
+  bottom: 215px;
+}
+
+#section15 .f-icon .i6 {
+  position: absolute;
+  top: 162px;
+  left: 998px;
+}
+
+#section15 .f-icon .i7 {
+  position: absolute;
+  right: 307px;
+  top: 480px;
+  transform: rotate(-26deg);
+}
+
+
+/* ******* section16 ********** */
+#section16 {
+  background: url(../images/a-bg.svg) no-repeat right top 60px;
+  z-index: 9000;
+}
+
+#section16 .left{
+  position: relative;
+}
+
+#section16 .left .i1{
+  position: absolute;
+  top: 11px;
+  left: 237px;
+  width: 95px;
+  height: 146px;
+}
+
+#section16 .left .i4{
+  position: absolute;
+  width: 349px;
+  height: 126px;
+  bottom: 36px;
+  left: 122px;
+}
+
+#section16 .left .i6{
+  position: absolute;
+  top: 192px;
+  left: 259px;
+  width: 688px;
+  height: 474px;
+}
+#section16 .right{
+  position: relative;
+  right: 0;
+} 
+
+#section16 .right .title{
+  font-size: 60px;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #000;
+  -webkit-text-stroke: 1px #fff;
+  color: #000;
+  position: absolute;
+  top: 258px;
+  right: 381px;
+}
+
+#section16 .right .text{
+  position: absolute;
+  top: 357px;
+  right: 440px;
+}
+
+#section16 .right .i2{
+  position: absolute;
+  top: 510px;
+  right: 670px;
+}
+
+#section16 .right .i2-1{
+  position: absolute;
+  top: 510px;
+  right: 492px;
+}
+
+#section16 .right .btn-t{
+  position: absolute;
+  top: 532px;
+  right: 713px;
+}
+
+#section16 .right .btn-t1{
+  position: absolute;
+  top: 532px;
+  right: 529px;
+}
+
+/* ******* section17 ********** */
+#section17 {
+  z-index: 6000;
+  background: url(../images/a-bg.svg) no-repeat left top 60px;
+}
+
+
+#section17 .left{
+  position: absolute;
+  right: 0;
+}
+
+#section17 .left .i4{
+  position: absolute;
+  width: 349px;
+  height: 126px;
+  top: 733px;
+  right: 154px;
+}
+
+#section17 .left .i6{
+  position: absolute;
+  top: 192px;
+  right: 222px;
+  width: 688px;
+  height: 474px;
+}
+#section17 .right{
+  position: relative;
+  left: 0;
+} 
+
+#section17 .right .title{
+  font-size: 60px;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #000;
+  -webkit-text-stroke: 1px #fff;
+  color: #000;
+  position: absolute;
+  top: 258px;
+  left: 381px;
+}
+
+#section17 .right .text{
+  position: absolute;
+  top: 357px;
+  left: 449px;
+  text-align: right;
+}
+
+#section17 .right .i2{
+  position: relative;
+  top: 526px;
+  left: 665px;
+}
+
+#section17 .right .i2-1{
+  position: relative;
+  top: 525px;
+  left: 330px;
+}
+
+#section17 .right .i3{
+  position: relative;
+  left: 293px;
+  width: 408px;
+  height: 124px;
+  top: 86px;
+}
+
+#section17 .right .btn-t{
+  position: relative;
+  top: 486px;
+  left: 705px;
+}
+
+#section17 .right .btn-t1{
+  position: relative;
+  top: 462px;
+  left: 522px;
+}
+
+#section17 .right .i5{
+  position: absolute;
+  top: 686px;
+  left: 0px;
+  transform: rotate(179deg);
+}
+/* ******* section18 ********** */
+#section18 {
+  z-index: 7000;
+  background: url(../images/a-bg.svg) no-repeat right top 60px;
+}
+
+#section18 .left{
+  position: relative;
+}
+
+#section18 .left .i1{
+  position: absolute;
+  top: 11px;
+  left: 237px;
+  width: 95px;
+  height: 146px;
+}
+
+#section18 .left .i4{
+  position: absolute;
+  width: 349px;
+  height: 126px;
+  bottom: 36px;
+  left: 122px;
+}
+
+#section18 .left .i6{
+  position: absolute;
+  top: 192px;
+  left: 259px;
+  width: 688px;
+  height: 474px;
+}
+#section18 .right{
+  position: relative;
+  right: 0;
+} 
+
+#section18 .right .title{
+  font-size: 60px;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #000;
+  -webkit-text-stroke: 1px #fff;
+  color: #000;
+  position: absolute;
+  top: 258px;
+  right: 381px;
+}
+
+#section18 .right .text{
+  position: absolute;
+  top: 357px;
+  right: 440px;
+}
+
+#section18 .right .i2{
+  position: absolute;
+  top: 510px;
+  right: 670px;
+}
+
+#section18 .right .i2-1{
+  position: absolute;
+  top: 510px;
+  right: 492px;
+}
+
+#section18 .right .btn-t{
+  position: absolute;
+  top: 532px;
+  right: 713px;
+}
+
+#section18 .right .btn-t1{
+  position: absolute;
+  top: 532px;
+  right: 529px;
+}
+/* ******* section19 ********** */
+#section19 {
+  z-index: 8000;
+  background: url(../images/a-bg.svg) no-repeat left top 60px;
+}
+
+#section19 .left{
+  position: absolute;
+  right: 0;
+}
+
+#section19 .left .i4{
+  position: absolute;
+  width: 349px;
+  height: 126px;
+  top: 733px;
+  right: 154px;
+}
+
+#section19 .left .i6{
+  position: absolute;
+  top: 192px;
+  right: 222px;
+  width: 688px;
+  height: 474px;
+}
+#section19 .right{
+  position: relative;
+  left: 0;
+} 
+
+#section19 .right .title{
+  font-size: 60px;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #000;
+  -webkit-text-stroke: 1px #fff;
+  color: #000;
+  position: absolute;
+  top: 258px;
+  left: 381px;
+}
+
+#section19 .right .text{
+  position: absolute;
+  top: 357px;
+  left: 449px;
+  text-align: right;
+}
+
+#section19 .right .i2{
+  position: relative;
+  top: 526px;
+  left: 665px;
+}
+
+#section19 .right .i2-1{
+  position: relative;
+  top: 525px;
+  left: 330px;
+}
+
+#section19 .right .i3{
+  position: relative;
+  left: 293px;
+  width: 408px;
+  height: 124px;
+  top: 86px;
+}
+
+#section19 .right .btn-t{
+  position: relative;
+  top: 486px;
+  left: 705px;
+}
+
+#section19 .right .btn-t1{
+  position: relative;
+  top: 462px;
+  left: 522px;
+}
+
+#section19 .right .i5{
+  position: absolute;
+  top: 686px;
+  left: 0px;
+  transform: rotate(179deg);
+}
+/* ******* section20 ********** */
+#section20 {
+  z-index: 9000;
+  background: #777;
+}
+/* ******* section21 ********** */
+#section21 {
+  z-index: 9000;
+  background: #888;
+}
+#section21 .left{
+  position: absolute;
+  right: 0;
+}
+
+#section21 .left .i4{
+  position: absolute;
+  width: 349px;
+  height: 126px;
+  top: 733px;
+  right: 154px;
+}
+
+#section21 .left .i6{
+  position: absolute;
+  top: 192px;
+  right: 222px;
+  width: 688px;
+  height: 474px;
+}
+#section21 .right{
+  position: absolute;
+  left: 0;
+} 
+
+#section21 .right .title{
+  font-size: 60px;
+  font-family: 'Abhaya Libre SemiBold';
+  text-shadow: -4px -4px 0px #fff;
+  -webkit-text-stroke: 1px #fff;
+  color: #000;
+  position: absolute;
+  top: 258px;
+  left: 381px;
+}
+
+#section21 .right .text{
+  position: absolute;
+  top: 357px;
+  right: -97px;
+  text-align: right;
+}
+
+#section21 .right .i2{
+  position: relative;
+  top: 475px;
+  left: 665px;
+}
+
+#section21 .right .i2-1{
+  position: relative;
+  top: 475px;
+  left: 330px;
+}
+
+#section21 .right .i3{
+  position: relative;
+  left: 293px;
+  width: 408px;
+  height: 124px;
+  top: 86px;
+}
+
+#section21 .right .btn-t{
+  position: relative;
+  top: 436px;
+  left: 705px;
+}
+
+#section21 .right .btn-t1{
+  position: relative;
+  top: 412px;
+  left: 522px;
+}
+
+#section21 .right .i5{
+  position: absolute;
+  top: 686px;
+  left: 0px;
+  transform: rotate(179deg);
+}
+
+/* footer  */
+
+#footer {
+  color: #000;
+  width: 100vw;
+  height: 100vh;
+}
+
+#footer .f_cont {
+  padding: 250px 50px 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .f_cont .f_left {
+  padding: 0 0 0 166px;
+}
+
+#footer .footer .f_cont .f_left .col-sm-12 .title {
+  font-size: 6vw;
+  font-weight: 900;
+  font-family: 'Fabringo';
+  margin-top: -62px;
+}
+
+#footer .footer .f_cont .f_left .col-sm-12 p {
+  color: #fff;
+  margin-top: 21px;
+  font: 500 25px 'Fabringo';
+}
+
+#footer .footer .f_cont .f_left .col-sm-12 ul li {
+  margin-top: 42px;
+}
+
+#footer .footer .f_cont .f_left .col-sm-12 ul li i {
+  font-size: 20px;
+}
+
+#footer ul li div {
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin-right: 21px;
+}
+
+#footer ul li span {
+  font: 400 20px 'Fabringo';
+}
+
+.f_cont {
+  padding: 250px 50px 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f_right {
+  width: 45%
+}
+
+.f_mail {
+  width: 100%;
+  padding: 20px 30px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+
+.f_mail input,
+.f_mail textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 200;
+  font-family: 'Fabringo';
+  letter-spacing: 1px;
+  background-color: #eee;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+}
+
+.f_mail .fEmail {
+  margin: 20px 0;
+}
+
+.f_mail textarea {
+  border: 1px solid #fff;
+}
+
+.f_mail .f_btn {
+  padding: 10px 30px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-family: 'Fabringo';
+  color: #333;
+  cursor: pointer;
+}
+
+.copy {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+
+
+
+
+.content__item__num {
+  top: -31px;
+  position: absolute;
+  right: 748px;
+  color: #000;
+  font-size: 20vw;
+  z-index: 10000;
+  letter-spacing: -1vw;
+  font-family: 'Theramy';
+  opacity: 0.1;
+}
