@@ -293,6 +293,7 @@ h6 {
   font-family: 'NexonLv1Gothic';
   margin-left: 17px;
   font-size: 18px;
+  line-height: 26px;
 }
 
 #section2 .sec2 .img-wrap > span {
@@ -302,11 +303,11 @@ h6 {
 }
 #section2 .sec2 .img-wrap .i1 {
   width: 2vw;
-  height: 3vw;
+  height: 2vw;
   background: url(../images/angle\ brace.svg) no-repeat;
   background-size: contain;
-  right: 23%;
-  bottom: 39%;
+  right: 22%;
+  bottom: 41%;
 }
 #section2 .sec2 .img-wrap .i2 {
   width: 3vw;
