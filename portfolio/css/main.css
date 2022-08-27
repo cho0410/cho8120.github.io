@@ -1406,14 +1406,18 @@ h6 {
 
 #section15 .f-icon .i2 {
   position: absolute;
-  top: 183px;
-  left: 675px;
+  top: 23%;
+  left: 40%;
+  width: 6vw;
+  height: 4vw;
 }
 
 #section15 .f-icon .i3 {
   position: absolute;
   left: 399px;
-  top: 237px;
+  top: 243px;
+  width: 9vw;
+  height: 7vw;
 }
 
 #section15 .f-icon .i4 {
@@ -1424,21 +1428,25 @@ h6 {
 
 #section15 .f-icon .i5 {
   position: absolute;
-  left: 682px;
-  bottom: 215px;
+  left: 36%;
+  bottom: 19%;
+  width: 6vw;
+  height: 8vw;
 }
 
 #section15 .f-icon .i6 {
   position: absolute;
-  top: 162px;
-  left: 998px;
+  top: 18%;
+  left: 56%;
+  width: 7vw;
+  height: 10vw;
 }
 
 #section15 .f-icon .i7 {
   position: absolute;
-  right: 307px;
-  top: 480px;
-  transform: rotate(-26deg);
+  right: 9%;
+  top: 41%;
+  transform: rotate(5deg);
 }
 
 
