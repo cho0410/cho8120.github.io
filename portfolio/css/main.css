@@ -83,14 +83,14 @@
 }
 .container-button--2 .button-3d--1 .front__1,
 .container-button--2 .button-3d--2 .front__1 {
-  transform: rotatex(0deg) translatez(20px);
+  transform: rotateX(0deg) translateZ(20px);
 }
 .container-button--2 .button-3d--1 .back__1,
 .container-button--2 .button-3d--2 .back__1 {
-  transform: rotatex(-90deg) translatez(20px);
+  transform: rotateX(-90deg) translateZ(20px);
 }
 .container-button--2:hover .button-3d--1 {
-  transform: rotatex(90deg);
+  transform: rotateX(90deg);
 }
 .container-button--2 .button-3d--2 .front__2,
 .container-button--2 .button-3d--2 .back__2 {
@@ -109,13 +109,13 @@
   transition: all 1s;
 }
 .container-button--2 .button-3d--2 .front__2 {
-  transform: rotatex(0deg) translatez(20px);
+  transform: rotateX(0deg) translateZ(20px);
 }
 .container-button--2 .button-3d--2 .back__2 {
-  transform: rotatex(90deg) translatez(20px);
+  transform: rotateX(90deg) translateZ(20px);
 }
 .container-button--2:hover .button-3d--2 {
-  transform: rotatex(-90deg);
+  transform: rotateX(-90deg);
 }
 .container-button--2:hover .back__1 {
   background-color: white;
