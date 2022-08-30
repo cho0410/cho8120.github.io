@@ -1193,6 +1193,15 @@
   position: relative;
 }
 
+#section10 .site .right h2 {
+  font-size: 0.9vw;
+  font-family: 'Syncopate';
+  font-weight: 600;
+  margin-left: 17%;
+  text-align: right;
+  margin-top: -1vw;
+}
+
 #section10 .site .right h3 {
   font-size: 5vw;
   font-family: 'Syncopate';
@@ -1203,6 +1212,14 @@
   text-align: right;
 }
 
+#section10 .site .right span {
+  font-family: 'NexonLv1Gothic';
+  font-size: 18px;
+  margin-left: 74%;
+  text-align: right;
+  text-decoration: underline;
+  text-underline-position: under;
+}
 #section10 .site .right p {
   font-family: 'NexonLv1Gothic';
   word-break: keep-all;
@@ -1219,7 +1236,7 @@
   z-index: 2;
   border: 0.4rem solid #000;
   border-radius: 29px;
-  background: url(../images/web.svg) no-repeat center;
+  background: url(../images/Rectangle\ 10914.svg) no-repeat center;
   position: absolute;
 bottom: 7%;
 }
@@ -1279,6 +1296,15 @@ bottom: 7%;
   position: relative;
 }
 
+#section11 .site .right h2 {
+  font-size: 0.9vw;
+  font-family: 'Syncopate';
+  font-weight: 600;
+  margin-left: 17%;
+  text-align: right;
+  margin-top: -1vw;
+}
+
 #section11 .site .right h3 {
   font-size: 5vw;
   font-family: 'Syncopate';
@@ -1287,6 +1313,15 @@ bottom: 7%;
   margin-left: 17%;
   margin-top: 2vw;
   text-align: right;
+}
+
+#section11 .site .right span {
+  font-family: 'NexonLv1Gothic';
+  font-size: 18px;
+  margin-left: 74%;
+  text-align: right;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 #section11 .site .right p {
@@ -1305,7 +1340,7 @@ bottom: 7%;
   z-index: 2;
   border: 0.4rem solid #000;
   border-radius: 29px;
-  background: url(../images/web.svg) no-repeat center;
+  background: url(../images/Rectangle\ 10914.svg) no-repeat center;
   position: absolute;
 bottom: 7%;
 }
@@ -1366,6 +1401,15 @@ bottom: 7%;
   position: relative;
 }
 
+#section12 .site .right h2 {
+  font-size: 0.9vw;
+  font-family: 'Syncopate';
+  font-weight: 600;
+  margin-left: 17%;
+  text-align: right;
+  margin-top: -1vw;
+}
+
 #section12 .site .right h3 {
   font-size: 5vw;
   font-family: 'Syncopate';
@@ -1374,6 +1418,15 @@ bottom: 7%;
   margin-left: 17%;
   margin-top: 2vw;
   text-align: right;
+}
+
+#section12 .site .right span {
+  font-family: 'NexonLv1Gothic';
+  font-size: 18px;
+  margin-left: 74%;
+  text-align: right;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 #section12 .site .right p {
@@ -1392,7 +1445,7 @@ bottom: 7%;
   z-index: 2;
   border: 0.4rem solid #000;
   border-radius: 29px;
-  background: url(../images/web.svg) no-repeat center;
+  background: url(../images/Rectangle\ 10914.svg) no-repeat center;
   position: absolute;
 bottom: 7%;
 }
@@ -1452,6 +1505,15 @@ bottom: 7%;
   position: relative;
 }
 
+#section13 .site .right h2 {
+  font-size: 0.9vw;
+  font-family: 'Syncopate';
+  font-weight: 600;
+  margin-left: 17%;
+  text-align: right;
+  margin-top: -1vw;
+}
+
 #section13 .site .right h3 {
   font-size: 5vw;
   font-family: 'Syncopate';
@@ -1460,6 +1522,15 @@ bottom: 7%;
   margin-left: 17%;
   margin-top: 2vw;
   text-align: right;
+}
+
+#section13 .site .right span {
+  font-family: 'NexonLv1Gothic';
+  font-size: 18px;
+  margin-left: 74%;
+  text-align: right;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 #section13 .site .right p {
@@ -1478,7 +1549,7 @@ bottom: 7%;
   z-index: 2;
   border: 0.4rem solid #000;
   border-radius: 29px;
-  background: url(../images/web.svg) no-repeat center;
+  background: url(../images/Rectangle\ 10914.svg) no-repeat center;
   position: absolute;
   bottom: 7%;
 }
