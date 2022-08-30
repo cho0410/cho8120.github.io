@@ -1198,76 +1198,65 @@
   font-family: 'Syncopate';
   text-transform: uppercase;
   font-weight: bold;
-  margin-left: -5%;
-  margin-top: 11vw;
+  margin-left: 17%;
+  margin-top: 7vw;
+  text-align: right;
 }
 
 #section10 .site .right p {
   font-family: 'NexonLv1Gothic';
-  padding-right: 30%;
   word-break: keep-all;
   font-size: 18px;
   line-height: 1.6;
-  margin-bottom: 30px;
+  margin-top: 7%;
+  margin-left: 18%;
+  text-align: right;
 }
 
 #section10 .site .left .top-box {
-  width: 550px;
-  height: 751px;
-  z-index: 2;
-  border: 0.2rem solid #000;
-  border-radius: 29px;
-  background-color: #e2eaf9;
-}
-
-#section10 .left .top-box .img-box {
-  margin-top: 68px !important;
-  width: 85%;
+  width: 768px;
   height: 500px;
-  margin: 0 auto;
-  border: 1px solid #000;
-  border-radius: 24px;
-  background: #fff;
+  z-index: 2;
+  border: 0.4rem solid #000;
+  border-radius: 29px;
+  background: url(../images/web.svg) no-repeat center;
+  position: absolute;
+  top: 13%;
 }
 
-#section10 .site .left .top-box img {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
-#section10 .site .left .top-box .btn {
+#section10 .site .right .btn {
   display: flex;
   flex: 2;
   justify-content: space-between;
   flex-direction: row;
-  margin: 0 37px;
+  margin-left: 59%;
 }
 
-#section10 .site .left .top-box .btn a {
+#section10 .site .right .btn a {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Syncopate';
-  font-size: 1vw;
+  font-size: 0.8vw;
   padding: 1vw;
   width: 100%;
-  color: #fff;
-  background-color: #000;
+  height: 50px;
+  color: #000;
   margin-top: 53px;
   margin-right: 7px;
   border-radius: 5px 5px;
   transition: all 0.3s ease-out;
+  border: 1px solid #000;
 }
 
-#section10 .site .left .top-box .btn a:last-of-type {
+#section10 .site .right .btn a:last-of-type {
   margin-right: 0;
 }
 
 
-#section10 .site .left .top-box a:hover {
-  color: #000;
-  background-color: #fff;
+#section10 .site .right a:hover {
+  color: #fff;
+  background-color: #000;
 }
 
 /* #section11 */
@@ -1295,77 +1284,67 @@
   font-family: 'Syncopate';
   text-transform: uppercase;
   font-weight: bold;
-  margin-left: -5%;
-  margin-top: 11vw;
+  margin-left: 17%;
+  margin-top: 7vw;
+  text-align: right;
 }
 
 #section11 .site .right p {
   font-family: 'NexonLv1Gothic';
-  padding-right: 30%;
   word-break: keep-all;
   font-size: 18px;
   line-height: 1.6;
-  margin-bottom: 30px;
+  margin-top: 7%;
+  margin-left: 18%;
+  text-align: right;
 }
 
 #section11 .site .left .top-box {
-  width: 550px;
-  height: 751px;
-  z-index: 2;
-  border: 0.2rem solid #000;
-  border-radius: 29px;
-  background-color: #e2eaf9;
-}
-
-#section11 .left .top-box .img-box {
-  margin-top: 68px !important;
-  width: 85%;
+  width: 768px;
   height: 500px;
-  margin: 0 auto;
-  border: 1px solid #000;
-  border-radius: 24px;
-  background: #fff;
+  z-index: 2;
+  border: 0.4rem solid #000;
+  border-radius: 29px;
+  background: url(../images/web.svg) no-repeat center;
+  position: absolute;
+  top: 13%;
 }
 
-#section11 .site .left .top-box img {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
-#section11 .site .left .top-box .btn {
+#section11 .site .right .btn {
   display: flex;
   flex: 2;
   justify-content: space-between;
   flex-direction: row;
-  margin: 0 37px;
+  margin-left: 59%;
 }
 
-#section11 .site .left .top-box .btn a {
+#section11 .site .right .btn a {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Syncopate';
-  font-size: 1vw;
+  font-size: 0.8vw;
   padding: 1vw;
   width: 100%;
-  color: #fff;
-  background-color: #000;
+  height: 50px;
+  color: #000;
   margin-top: 53px;
   margin-right: 7px;
   border-radius: 5px 5px;
   transition: all 0.3s ease-out;
+  border: 1px solid #000;
 }
 
-#section11 .site .left .top-box .btn a:last-of-type {
+#section11 .site .right .btn a:last-of-type {
   margin-right: 0;
 }
 
 
-#section11 .site .left .top-box a:hover {
-  color: #000;
-  background-color: #fff;
+#section11 .site .right a:hover {
+  color: #fff;
+  background-color: #000;
 }
+
 
 /* #section12 */
 #section12 .site {
@@ -1392,76 +1371,65 @@
   font-family: 'Syncopate';
   text-transform: uppercase;
   font-weight: bold;
-  margin-left: -5%;
-  margin-top: 11vw;
+  margin-left: 17%;
+  margin-top: 7vw;
+  text-align: right;
 }
 
 #section12 .site .right p {
   font-family: 'NexonLv1Gothic';
-  padding-right: 30%;
   word-break: keep-all;
   font-size: 18px;
   line-height: 1.6;
-  margin-bottom: 30px;
+  margin-top: 7%;
+  margin-left: 18%;
+  text-align: right;
 }
 
 #section12 .site .left .top-box {
-  width: 550px;
-  height: 751px;
-  z-index: 2;
-  border: 0.2rem solid #000;
-  border-radius: 29px;
-  background-color: #e2eaf9;
-}
-
-#section12 .left .top-box .img-box {
-  margin-top: 68px !important;
-  width: 85%;
+  width: 768px;
   height: 500px;
-  margin: 0 auto;
-  border: 1px solid #000;
-  border-radius: 24px;
-  background: #fff;
+  z-index: 2;
+  border: 0.4rem solid #000;
+  border-radius: 29px;
+  background: url(../images/web.svg) no-repeat center;
+  position: absolute;
+  top: 13%;
 }
 
-#section12 .site .left .top-box img {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
-#section12 .site .left .top-box .btn {
+#section12 .site .right .btn {
   display: flex;
   flex: 2;
   justify-content: space-between;
   flex-direction: row;
-  margin: 0 37px;
+  margin-left: 59%;
 }
 
-#section12 .site .left .top-box .btn a {
+#section12 .site .right .btn a {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Syncopate';
-  font-size: 1vw;
+  font-size: 0.8vw;
   padding: 1vw;
   width: 100%;
-  color: #fff;
-  background-color: #000;
+  height: 50px;
+  color: #000;
   margin-top: 53px;
   margin-right: 7px;
   border-radius: 5px 5px;
   transition: all 0.3s ease-out;
+  border: 1px solid #000;
 }
 
-#section12 .site .left .top-box .btn a:last-of-type {
+#section12 .site .right .btn a:last-of-type {
   margin-right: 0;
 }
 
 
-#section12 .site .left .top-box a:hover {
-  color: #000;
-  background-color: #fff;
+#section12 .site .right a:hover {
+  color: #fff;
+  background-color: #000;
 }
 
 /* #section13 */
@@ -1489,75 +1457,64 @@
   font-family: 'Syncopate';
   text-transform: uppercase;
   font-weight: bold;
-  margin-left: -5%;
-  margin-top: 11vw;
+  margin-left: 17%;
+  margin-top: 7vw;
+  text-align: right;
 }
 
 #section13 .site .right p {
   font-family: 'NexonLv1Gothic';
-  padding-right: 30%;
   word-break: keep-all;
   font-size: 18px;
   line-height: 1.6;
-  margin-bottom: 30px;
+  margin-top: 7%;
+  margin-left: 18%;
+  text-align: right;
 }
 
 #section13 .site .left .top-box {
-  width: 550px;
-  height: 751px;
-  z-index: 2;
-  border: 0.2rem solid #000;
-  border-radius: 29px;
-  background-color: #e2eaf9;
-}
-
-#section13 .left .top-box .img-box {
-  margin-top: 68px !important;
-  width: 85%;
+  width: 768px;
   height: 500px;
-  margin: 0 auto;
-  border: 1px solid #000;
-  border-radius: 24px;
-  background: #fff;
+  z-index: 2;
+  border: 0.4rem solid #000;
+  border-radius: 29px;
+  background: url(../images/web.svg) no-repeat center;
+  position: absolute;
+  top: 13%;
 }
 
-#section13 .site .left .top-box img {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
-#section13 .site .left .top-box .btn {
+#section13 .site .right .btn {
   display: flex;
   flex: 2;
   justify-content: space-between;
   flex-direction: row;
-  margin: 0 37px;
+  margin-left: 59%;
 }
 
-#section13 .site .left .top-box .btn a {
+#section13 .site .right .btn a {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Syncopate';
-  font-size: 1vw;
+  font-size: 0.8vw;
   padding: 1vw;
   width: 100%;
-  color: #fff;
-  background-color: #000;
+  height: 50px;
+  color: #000;
   margin-top: 53px;
   margin-right: 7px;
   border-radius: 5px 5px;
   transition: all 0.3s ease-out;
+  border: 1px solid #000;
 }
 
-#section13 .site .left .top-box .btn a:last-of-type {
+#section13 .site .right .btn a:last-of-type {
   margin-right: 0;
 }
 
 
-#section13 .site .left .top-box a:hover {
-  color: #000;
-  background-color: #fff;
+#section13 .site .right a:hover {
+  color: #fff;
+  background-color: #000;
 }
 
