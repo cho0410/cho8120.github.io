@@ -1199,7 +1199,7 @@
   text-transform: uppercase;
   font-weight: bold;
   margin-left: 17%;
-  margin-top: 7vw;
+  margin-top: 2vw;
   text-align: right;
 }
 
@@ -1221,7 +1221,7 @@
   border-radius: 29px;
   background: url(../images/web.svg) no-repeat center;
   position: absolute;
-  top: 13%;
+bottom: 7%;
 }
 
 #section10 .site .right .btn {
@@ -1285,7 +1285,7 @@
   text-transform: uppercase;
   font-weight: bold;
   margin-left: 17%;
-  margin-top: 7vw;
+  margin-top: 2vw;
   text-align: right;
 }
 
@@ -1307,7 +1307,7 @@
   border-radius: 29px;
   background: url(../images/web.svg) no-repeat center;
   position: absolute;
-  top: 13%;
+bottom: 7%;
 }
 
 #section11 .site .right .btn {
@@ -1372,7 +1372,7 @@
   text-transform: uppercase;
   font-weight: bold;
   margin-left: 17%;
-  margin-top: 7vw;
+  margin-top: 2vw;
   text-align: right;
 }
 
@@ -1394,7 +1394,7 @@
   border-radius: 29px;
   background: url(../images/web.svg) no-repeat center;
   position: absolute;
-  top: 13%;
+bottom: 7%;
 }
 
 #section12 .site .right .btn {
@@ -1458,7 +1458,7 @@
   text-transform: uppercase;
   font-weight: bold;
   margin-left: 17%;
-  margin-top: 7vw;
+  margin-top: 2vw;
   text-align: right;
 }
 
@@ -1480,7 +1480,7 @@
   border-radius: 29px;
   background: url(../images/web.svg) no-repeat center;
   position: absolute;
-  top: 13%;
+  bottom: 7%;
 }
 
 #section13 .site .right .btn {
