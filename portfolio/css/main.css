@@ -1642,6 +1642,7 @@ bottom: 7%;
   height: 500px;
   color: #000;
   position: relative;
+  z-index: 10;
 }
 
 #section14 .site .right h2 {
@@ -1658,7 +1659,7 @@ bottom: 7%;
   font-family: 'Syncopate';
   text-transform: uppercase;
   font-weight: bold;
-  margin-left: 2%;
+  margin-left: -29%;
   margin-top: 26vw;
 }
 
@@ -1736,6 +1737,7 @@ bottom: 7%;
   width: 50%;
   height: 500px;
   position: relative;
+  z-index: 10;
 }
 
 #section14 .site1 .left .num {
