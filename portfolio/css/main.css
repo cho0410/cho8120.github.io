@@ -1818,7 +1818,7 @@ bottom: 7%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Syncopate';
+  font-family: 'NexonLv1Gothic';
   font-size: 0.8vw;
   padding: 1vw;
   width: 100%;
@@ -1840,3 +1840,106 @@ bottom: 7%;
   color: #fff;
   background-color: #000;
 }
+
+/* footer  */
+
+#footer {
+  color: #000;
+}
+
+#footer .f_cont {
+  padding: 200px 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+#footer .f_cont .f_left {
+  padding: 7vw 0 0 11vw;
+}
+
+#footer .footer .f_cont .f_left .col-sm-12 .title {
+  font-size: 6em;
+  font-weight: 600;
+  font-family: 'NexonLv1Gothic';
+}
+
+#footer .footer .f_cont .f_left .col-sm-12 p {
+  color: #000;
+  margin-top: 21px;
+  font: 500 25px 'NexonLv1Gothic';
+}
+
+#footer .footer .f_cont .f_left .col-sm-12 ul li {
+  margin-top: 42px;
+}
+
+#footer .footer .f_cont .f_left .col-sm-12 ul li i {
+  font-size: 20px;
+}
+
+#footer ul li div {
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin-right: 21px;
+}
+
+#footer ul li span {
+  font:20px 'NexonLv1Gothic';
+}
+.f_right {
+  width: 45%;
+  position: absolute;
+  right: 3vw;
+  top: 18vw;
+}
+
+.f_mail {
+  width: 100%;
+  padding: 2vw 2vw;
+  border: 2px solid #333;
+  border-radius: 30px;
+}
+
+.f_mail input,
+.f_mail textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 200;
+  font-family: 'NexonLv1Gothic';
+  letter-spacing: 1px;
+  background-color: #eee;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+}
+
+.f_mail .fEmail {
+  margin: 20px 0;
+}
+
+.f_mail textarea {
+  border: 1px solid #fff;
+}
+
+.f_mail .f_btn {
+  padding: 10px 30px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-family: 'NexonLv1Gothic';
+  border: 1px solid #e2e2e2;
+  color: #333;
+  cursor: pointer;
+}
+
+.copy {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+
+
