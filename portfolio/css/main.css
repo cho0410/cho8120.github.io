@@ -1954,7 +1954,444 @@
 /******************************* 미디어쿼리 선언시작 **********************************/
 
 /************************* Desktop Area Start *************************/
-@media screen and (max-width: 1199px) {
+
+@media (max-width: 1280px) {
+  #contents section {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #section1 .sec1 .text-wrap .t1 {
+    left: 6%;
+    top: 64%;
+  }
+
+  #section1 .sec1 .text-wrap .t2 {
+    left: 20%;
+    top: 33%;
+  }
+
+  #section1 .sec1 .text-wrap .t3 {
+    left: 30%;
+    top: 64%;
+  }
+
+  #section1 .sec1 .text-wrap .t4 {
+    left: 40%;
+    top: 38%;
+  }
+
+  #section1 .sec1 .text-wrap .t5 {
+    left: 50%;
+    top: 51%;
+  }
+
+  #section1 .sec1 .text-wrap .t6 {
+    left: 58%;
+    top: 65%;
+  }
+
+  #section1 .sec1 .text-wrap .t7 {
+    left: 70%;
+    top: 37%;
+  }
+
+  #section1 .sec1 .text-wrap .t8 {
+    left: 79%;
+    top: 48%;
+  }
+
+  #section1 .sec1 .text-wrap .t9 {
+    left: 90%;
+    top: 63%;
+  }
+
+  #section1 .sec1 .img-wrap .i1 {
+    left: 39%;
+    bottom: -6%;
+  }
+
+  #section1 .sec1 .img-wrap .i2 {
+    left: 51%;
+    top: 20%;
+  }
+
+  #section1 .sec1 .img-wrap .i3 {
+    left: 62%;
+    bottom: 9%;
+  }
+
+  #section1 .sec1 .img-wrap .i4 {
+    left: 3%;
+    bottom: -1%;
+  }
+
+  #section1 .sec1 .img-wrap .i5 {
+    left: 8%;
+    top: 33%;
+  }
+
+  #section1 .sec1 .img-wrap .i6 {
+    left: 33%;
+    top: 17%;
+  }
+
+  #section1 .sec1 .img-wrap .i7 {
+    left: 79%;
+    bottom: 10%;
+  }
+
+  #section1 .sec1 .img-wrap .i8 {
+    left: 15%;
+    top: 22%;
+  }
+
+  #section1 .sec1 .img-wrap .i9 {
+    left: 26%;
+    bottom: 9%;
+  }
+
+  #section1 .sec1 .img-wrap .i10 {
+    left: 10%;
+    bottom: 12%;
+  }
+
+  #section1 .sec1 .img-wrap .i11 {
+    left: 66%;
+    top: 20%;
+  }
+
+  #section1 .sec1 .img-wrap .i12 {
+    left: 78%;
+    top: 22%;
+  }
+
+  #section2 .sec2_about .right {
+    width: 50%;
+    font-family: "Syncopate";
+    margin-right: 2vw;
+  }
+
+  #section2 .sec2_about .right p {
+    margin-left: -1px;
+    font-size: 0.9em;
+    line-height: 21px;
+    padding-right: 30%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i1 {
+    left: 67%;
+    top: 2%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i2 {
+    left: 59%;
+    top: 25%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i3 {
+    right: 41%;
+    top: 10%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i4 {
+    left: 23%;
+    top: 7%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i5 {
+    left: 5%;
+    top: 8%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i6 {
+    right: 52%;
+    top: 37%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i7 {
+    right: 78%;
+    top: 38%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i8 {
+    left: -5%;
+    top: 27%;
+  }
+
+  #section2 .sec2_about .left {
+    margin-left: 12vw;
+  }
+
+  #section3 .sec3 .site .right .i0 {
+    position: absolute;
+    top: -4%;
+    left: 14%;
+  }
+
+  #section3 .sec3 .site .left .bg .img {
+    transform: translate(1vw, 1vw);
+  }
+
+  #section3 .sec3 .site .left .bg .img1 {
+    transform: translate(2vw, -39vw);
+  }
+
+  #section3 .sec3 .site .right .i1 {
+    position: absolute;
+    top: 81%;
+    right: 20%;
+  }
+
+  #section3 .sec3 .site .right h3 {
+    margin-left: -26%;
+    margin-top: 10vw;
+  }
+
+  #section3 .sec3 .site .right p {
+    margin-bottom: 30px;
+    margin-left: 3vw;
+  }
+
+  #section3 .sec3 .site .right .container-button--2 {
+    margin-left: 11%;
+  }
+
+  #section3 .sec3 .site .right .i2 {
+    display: none;
+  }
+
+  #section4 .site .left .bg .img {
+    transform: translate(2.2vw, 0.5vw);
+  }
+
+  #section4 .site .left .bg .img1 {
+    transform: translate(1vw, -39.5vw);
+  }
+
+  #section4 .site .left .bg {
+    position: absolute;
+    right: 5%;
+  }
+
+  #section4 .site .right h3 {
+    margin-left: 22%;
+    margin-top: 10vw;
+  }
+
+  #section4 .site .left .i3 {
+    position: absolute;
+    top: 0%;
+    left: -71%;
+  }
+
+  #section4 .site .right p {
+    margin-right: 3vw;
+    padding-left: 3%;
+    padding-right: 0;
+  }
+
+  #section4 .button-3d--1 {
+    position: absolute;
+    left: 73%;
+  }
+
+  #section4 .button-3d--2 {
+    position: absolute;
+    left: 50%;
+  }
+
+  #section4 .site .left .i5 {
+    position: absolute;
+    top: 70%;
+    right: 124%;
+  }
+
+  #section4 .site .left .i4 {
+    display: none;
+  }
+
+  #section5 .site .left .bg .img {
+    transform: translate(1vw, 1vw);
+  }
+
+  #section5 .site .left .bg .img1 {
+    transform: translate(2vw, -39vw);
+  }
+
+  #section5 .site .right h3 {
+    margin-left: -26%;
+    margin-top: 10vw;
+  }
+
+  #section5 .site .right p {
+    margin-bottom: 30px;
+    margin-left: 3vw;
+    padding-right: 24%;
+  }
+
+  #section5 .site .right .container-button--2 {
+    margin-left: 11%;
+  }
+
+  #section5 .site .right .i7 {
+    position: absolute;
+    top: -2%;
+    right: 75%;
+  }
+
+  #section5 .site .right .i8 {
+    position: absolute;
+    top: 84%;
+    right: 9%;
+    width: 15vw;
+    height: 13vw;
+    transform: rotate(3deg);
+  }
+
+  #section6 .site .left .bg .img {
+    transform: translate(2.2vw, 0.5vw);
+  }
+
+  #section6 .site .left .bg .img1 {
+    transform: translate(1vw, -39.5vw);
+  }
+
+  #section6 .site .left .bg {
+    position: absolute;
+    right: 5%;
+  }
+
+  #section6 .site .right h3 {
+    margin-left: 7%;
+    margin-top: 10vw;
+  }
+
+  #section6 .site .right .i9 {
+    position: absolute;
+    top: 5%;
+    left: 23%;
+  }
+
+  #section6 .site .right p {
+    margin-right: 3vw;
+    padding-left: 3%;
+    padding-right: 0;
+  }
+
+  #section6 .button-3d--1 {
+    position: absolute;
+    left: 77%;
+  }
+
+  #section6 .button-3d--2 {
+    position: absolute;
+    left: 56%;
+  }
+
+  #section6 .site .right .i3 {
+    position: absolute;
+    bottom: -7%;
+    left: 22%;
+  }
+
+  #section6 .site .left .i2 {
+    position: absolute;
+    bottom: -22%;
+    left: 64%;
+  }
+
+  #section7 .site .left .bg .img {
+    transform: translate(1vw, 1vw);
+  }
+
+  #section7 .site .left .bg .img1 {
+    transform: translate(2vw, -39vw);
+  }
+
+  #section7 .site .right h3 {
+    margin-left: -26%;
+    margin-top: 10vw;
+  }
+
+  #section7 .site .right p {
+    margin-bottom: 30px;
+    margin-left: 3vw;
+    padding-right: 24%;
+  }
+
+  #section7 .site .right .container-button--2 {
+    margin-left: 11%;
+  }
+
+  #section7 .site .right .i3 {
+    position: absolute;
+    top: 3%;
+    left: 62%;
+  }
+
+  #section7 .site .right .i4 {
+    display: none;
+  }
+
+  #section8 .site .left .bg .img {
+    transform: translate(2.2vw, 0.5vw);
+  }
+
+  #section8 .site .left .bg .img1 {
+    transform: translate(1vw, -39.5vw);
+  }
+
+  #section8 .site .left .bg {
+    position: absolute;
+    right: 5%;
+  }
+
+  #section8 .site .right h3 {
+    margin-left: 7%;
+    margin-top: 10vw;
+  }
+
+  #section8 .site .right .i9 {
+    position: absolute;
+    top: 5%;
+    left: 23%;
+  }
+
+  #section8 .site .right p {
+    margin-right: 3vw;
+    padding-left: 3%;
+    padding-right: 0;
+  }
+
+  #section8 .button-3d--1 {
+    position: absolute;
+    left: 77%;
+  }
+
+  #section8 .button-3d--2 {
+    position: absolute;
+    left: 56%;
+  }
+
+  #section8 .site .right .i3 {
+    position: absolute;
+    top: 1%;
+    left: 22%;
+  }
+
+  #section8 .site .left .i5 {
+    position: absolute;
+    top: 64%;
+    right: 140%;
+  }
+
+  #section8 .site .left .i4 {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
   #contents section {
     width: 100%;
     overflow: hidden;
@@ -2391,7 +2828,7 @@
 }
 
 /************************* Tablet Area Start *************************/
-@media screen and (max-width: 991px) {
+@media (max-width: 960px) {
   #contents section {
     width: 100%;
     overflow: hidden;
@@ -2875,7 +3312,7 @@
 }
 
 /************************* Mobile Area Start *************************/
-@media screen and (max-width: 767px) {
+@media (max-width: 768px) {
   #section1 .sec1 .text-wrap .t1 {
     position: absolute;
     left: 6%;
@@ -3070,7 +3507,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 576px) {
   #contents section {
     width: 100%;
     overflow: hidden;
