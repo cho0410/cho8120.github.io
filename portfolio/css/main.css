@@ -1,33 +1,32 @@
 @charset "utf-8";
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Keania+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
-@import url('https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css');
+@import url("https://fonts.googleapis.com/css2?family=Keania+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Faster+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap");
+@import url("https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css");
 
 .k {
-  font-family: 'Keania One';
+  font-family: "Keania One";
 }
 
 .f {
-  font-family: 'Faster One';
+  font-family: "Faster One";
 }
 
 .a {
-  font-family: 'Fascinate Inline';
+  font-family: "Fascinate Inline";
 }
 
 .t {
-  font-family: 'Tapestry';
+  font-family: "Tapestry";
 }
 
 .b {
-  font-family: 'Berkshire Swash';
+  font-family: "Berkshire Swash";
 }
-
 
 .button {
   width: 100px;
@@ -81,7 +80,7 @@
   justify-content: center;
   align-items: center;
   background-color: white;
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   font-weight: 600;
   color: #000;
   transition: all 1s;
@@ -111,7 +110,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   font-weight: 600;
   background-color: white;
   color: #000;
@@ -141,7 +140,8 @@
 }
 
 /* layout */
-#contents {}
+#contents {
+}
 
 #section1 {
   height: 100vh;
@@ -184,7 +184,8 @@
 }
 
 /* sec1 */
-.sec1 {}
+.sec1 {
+}
 
 .sec1 .text-wrap {
   position: absolute;
@@ -251,7 +252,7 @@
   top: 60%;
 }
 
-.sec1 .img-wrap>span {
+.sec1 .img-wrap > span {
   display: block;
   position: absolute;
   z-index: 100;
@@ -366,8 +367,6 @@
   top: 15%;
 }
 
-
-
 /* sec2_about */
 #section2 .sec2 {
   padding: 200px 0;
@@ -402,7 +401,7 @@
 
 #section2 .sec2_about .right {
   width: 44%;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
 }
 
 #section2 .sec2_about .right h2 {
@@ -424,7 +423,7 @@
 
 #section2 .sec2_about .right p {
   color: #fff;
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   margin-left: 15px;
   font-size: 1em;
   line-height: 24px;
@@ -443,7 +442,7 @@
   background: url(../images/angle\ brace.svg) no-repeat;
   background-size: contain;
   position: absolute;
-  left: 58%;
+  left: 86%;
   top: 0%;
 }
 
@@ -517,17 +516,17 @@
   top: 23%;
 }
 
-
 /* sec3 */
 #section3 .sec3 {
   padding-top: 200px;
 }
 
 #section3 .sec3 h2 {
-  background: url(https://munich.qodeinteractive.com/wp-content/uploads/2022/03/landing-bottom-bg-img.jpg) no-repeat center;
+  background: url(https://munich.qodeinteractive.com/wp-content/uploads/2022/03/landing-bottom-bg-img.jpg)
+    no-repeat center;
   text-align: center;
   color: #fff;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   padding: 10vw 0;
   font-size: 8vw;
   text-transform: uppercase;
@@ -596,7 +595,7 @@
 
 #section3 .sec3 .site .right h3 {
   font-size: 5vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
   margin-left: -40%;
@@ -604,7 +603,7 @@
 }
 
 #section3 .sec3 .site .right p {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   padding-right: 30%;
   padding-left: 4%;
   word-break: keep-all;
@@ -621,7 +620,7 @@
   display: inline-block;
   background: #fff;
   color: #000;
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   padding: 10px 50px;
   margin-right: 5px;
 }
@@ -709,7 +708,7 @@
 
 #section4 .site .right h3 {
   font-size: 5vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
   margin-left: 11%;
@@ -717,7 +716,7 @@
 }
 
 #section4 .site .right p {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   padding-left: 30%;
   padding-right: 4%;
   word-break: keep-all;
@@ -735,7 +734,7 @@
   display: inline-block;
   background: #fff;
   color: #000;
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   padding: 10px 50px;
   margin-right: 5px;
 }
@@ -808,7 +807,6 @@
   transform: translate(0.5vw, -24.5vw);
 }
 
-
 #section5 .site .right {
   width: 50%;
   height: 500px;
@@ -818,7 +816,7 @@
 
 #section5 .site .right h3 {
   font-size: 5vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
   margin-left: -40%;
@@ -826,7 +824,7 @@
 }
 
 #section5 .site .right p {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   padding-right: 30%;
   padding-left: 4%;
   word-break: keep-all;
@@ -838,8 +836,6 @@
 #section5 .site .right .btn {
   padding-left: 4%;
 }
-
-
 
 #section5 .site .left .i6 {
   position: absolute;
@@ -924,7 +920,7 @@
 
 #section6 .site .right h3 {
   font-size: 5vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
   margin-right: -66%;
@@ -933,7 +929,7 @@
 }
 
 #section6 .site .right p {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   padding-left: 30%;
   padding-right: 4%;
   word-break: keep-all;
@@ -946,7 +942,6 @@
 #section6 .site .right .btn {
   padding-left: 53%;
 }
-
 
 #section6 .site .right .i9 {
   position: absolute;
@@ -1026,7 +1021,7 @@
 
 #section7 .site .right h3 {
   font-size: 5vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
   margin-left: -40%;
@@ -1034,7 +1029,7 @@
 }
 
 #section7 .site .right p {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   padding-right: 30%;
   padding-left: 4%;
   word-break: keep-all;
@@ -1046,7 +1041,6 @@
 #section7 .site .right .btn {
   padding-left: 4%;
 }
-
 
 #section7 .site .right .i4 {
   position: absolute;
@@ -1122,7 +1116,7 @@
 
 #section8 .site .right h3 {
   font-size: 5vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
   margin-right: -71%;
@@ -1131,7 +1125,7 @@
 }
 
 #section8 .site .right p {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   padding-left: 30%;
   padding-right: 4%;
   word-break: keep-all;
@@ -1178,7 +1172,7 @@
   background: url(../images/bg.svg) no-repeat center;
   text-align: center;
   color: #000;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   padding: 10vw 0;
   font-size: 8vw;
   text-transform: uppercase;
@@ -1215,7 +1209,7 @@
 
 #section10 .site .right h2 {
   font-size: 0.9vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   font-weight: 600;
   margin-left: 17%;
   text-align: right;
@@ -1224,7 +1218,7 @@
 
 #section10 .site .right h3 {
   font-size: 5vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
   margin-left: 17%;
@@ -1233,7 +1227,7 @@
 }
 
 #section10 .site .right span {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   font-size: 18px;
   margin-left: 74%;
   text-align: right;
@@ -1242,7 +1236,7 @@
 }
 
 #section10 .site .right p {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   word-break: keep-all;
   font-size: 18px;
   line-height: 1.6;
@@ -1274,7 +1268,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   font-size: 0.8vw;
   padding: 1vw;
   width: 100%;
@@ -1290,7 +1284,6 @@
 #section10 .site .right .btn a:last-of-type {
   margin-right: 0;
 }
-
 
 #section10 .site .right a:hover {
   color: #fff;
@@ -1319,7 +1312,7 @@
 
 #section11 .site .right h2 {
   font-size: 0.9vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   font-weight: 600;
   margin-left: 17%;
   text-align: right;
@@ -1328,7 +1321,7 @@
 
 #section11 .site .right h3 {
   font-size: 5vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
   margin-left: 17%;
@@ -1337,7 +1330,7 @@
 }
 
 #section11 .site .right span {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   font-size: 18px;
   margin-left: 74%;
   text-align: right;
@@ -1346,7 +1339,7 @@
 }
 
 #section11 .site .right p {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   word-break: keep-all;
   font-size: 18px;
   line-height: 1.6;
@@ -1378,7 +1371,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   font-size: 0.8vw;
   padding: 1vw;
   width: 100%;
@@ -1395,12 +1388,10 @@
   margin-right: 0;
 }
 
-
 #section11 .site .right a:hover {
   color: #fff;
   background-color: #000;
 }
-
 
 /* #section12 */
 #section12 .site {
@@ -1424,7 +1415,7 @@
 
 #section12 .site .right h2 {
   font-size: 0.9vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   font-weight: 600;
   margin-left: 17%;
   text-align: right;
@@ -1433,7 +1424,7 @@
 
 #section12 .site .right h3 {
   font-size: 5vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
   margin-left: 17%;
@@ -1442,7 +1433,7 @@
 }
 
 #section12 .site .right span {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   font-size: 18px;
   margin-left: 74%;
   text-align: right;
@@ -1451,7 +1442,7 @@
 }
 
 #section12 .site .right p {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   word-break: keep-all;
   font-size: 18px;
   line-height: 1.6;
@@ -1483,7 +1474,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   font-size: 0.8vw;
   padding: 1vw;
   width: 100%;
@@ -1499,7 +1490,6 @@
 #section12 .site .right .btn a:last-of-type {
   margin-right: 0;
 }
-
 
 #section12 .site .right a:hover {
   color: #fff;
@@ -1528,7 +1518,7 @@
 
 #section13 .site .right h2 {
   font-size: 0.9vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   font-weight: 600;
   margin-left: 17%;
   text-align: right;
@@ -1537,7 +1527,7 @@
 
 #section13 .site .right h3 {
   font-size: 5vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
   margin-left: 17%;
@@ -1546,7 +1536,7 @@
 }
 
 #section13 .site .right span {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   font-size: 18px;
   margin-left: 74%;
   text-align: right;
@@ -1555,7 +1545,7 @@
 }
 
 #section13 .site .right p {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   word-break: keep-all;
   font-size: 18px;
   line-height: 1.6;
@@ -1587,7 +1577,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   font-size: 0.8vw;
   padding: 1vw;
   width: 100%;
@@ -1604,7 +1594,6 @@
   margin-right: 0;
 }
 
-
 #section13 .site .right a:hover {
   color: #fff;
   background-color: #000;
@@ -1620,7 +1609,7 @@
   background: url(../images/bg.svg) no-repeat center;
   text-align: center;
   color: #000;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   padding: 10vw 0;
   font-size: 8vw;
   text-transform: uppercase;
@@ -1649,7 +1638,7 @@
 }
 
 #section14 .site .left .num {
-  font-family: 'Theramy';
+  font-family: "Theramy";
   font-weight: 600;
   font-size: 25vw;
   opacity: 0.07;
@@ -1668,7 +1657,7 @@
 
 #section14 .site .right h2 {
   font-size: 0.9vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   font-weight: 600;
   margin-left: 17%;
   text-align: right;
@@ -1677,7 +1666,7 @@
 
 #section14 .site .right h3 {
   font-size: 5vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
   margin-left: -29%;
@@ -1685,7 +1674,7 @@
 }
 
 #section14 .site .right span {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   font-size: 18px;
   margin-left: 74%;
   text-align: right;
@@ -1694,7 +1683,7 @@
 }
 
 #section14 .site .right p {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   word-break: keep-all;
   font-size: 18px;
   line-height: 1.6;
@@ -1725,7 +1714,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   font-size: 0.8vw;
   padding: 1vw;
   width: 100%;
@@ -1741,7 +1730,6 @@
 #section14 .site .right .btn a:last-of-type {
   margin-right: 0;
 }
-
 
 #section14 .site .right a:hover {
   color: #fff;
@@ -1763,7 +1751,7 @@
 }
 
 #section14 .site1 .left .num {
-  font-family: 'Theramy';
+  font-family: "Theramy";
   font-weight: 600;
   font-size: 25vw;
   opacity: 0.07;
@@ -1781,7 +1769,7 @@
 
 #section14 .site1 .left h2 {
   font-size: 0.9vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   font-weight: 600;
   margin-left: 17%;
   text-align: right;
@@ -1790,7 +1778,7 @@
 
 #section14 .site1 .left h3 {
   font-size: 5vw;
-  font-family: 'Syncopate';
+  font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
   margin-left: 12%;
@@ -1798,7 +1786,7 @@
 }
 
 #section14 .site1 .left span {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   font-size: 18px;
   margin-left: 74%;
   text-align: right;
@@ -1807,7 +1795,7 @@
 }
 
 #section14 .site1 .left p {
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   word-break: keep-all;
   font-size: 18px;
   line-height: 1.6;
@@ -1840,7 +1828,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   font-size: 0.8vw;
   padding: 1vw;
   width: 100%;
@@ -1856,7 +1844,6 @@
 #section14 .site1 .left .btn a:last-of-type {
   margin-right: 0;
 }
-
 
 #section14 .site1 .left a:hover {
   color: #fff;
@@ -1883,13 +1870,13 @@
 #footer .footer .f_cont .f_left .col-sm-12 .title {
   font-size: 6em;
   font-weight: 600;
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
 }
 
 #footer .footer .f_cont .f_left .col-sm-12 p {
   color: #000;
   margin-top: 21px;
-  font: 500 25px 'NexonLv1Gothic';
+  font: 500 25px "NexonLv1Gothic";
 }
 
 #footer .footer .f_cont .f_left .col-sm-12 ul li {
@@ -1908,7 +1895,7 @@
 }
 
 #footer ul li span {
-  font: 20px 'NexonLv1Gothic';
+  font: 20px "NexonLv1Gothic";
 }
 
 .f_right {
@@ -1932,7 +1919,7 @@
   font-size: 17px;
   line-height: 1.2;
   font-weight: 200;
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   letter-spacing: 1px;
   background-color: #eee;
   border: none;
@@ -1952,7 +1939,7 @@
   padding: 10px 30px;
   margin: 10px 0;
   font-size: 16px;
-  font-family: 'NexonLv1Gothic';
+  font-family: "NexonLv1Gothic";
   border: 1px solid #e2e2e2;
   color: #333;
   cursor: pointer;
@@ -1964,12 +1951,10 @@
   padding-top: 80px;
 }
 
-
-
 /******************************* 미디어쿼리 선언시작 **********************************/
 
 /************************* Desktop Area Start *************************/
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   #contents section {
     width: 100%;
     overflow: hidden;
@@ -2082,13 +2067,55 @@
 
   #section2 .sec2_about .right {
     width: 50%;
-    font-family: 'Syncopate';
+    font-family: "Syncopate";
+    margin-right: 2vw;
   }
 
   #section2 .sec2_about .right p {
     margin-left: -1px;
     font-size: 0.9em;
     line-height: 21px;
+    padding-right: 30%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i1 {
+    left: 67%;
+    top: 2%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i2 {
+    left: 59%;
+    top: 25%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i3 {
+    right: 41%;
+    top: 10%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i4 {
+    left: 23%;
+    top: 7%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i5 {
+    left: 5%;
+    top: 8%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i6 {
+    right: 52%;
+    top: 37%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i7 {
+    right: 78%;
+    top: 38%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i8 {
+    left: -5%;
+    top: 27%;
   }
 
   #section2 .sec2_about .left {
@@ -2361,12 +2388,10 @@
   #section8 .site .left .i4 {
     display: none;
   }
-
-
 }
 
 /************************* Tablet Area Start *************************/
-@media screen and (max-width:991px) {
+@media screen and (max-width: 991px) {
   #contents section {
     width: 100%;
     overflow: hidden;
@@ -2478,22 +2503,74 @@
   }
 
   #section2 .sec2_about .right {
-    width: 50%;
-    font-family: 'Syncopate';
+    width: 44%;
+    font-family: "Syncopate";
   }
 
   #section2 .sec2_about .right h2 em:nth-child(1) {
-    margin-left: -108px;
+    margin-left: -116px;
+  }
+
+  #section2 .sec2_about .right h2 em:nth-child(2) {
+    margin-left: -71px;
+  }
+
+  #section2 .sec2_about .right h2 em:nth-child(3) {
+    margin-left: -2vw;
   }
 
   #section2 .sec2_about .right p {
-    margin-left: -1px;
+    margin-left: -19px;
     font-size: 0.9em;
     line-height: 21px;
   }
 
+  #section2 .sec2_about .right h2 {
+    margin-bottom: 21px;
+  }
+
   #section2 .sec2_about .left {
     margin-left: 12vw;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i1 {
+    left: 62%;
+    top: 2%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i2 {
+    left: 56%;
+    top: 25%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i3 {
+    right: 38%;
+    top: 10%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i4 {
+    left: 20%;
+    top: 7%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i5 {
+    left: 1%;
+    top: 8%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i6 {
+    right: 57%;
+    top: 37%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i7 {
+    right: 83%;
+    top: 38%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i8 {
+    left: -9%;
+    top: 27%;
   }
 
   #section3 .sec3 .site .right .i0 {
@@ -2738,7 +2815,6 @@
     display: none;
   }
 
-
   #section8 .site .left .bg .img {
     width: 90%;
     transform: translate(5vw, 4vw);
@@ -2796,119 +2872,205 @@
     top: 77%;
     right: 145%;
   }
-
-
 }
 
 /************************* Mobile Area Start *************************/
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   #section1 .sec1 .text-wrap .t1 {
+    position: absolute;
     left: 6%;
     top: 53%;
   }
 
   #section1 .sec1 .text-wrap .t2 {
+    position: absolute;
     left: 20%;
-    top: 36%;
+    top: 34%;
   }
 
   #section1 .sec1 .text-wrap .t3 {
-    left: 30%;
+    position: absolute;
+    left: 31%;
     top: 51%;
   }
 
   #section1 .sec1 .text-wrap .t4 {
-    left: 41%;
-    top: 39%;
+    position: absolute;
+    left: 40%;
+    top: 36%;
   }
 
   #section1 .sec1 .text-wrap .t5 {
-    left: 51%;
-    top: 45%;
+    position: absolute;
+    left: 50%;
+    top: 43%;
   }
 
   #section1 .sec1 .text-wrap .t6 {
-    left: 62%;
-    top: 51%;
+    position: absolute;
+    left: 59%;
+    top: 50%;
   }
 
   #section1 .sec1 .text-wrap .t7 {
-    left: 75%;
-    top: 38%;
+    position: absolute;
+    left: 72%;
+    top: 35%;
   }
 
   #section1 .sec1 .text-wrap .t8 {
-    left: 84%;
-    top: 42%;
+    position: absolute;
+    left: 81%;
+    top: 41%;
   }
 
   #section1 .sec1 .text-wrap .t9 {
-    left: 94%;
-    top: 52%;
+    position: absolute;
+    left: 92%;
+    top: 51%;
   }
 
   #section1 .sec1 .img-wrap .i1 {
-    left: 39%;
-    bottom: 27%;
+    position: absolute;
+    left: 38%;
+    bottom: 25%;
   }
 
   #section1 .sec1 .img-wrap .i2 {
-    left: 53%;
-    top: 32%;
+    position: absolute;
+    left: 51%;
+    top: 27%;
   }
 
   #section1 .sec1 .img-wrap .i3 {
+    position: absolute;
     left: 62%;
     bottom: 34%;
   }
 
   #section1 .sec1 .img-wrap .i4 {
+    position: absolute;
     left: 2%;
     bottom: -1%;
   }
 
   #section1 .sec1 .img-wrap .i5 {
+    position: absolute;
     left: 8%;
-    top: 39%;
+    top: 37%;
   }
 
   #section1 .sec1 .img-wrap .i6 {
-    left: 34%;
-    top: 32%;
+    position: absolute;
+    left: 35%;
+    top: 29%;
   }
 
   #section1 .sec1 .img-wrap .i7 {
+    position: absolute;
     left: 81%;
     bottom: 33%;
   }
 
   #section1 .sec1 .img-wrap .i8 {
-    left: 16%;
-    top: 33%;
+    position: absolute;
+    left: 17%;
+    top: 31%;
   }
 
   #section1 .sec1 .img-wrap .i9 {
-    left: 26%;
-    bottom: 35%;
+    position: absolute;
+    left: 24%;
+    bottom: 32%;
   }
 
   #section1 .sec1 .img-wrap .i10 {
+    position: absolute;
     left: 9%;
     bottom: 33%;
   }
 
   #section1 .sec1 .img-wrap .i11 {
+    position: absolute;
     left: 70%;
-    top: 32%;
+    top: 28%;
   }
 
   #section1 .sec1 .img-wrap .i12 {
+    position: absolute;
     left: 83%;
     top: 36%;
   }
+
+  #section2 .sec2_about .right {
+    font-family: "Syncopate";
+    width: calc(40% - -30px);
+  }
+
+  #section2 .sec2_about .right h2 em:nth-child(1) {
+    margin-left: -82px;
+  }
+
+  #section2 .sec2_about .right h2 em:nth-child(2) {
+    margin-left: -47px;
+  }
+
+  #section2 .sec2_about .right h2 em:nth-child(3) {
+    margin-left: -2vw;
+  }
+
+  #section2 .sec2_about .right p {
+    margin-left: -19px;
+    font-size: 0.9em;
+    line-height: 21px;
+  }
+
+  #section2 .sec2_about .left {
+    margin-left: 12vw;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i1 {
+    left: 62%;
+    top: 2%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i2 {
+    left: 56%;
+    top: 25%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i3 {
+    right: 38%;
+    top: 10%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i4 {
+    left: 20%;
+    top: 7%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i5 {
+    left: 1%;
+    top: 8%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i6 {
+    right: 57%;
+    top: 37%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i7 {
+    right: 83%;
+    top: 38%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i8 {
+    left: -9%;
+    top: 27%;
+  }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   #contents section {
     width: 100%;
     overflow: hidden;
@@ -3017,5 +3179,54 @@
   #section1 .sec1 .img-wrap .i12 {
     left: 82%;
     top: 37%;
+  }
+
+  #section2 .sec2 {
+    padding: 100px 0;
+  }
+
+  #section2 .sec2_about {
+    display: block;
+  }
+
+  #section2 .sec2_about .right {
+    font-family: "Syncopate";
+    width: calc(100% - -20%);
+    margin-left: 14vw;
+    text-align: center;
+  }
+
+  #section2 .sec2_about .right h2 em:nth-child(1) {
+    display: none;
+  }
+
+  #section2 .sec2_about .right h2 em:nth-child(2) {
+    display: none;
+  }
+
+  #section2 .sec2_about .right h2 em:nth-child(3) {
+    text-align: center;
+    margin-right: 32%;
+  }
+
+  #section2 .sec2_about .right p {
+    font-size: 0.8em;
+    line-height: 21px;
+    text-align: left;
+    padding-right: 35%;
+  }
+
+  #section2 .sec2_about .left {
+    margin-left: 30vw;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap {
+    display: none;
+  }
+
+  #section2 .sec2_about .right h2 {
+    margin-bottom: 21px;
+    margin-top: 28px;
+    font-size: 3em;
   }
 }
