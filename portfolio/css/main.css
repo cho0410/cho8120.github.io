@@ -1955,7 +1955,7 @@
 
 /************************* Desktop Area Start *************************/
 
-@media (max-width: 1280px) {
+@media (max-width: 1240px) {
   #contents section {
     width: 100%;
     overflow: hidden;
