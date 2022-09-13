@@ -372,8 +372,8 @@
 
 #section2 .sec2_about .left .img {
   background: url(../images/my.jpg) no-repeat center / cover;
-  width: 40vw;
-  height: 40vw;
+  width: 600px;
+  height: 400px;
   border-radius: 50%;
 }
 
@@ -1950,7 +1950,10 @@
 
 /************************* Desktop Area Start *************************/
 
-@media (max-width: 1220px) {
+@media (max-width: 1420px) {
+  .container {
+    width: 90%;
+  }
   #contents section {
     width: 100%;
     overflow: hidden;
