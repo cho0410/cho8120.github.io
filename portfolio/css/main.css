@@ -354,23 +354,6 @@
   left: 78%;
   top: 15%;
 }
-.img-wrap .i1 {
-  stroke-dasharray: 500;
-  stroke-dashoffset: 500;
-  animation: ani 5s linear infinite;
-}
-
-@keyframes ani {
-  0% {
-    stroke-dashoffset: 500;
-  }
-  50% {
-    stroke-dashoffset: 0;
-  }
-  100% {
-    stroke-dashoffset: -500;
-  }
-}
 
 /* sec2_about */
 #section2 .sec2 {
@@ -2663,7 +2646,7 @@
   #section2 .sec2_about .right {
     width: 50%;
     font-family: "Syncopate";
-    margin-right: -4vw;
+    margin-right: 2vw;
   }
 
   #section2 .sec2_about .right p {
