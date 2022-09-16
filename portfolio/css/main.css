@@ -372,8 +372,8 @@
 
 #section2 .sec2_about .left .img {
   background: url(../images/my.jpg) no-repeat center / cover;
-  width: 600px;
-  height: 400px;
+  width: 40vw;
+  height: 40vw;
   border-radius: 50%;
 }
 
