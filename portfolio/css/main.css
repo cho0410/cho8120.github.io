@@ -249,110 +249,326 @@
 #section1 .sec1 .img-wrap .i1 {
   width: 50vw;
   height: 20vw;
-  background: url(../images/airport.svg) no-repeat;
-  background-size: contain;
   left: 39%;
   bottom: -14%;
   transform: rotate(24deg);
 }
+#section1 .sec1 .img-wrap .i1 .line {
+  stroke: rgb(255, 255, 255);
+}
+#section1 .sec1 .img-wrap .i1.show .line {
+  animation: stroke 2.2s 1s 1 linear both;
+}
+@keyframes stroke {
+  0% {
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 90%;
+    stroke-width: 0;
+  }
+  100% {
+    stroke: rgb(0, 0, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 90% 0;
+    stroke-width: 2;
+  }
+}
 
 #section1 .sec1 .img-wrap .i2 {
-  width: 10vw;
-  height: 10vw;
-  background: url(../images/board.svg) no-repeat;
-  background-size: contain;
+  width: 6vw;
+  height: 7vw;
   left: 51%;
   top: 15%;
+}
+#section1 .sec1 .img-wrap .i2 .line {
+  stroke: rgb(255, 255, 255);
+}
+#section1 .sec1 .img-wrap .i2.show .line {
+  animation: stroke 2.2s 1s 1 linear both;
+}
+@keyframes stroke {
+  0% {
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 90%;
+    stroke-width: 0;
+  }
+  100% {
+    stroke: rgb(0, 0, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 90% 0;
+    stroke-width: 2;
+  }
 }
 
 #section1 .sec1 .img-wrap .i3 {
   width: 10vw;
   height: 10vw;
-  background: url(../images/bootstrap.svg) no-repeat;
-  background-size: contain;
   left: 59%;
   bottom: 3%;
+}
+#section1 .sec1 .img-wrap .i3 .line {
+  stroke: rgb(255, 255, 255);
+}
+#section1 .sec1 .img-wrap .i3.show .line {
+  animation: stroke 2.2s 1s 1 linear both;
+}
+@keyframes stroke {
+  0% {
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 90%;
+    stroke-width: 0;
+  }
+  100% {
+    stroke: rgb(0, 0, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 90% 0;
+    stroke-width: 2;
+  }
 }
 
 #section1 .sec1 .img-wrap .i4 {
   width: 20vw;
   height: 10vw;
-  background: url(../images/Frontend.svg) no-repeat;
-  background-size: contain;
   left: 3%;
   bottom: -1%;
+}
+#section1 .sec1 .img-wrap .i4 .line {
+  stroke: rgb(255, 255, 255);
+}
+#section1 .sec1 .img-wrap .i4.show .line {
+  animation: stroke 2.2s 1s 1 linear both;
+}
+@keyframes stroke {
+  0% {
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 90%;
+    stroke-width: 0;
+  }
+  100% {
+    stroke: rgb(0, 0, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 90% 0;
+    stroke-width: 2;
+  }
 }
 
 #section1 .sec1 .img-wrap .i5 {
   width: 10vw;
   height: 10vw;
-  background: url(../images/headphone.svg) no-repeat;
-  background-size: contain;
   left: 8%;
   top: 32%;
+}
+#section1 .sec1 .img-wrap .i5 .line {
+  stroke: rgb(255, 255, 255);
+}
+#section1 .sec1 .img-wrap .i5.show .line {
+  animation: stroke 2.2s 1s 1 linear both;
+}
+@keyframes stroke {
+  0% {
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 90%;
+    stroke-width: 0;
+  }
+  100% {
+    stroke: rgb(0, 0, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 90% 0;
+    stroke-width: 2;
+  }
 }
 
 #section1 .sec1 .img-wrap .i6 {
   width: 6vw;
   height: 6vw;
-  background: url(../images/JS.svg) no-repeat;
-  background-size: contain;
   left: 33%;
   top: 17%;
+}
+#section1 .sec1 .img-wrap .i6 .line {
+  stroke: rgb(255, 255, 255);
+}
+#section1 .sec1 .img-wrap .i6.show .line {
+  animation: stroke 2.2s 1s 1 linear both;
+}
+@keyframes stroke {
+  0% {
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 90%;
+    stroke-width: 0;
+  }
+  100% {
+    stroke: rgb(0, 0, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 90% 0;
+    stroke-width: 2;
+  }
 }
 
 #section1 .sec1 .img-wrap .i7 {
   width: 14vw;
   height: 11vw;
-  background: url(../images/mac.svg) no-repeat;
-  background-size: contain;
   left: 79%;
   bottom: 10%;
+}
+#section1 .sec1 .img-wrap .i7 .line {
+  stroke: rgb(255, 255, 255);
+}
+#section1 .sec1 .img-wrap .i7.show .line {
+  animation: stroke 2.2s 1s 1 linear both;
+}
+@keyframes stroke {
+  0% {
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 90%;
+    stroke-width: 0;
+  }
+  100% {
+    stroke: rgb(0, 0, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 90% 0;
+    stroke-width: 2;
+  }
 }
 
 #section1 .sec1 .img-wrap .i8 {
   width: 7vw;
   height: 5vw;
-  background: url(../images/music.svg) no-repeat;
-  background-size: contain;
   left: 15%;
   top: 19%;
+}
+#section1 .sec1 .img-wrap .i8 .line {
+  stroke: rgb(255, 255, 255);
+}
+#section1 .sec1 .img-wrap .i8.show .line {
+  animation: stroke 2.2s 1s 1 linear both;
+}
+@keyframes stroke {
+  0% {
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 90%;
+    stroke-width: 0;
+  }
+  100% {
+    stroke: rgb(0, 0, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 90% 0;
+    stroke-width: 2;
+  }
 }
 
 #section1 .sec1 .img-wrap .i9 {
   width: 8vw;
   height: 10vw;
-  background: url(../images/nodejs.svg) no-repeat;
-  background-size: contain;
   left: 27%;
   bottom: 5%;
+}
+#section1 .sec1 .img-wrap .i9 .line {
+  stroke: rgb(255, 255, 255);
+}
+#section1 .sec1 .img-wrap .i9.show .line {
+  animation: stroke 2.2s 1s 1 linear both;
+}
+@keyframes stroke {
+  0% {
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 90%;
+    stroke-width: 0;
+  }
+  100% {
+    stroke: rgb(0, 0, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 90% 0;
+    stroke-width: 2;
+  }
 }
 
 #section1 .sec1 .img-wrap .i10 {
   width: 6vw;
   height: 10vw;
-  background: url(../images/python2.svg) no-repeat;
-  background-size: contain;
   left: 10%;
   bottom: 12%;
+}
+#section1 .sec1 .img-wrap .i10 .line {
+  stroke: rgb(255, 255, 255);
+}
+#section1 .sec1 .img-wrap .i10.show .line {
+  animation: stroke 2.2s 1s 1 linear both;
+}
+@keyframes stroke {
+  0% {
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 90%;
+    stroke-width: 0;
+  }
+  100% {
+    stroke: rgb(0, 0, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 90% 0;
+    stroke-width: 2;
+  }
 }
 
 #section1 .sec1 .img-wrap .i11 {
   width: 7vw;
   height: 10vw;
-  background: url(../images/react.svg) no-repeat;
-  background-size: contain;
   left: 69%;
   top: 15%;
+}
+#section1 .sec1 .img-wrap .i11 .line {
+  stroke: rgb(255, 255, 255);
+}
+#section1 .sec1 .img-wrap .i11.show .line {
+  animation: stroke 2.2s 1s 1 linear both;
+}
+@keyframes stroke {
+  0% {
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 90%;
+    stroke-width: 0;
+  }
+  100% {
+    stroke: rgb(0, 0, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 90% 0;
+    stroke-width: 2;
+  }
 }
 
 #section1 .sec1 .img-wrap .i12 {
   width: 10vw;
   height: 10vw;
-  background: url(../images/book.svg) no-repeat;
-  background-size: contain;
   left: 78%;
   top: 15%;
+}
+#section1 .sec1 .img-wrap .i12 .line {
+  stroke: rgb(255, 255, 255);
+}
+#section1 .sec1 .img-wrap .i12.show .line {
+  animation: stroke 2.2s 1s 1 linear both;
+}
+@keyframes stroke {
+  0% {
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 90%;
+    stroke-width: 0;
+  }
+  100% {
+    stroke: rgb(0, 0, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 90% 0;
+    stroke-width: 2;
+  }
 }
 
 /* sec2_about */
