@@ -901,7 +901,6 @@
 }
 
 #section7 .site .right h3 {
-  font-size: 5vw;
   font-size: 3vw;
   font-family: "Syncopate";
   text-transform: uppercase;
@@ -1952,8 +1951,10 @@
 /************************* Desktop Area Start *************************/
 
 @media (max-width: 1220px) {
+  .container {
+    width: 98%;
+  }
   #contents section {
-    width: 100%;
     overflow: hidden;
   }
 
@@ -2061,9 +2062,10 @@
     left: 78%;
     top: 22%;
   }
-
+  #section2 .sec2 {
+    width: 98%;
+  }
   #section2 .sec2_about .right {
-    width: 50%;
     font-family: "Syncopate";
     margin-right: 2vw;
   }
@@ -2072,7 +2074,7 @@
     margin-left: -1px;
     font-size: 0.9em;
     line-height: 21px;
-    padding-right: 30%;
+    padding-right: 13%;
   }
 
   #section2 .sec2 .sec2_about .right .img-wrap .i1 {
@@ -2651,8 +2653,7 @@
     margin-left: -1px;
     font-size: 0.9rem;
     line-height: 21px;
-    padding-right: 30%;
-    padding-right: 18%;
+    padding-right: 10%;
   }
 
   #section2 .sec2_about .right h2 em:nth-child(1) {
@@ -3289,47 +3290,72 @@
     top: 36%;
   }
 
-  #section2 .sec2_about {
-    display: block;
-    position: relative;
-  }
-
   #section2 .sec2_about .right {
     font-family: "Syncopate";
     width: calc(40%);
-    margin-left: 37vw;
-    padding-top: 38px;
-  }
-  #section2 .sec2_about .right h2 {
-    margin-bottom: 21px;
-    font-size: 32px;
   }
 
   #section2 .sec2_about .right h2 em:nth-child(1) {
-    margin-left: -46px;
+    margin-left: -82px;
   }
 
   #section2 .sec2_about .right h2 em:nth-child(2) {
-    margin-left: -15px;
+    margin-left: -47px;
   }
 
   #section2 .sec2_about .right h2 em:nth-child(3) {
-    margin-left: 2vw;
+    margin-left: -2vw;
   }
 
   #section2 .sec2_about .right p {
-    margin-left: -9%;
-    padding-right: 0%;
-    font-size: 14px;
+    margin-left: -17px;
+    padding-right: 12%;
+    font-size: 0.9rem;
     line-height: 21px;
   }
 
   #section2 .sec2_about .left {
-    margin-left: 31vw;
+    margin-left: 12vw;
   }
 
-  #section2 .sec2_about .right .img-wrap {
-    display: none;
+  #section2 .sec2 .sec2_about .right .img-wrap .i1 {
+    left: 62%;
+    top: 4%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i2 {
+    left: 56%;
+    top: 25%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i3 {
+    right: 38%;
+    top: 10%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i4 {
+    left: 20%;
+    top: 7%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i5 {
+    left: 1%;
+    top: 8%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i6 {
+    right: 57%;
+    top: 37%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i7 {
+    right: 83%;
+    top: 38%;
+  }
+
+  #section2 .sec2 .sec2_about .right .img-wrap .i8 {
+    left: -9%;
+    top: 27%;
   }
 
   #section3 .sec3 .site .right .i0 {
@@ -3578,7 +3604,7 @@
     top: 37%;
   }
 
-  /* #section2 .sec2 {
+  #section2 .sec2 {
     padding: 100px 0;
   }
 
@@ -3625,16 +3651,6 @@
     margin-bottom: 21px;
     margin-top: 28px;
     font-size: 3rem;
-  } */
-  #section2 .sec2_about .right h2 {
-    margin-bottom: 21px;
-    font-size: 25px;
-  }
-  #section2 .sec2_about .right p {
-    padding-top: 50px;
-    font-size: 14px;
-    line-height: 21px;
-    margin: -25%;
   }
 
   #section3 .sec3 {
