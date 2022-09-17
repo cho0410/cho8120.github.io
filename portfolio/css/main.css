@@ -202,8 +202,8 @@
 }
 
 .sec1 .text-wrap .t2 {
+  top: 27%;
   left: 20%;
-  top: 30%;
 }
 
 .sec1 .text-wrap .t3 {
@@ -212,8 +212,8 @@
 }
 
 .sec1 .text-wrap .t4 {
-  left: 40%;
   top: 35%;
+  left: 38%;
 }
 
 .sec1 .text-wrap .t5 {
@@ -251,14 +251,14 @@
   width: 19vw;
   height: 26vw;
   left: 39%;
-  bottom: -14%;
+  bottom: -8%;
   transform: rotate(24deg);
 }
 #section1 .sec1 .img-wrap .i1 .line {
   stroke: rgb(255, 255, 255);
 }
 #section1 .sec1 .img-wrap .i1.show .line {
-  animation: stroke 2.2s 1s 1 linear both;
+  animation: stroke 5s 1s 1 linear both;
 }
 @keyframes stroke {
   0% {
@@ -279,13 +279,13 @@
   width: 6vw;
   height: 7vw;
   left: 51%;
-  top: 15%;
+  top: 9%;
 }
 #section1 .sec1 .img-wrap .i2 .line {
   stroke: rgb(255, 255, 255);
 }
 #section1 .sec1 .img-wrap .i2.show .line {
-  animation: stroke 2.2s 1s 1 linear both;
+  animation: stroke 5s 1s 1 linear both;
 }
 @keyframes stroke {
   0% {
@@ -305,14 +305,14 @@
 #section1 .sec1 .img-wrap .i3 {
   width: 10vw;
   height: 10vw;
-  left: 59%;
+  left: 64%;
   bottom: 3%;
 }
 #section1 .sec1 .img-wrap .i3 .line {
   stroke: rgb(255, 255, 255);
 }
 #section1 .sec1 .img-wrap .i3.show .line {
-  animation: stroke 2.2s 1s 1 linear both;
+  animation: stroke 5s 1s 1 linear both;
 }
 @keyframes stroke {
   0% {
@@ -339,7 +339,7 @@
   stroke: rgb(255, 255, 255);
 }
 #section1 .sec1 .img-wrap .i4.show .line {
-  animation: stroke 2.2s 1s 1 linear both;
+  animation: stroke 5s 1s 1 linear both;
 }
 @keyframes stroke {
   0% {
@@ -366,7 +366,7 @@
   stroke: rgb(255, 255, 255);
 }
 #section1 .sec1 .img-wrap .i5.show .line {
-  animation: stroke 2.2s 1s 1 linear both;
+  animation: stroke 5s 1s 1 linear both;
 }
 @keyframes stroke {
   0% {
@@ -393,7 +393,7 @@
   stroke: rgb(255, 255, 255);
 }
 #section1 .sec1 .img-wrap .i6.show .line {
-  animation: stroke 2.2s 1s 1 linear both;
+  animation: stroke 5s 1s 1 linear both;
 }
 @keyframes stroke {
   0% {
@@ -420,7 +420,7 @@
   stroke: rgb(255, 255, 255);
 }
 #section1 .sec1 .img-wrap .i7.show .line {
-  animation: stroke 2.2s 1s 1 linear both;
+  animation: stroke 5s 1s 1 linear both;
 }
 @keyframes stroke {
   0% {
@@ -447,7 +447,7 @@
   stroke: rgb(255, 255, 255);
 }
 #section1 .sec1 .img-wrap .i8.show .line {
-  animation: stroke 2.2s 1s 1 linear both;
+  animation: stroke 5s 1s 1 linear both;
 }
 @keyframes stroke {
   0% {
@@ -474,7 +474,7 @@
   stroke: rgb(255, 255, 255);
 }
 #section1 .sec1 .img-wrap .i9.show .line {
-  animation: stroke 2.2s 1s 1 linear both;
+  animation: stroke 5s 1s 1 linear both;
 }
 @keyframes stroke {
   0% {
@@ -501,7 +501,7 @@
   stroke: rgb(255, 255, 255);
 }
 #section1 .sec1 .img-wrap .i10.show .line {
-  animation: stroke 2.2s 1s 1 linear both;
+  animation: stroke 5s 1s 1 linear both;
 }
 @keyframes stroke {
   0% {
@@ -528,7 +528,7 @@
   stroke: rgb(255, 255, 255);
 }
 #section1 .sec1 .img-wrap .i11.show .line {
-  animation: stroke 2.2s 1s 1 linear both;
+  animation: stroke 5s 1s 1 linear both;
 }
 @keyframes stroke {
   0% {
@@ -555,7 +555,7 @@
   stroke: rgb(255, 255, 255);
 }
 #section1 .sec1 .img-wrap .i12.show .line {
-  animation: stroke 2.2s 1s 1 linear both;
+  animation: stroke 5s 1s 1 linear both;
 }
 @keyframes stroke {
   0% {
