@@ -251,7 +251,7 @@
   width: 19vw;
   height: 26vw;
   left: 39%;
-  bottom: -8%;
+  bottom: -17%;
   transform: rotate(24deg);
 }
 #section1 .sec1 .img-wrap .i1 .line {
@@ -286,6 +286,21 @@
 }
 #section1 .sec1 .img-wrap .i2.show .line {
   animation: stroke 5s 1s 1 linear both;
+}
+#section1 .sec1 .img-wrap .i2 .bg {
+  opacity: 0;
+}
+#section1 .sec1 .img-wrap .i2.show .bg {
+  animation: show 5s 1s 1 linear both;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes stroke {
   0% {
@@ -335,11 +350,25 @@
   left: 3%;
   bottom: -1%;
 }
+#section1 .sec1 .img-wrap .i4 .bg {
+  opacity: 0;
+}
+#section1 .sec1 .img-wrap .i4.show .bg {
+  animation: show 5s 1s 1 linear both;
+}
 #section1 .sec1 .img-wrap .i4 .line {
   stroke: rgb(255, 255, 255);
 }
 #section1 .sec1 .img-wrap .i4.show .line {
   animation: stroke 5s 1s 1 linear both;
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes stroke {
   0% {
@@ -368,6 +397,22 @@
 #section1 .sec1 .img-wrap .i5.show .line {
   animation: stroke 5s 1s 1 linear both;
 }
+#section1 .sec1 .img-wrap .i5 .bg {
+  opacity: 0;
+}
+#section1 .sec1 .img-wrap .i5.show .bg {
+  animation: show 5s 1s 1 linear both;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes stroke {
   0% {
     stroke: rgb(255, 255, 255);
@@ -422,6 +467,21 @@
 #section1 .sec1 .img-wrap .i7.show .line {
   animation: stroke 5s 1s 1 linear both;
 }
+#section1 .sec1 .img-wrap .i7 .bg {
+  opacity: 0;
+}
+#section1 .sec1 .img-wrap .i7.show .bg {
+  animation: show 5s 1s 1 linear both;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes stroke {
   0% {
     stroke: rgb(255, 255, 255);
@@ -443,11 +503,27 @@
   left: 15%;
   top: 19%;
 }
+
 #section1 .sec1 .img-wrap .i8 .line {
   stroke: rgb(255, 255, 255);
 }
 #section1 .sec1 .img-wrap .i8.show .line {
   animation: stroke 5s 1s 1 linear both;
+}
+#section1 .sec1 .img-wrap .i8 .bg {
+  opacity: 0;
+}
+#section1 .sec1 .img-wrap .i8.show .bg {
+  animation: show 5s 1s 1 linear both;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes stroke {
   0% {
@@ -2176,53 +2252,53 @@
   }
 
   #section1 .sec1 .text-wrap .t1 {
-    left: 6%;
     top: 64%;
+    left: 6%;
   }
 
   #section1 .sec1 .text-wrap .t2 {
+    top: 30%;
     left: 20%;
-    top: 33%;
   }
 
   #section1 .sec1 .text-wrap .t3 {
+    top: 61%;
     left: 30%;
-    top: 64%;
   }
 
   #section1 .sec1 .text-wrap .t4 {
+    top: 35%;
     left: 40%;
-    top: 38%;
   }
 
   #section1 .sec1 .text-wrap .t5 {
-    left: 50%;
-    top: 51%;
+    top: 50%;
+    left: 54%;
   }
 
   #section1 .sec1 .text-wrap .t6 {
-    left: 58%;
-    top: 65%;
+    top: 61%;
+    left: 59%;
   }
 
   #section1 .sec1 .text-wrap .t7 {
+    top: 33%;
     left: 70%;
-    top: 37%;
   }
 
   #section1 .sec1 .text-wrap .t8 {
+    top: 42%;
     left: 79%;
-    top: 48%;
   }
 
   #section1 .sec1 .text-wrap .t9 {
+    top: 60%;
     left: 90%;
-    top: 63%;
   }
 
   #section1 .sec1 .img-wrap .i1 {
     left: 39%;
-    bottom: -6%;
+    bottom: -2%;
   }
 
   #section1 .sec1 .img-wrap .i2 {
@@ -2232,7 +2308,7 @@
 
   #section1 .sec1 .img-wrap .i3 {
     left: 62%;
-    bottom: 9%;
+    bottom: 13%;
   }
 
   #section1 .sec1 .img-wrap .i4 {
@@ -2251,8 +2327,8 @@
   }
 
   #section1 .sec1 .img-wrap .i7 {
-    left: 79%;
-    bottom: 10%;
+    left: 80%;
+    bottom: 14%;
   }
 
   #section1 .sec1 .img-wrap .i8 {
@@ -2261,23 +2337,23 @@
   }
 
   #section1 .sec1 .img-wrap .i9 {
-    left: 26%;
-    bottom: 9%;
+    left: 24%;
+    bottom: 12%;
   }
 
   #section1 .sec1 .img-wrap .i10 {
     left: 10%;
-    bottom: 12%;
+    bottom: 13%;
   }
 
   #section1 .sec1 .img-wrap .i11 {
-    left: 66%;
-    top: 20%;
+    left: 67%;
+    top: 18%;
   }
 
   #section1 .sec1 .img-wrap .i12 {
-    left: 78%;
-    top: 22%;
+    left: 79%;
+    top: 29%;
   }
 
   #section2 .sec2_about .right {
