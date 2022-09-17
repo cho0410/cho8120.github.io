@@ -901,6 +901,7 @@
 }
 
 #section7 .site .right h3 {
+  font-size: 5vw;
   font-size: 3vw;
   font-family: "Syncopate";
   text-transform: uppercase;
@@ -1556,6 +1557,7 @@
 
 /* section13 */
 #section13 {
+  padding: 200px 0;
   padding-bottom: 200px;
 }
 
@@ -1951,10 +1953,8 @@
 /************************* Desktop Area Start *************************/
 
 @media (max-width: 1220px) {
-  .container {
-    width: 98%;
-  }
   #contents section {
+    width: 100%;
     overflow: hidden;
   }
 
@@ -2062,10 +2062,9 @@
     left: 78%;
     top: 22%;
   }
-  #section2 .sec2 {
-    width: 98%;
-  }
+
   #section2 .sec2_about .right {
+    width: 50%;
     font-family: "Syncopate";
     margin-right: 2vw;
   }
@@ -2074,7 +2073,7 @@
     margin-left: -1px;
     font-size: 0.9em;
     line-height: 21px;
-    padding-right: 13%;
+    padding-right: 30%;
   }
 
   #section2 .sec2 .sec2_about .right .img-wrap .i1 {
@@ -2653,7 +2652,8 @@
     margin-left: -1px;
     font-size: 0.9rem;
     line-height: 21px;
-    padding-right: 10%;
+    padding-right: 30%;
+    padding-right: 18%;
   }
 
   #section2 .sec2_about .right h2 em:nth-child(1) {
