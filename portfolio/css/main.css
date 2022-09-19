@@ -3458,9 +3458,9 @@
 /************************* Mobile Area Start *************************/
 @media (max-width: 768px) {
   #section1 .sec1 .text-wrap .t1 {
-    position: absolute;
-    left: 6%;
-    top: 53%;
+    position: absolute !important;
+    left: 6% !important;
+    top: 53% !important;
   }
 
   #section1 .sec1 .text-wrap .t2 {
