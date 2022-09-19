@@ -627,9 +627,7 @@
   left: 78%;
   top: 15%;
 }
-#section1 .sec1 .img-wrap .i12 .line {
-  opacity: 0;
-}
+
 #section1 .sec1 .img-wrap .i12.show .line {
   animation: stroke 5s 1s 1 linear both;
 }
