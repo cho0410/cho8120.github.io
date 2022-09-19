@@ -169,6 +169,7 @@
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 /* sec1 */
@@ -254,12 +255,16 @@
   bottom: -17%;
   transform: rotate(24deg);
 }
+
 #section1 .sec1 .img-wrap .i1 .line {
-  stroke: rgb(255, 255, 255);
+  opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i1.show .line {
   animation: stroke 5s 1s 1 linear both;
+  opacity: 1;
 }
+
 @keyframes stroke {
   0% {
     stroke: rgb(255, 255, 255);
@@ -267,6 +272,7 @@
     stroke-dasharray: 0 90%;
     stroke-width: 0;
   }
+
   100% {
     stroke: rgb(0, 0, 0);
     stroke-dashoffset: -25%;
@@ -281,15 +287,20 @@
   left: 51%;
   top: 9%;
 }
+
 #section1 .sec1 .img-wrap .i2 .line {
-  stroke: rgb(255, 255, 255);
+  opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i2.show .line {
   animation: stroke 5s 1s 1 linear both;
+  opacity: 1;
 }
+
 #section1 .sec1 .img-wrap .i2 .bg {
   opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i2.show .bg {
   animation: show 5s 1s 1 linear both;
 }
@@ -298,10 +309,12 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes stroke {
   0% {
     stroke: rgb(255, 255, 255);
@@ -309,6 +322,7 @@
     stroke-dasharray: 0 90%;
     stroke-width: 0;
   }
+
   100% {
     stroke: rgb(0, 0, 0);
     stroke-dashoffset: -25%;
@@ -323,12 +337,16 @@
   left: 64%;
   bottom: 3%;
 }
+
 #section1 .sec1 .img-wrap .i3 .line {
-  stroke: rgb(255, 255, 255);
+  opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i3.show .line {
   animation: stroke 5s 1s 1 linear both;
+  opacity: 1;
 }
+
 @keyframes stroke {
   0% {
     stroke: rgb(255, 255, 255);
@@ -336,6 +354,7 @@
     stroke-dasharray: 0 90%;
     stroke-width: 0;
   }
+
   100% {
     stroke: rgb(0, 0, 0);
     stroke-dashoffset: -25%;
@@ -350,26 +369,34 @@
   left: 3%;
   bottom: -1%;
 }
+
 #section1 .sec1 .img-wrap .i4 .bg {
   opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i4.show .bg {
   animation: show 5s 1s 1 linear both;
 }
+
 #section1 .sec1 .img-wrap .i4 .line {
-  stroke: rgb(255, 255, 255);
+  opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i4.show .line {
   animation: stroke 5s 1s 1 linear both;
+  opacity: 1;
 }
+
 @keyframes show {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes stroke {
   0% {
     stroke: rgb(255, 255, 255);
@@ -377,6 +404,7 @@
     stroke-dasharray: 0 90%;
     stroke-width: 0;
   }
+
   100% {
     stroke: rgb(0, 0, 0);
     stroke-dashoffset: -25%;
@@ -391,15 +419,20 @@
   left: 8%;
   top: 32%;
 }
+
 #section1 .sec1 .img-wrap .i5 .line {
-  stroke: rgb(255, 255, 255);
+  opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i5.show .line {
   animation: stroke 5s 1s 1 linear both;
+  opacity: 1;
 }
+
 #section1 .sec1 .img-wrap .i5 .bg {
   opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i5.show .bg {
   animation: show 5s 1s 1 linear both;
 }
@@ -408,6 +441,7 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -420,6 +454,7 @@
     stroke-dasharray: 0 90%;
     stroke-width: 0;
   }
+
   100% {
     stroke: rgb(0, 0, 0);
     stroke-dashoffset: -25%;
@@ -434,12 +469,16 @@
   left: 33%;
   top: 17%;
 }
+
 #section1 .sec1 .img-wrap .i6 .line {
-  stroke: rgb(255, 255, 255);
+  opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i6.show .line {
   animation: stroke 5s 1s 1 linear both;
+  opacity: 1;
 }
+
 @keyframes stroke {
   0% {
     stroke: rgb(255, 255, 255);
@@ -447,6 +486,7 @@
     stroke-dasharray: 0 90%;
     stroke-width: 0;
   }
+
   100% {
     stroke: rgb(0, 0, 0);
     stroke-dashoffset: -25%;
@@ -461,15 +501,20 @@
   left: 79%;
   bottom: 10%;
 }
+
 #section1 .sec1 .img-wrap .i7 .line {
-  stroke: rgb(255, 255, 255);
+  opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i7.show .line {
   animation: stroke 5s 1s 1 linear both;
+  opacity: 1;
 }
+
 #section1 .sec1 .img-wrap .i7 .bg {
   opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i7.show .bg {
   animation: show 5s 1s 1 linear both;
 }
@@ -478,10 +523,12 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes stroke {
   0% {
     stroke: rgb(255, 255, 255);
@@ -489,6 +536,7 @@
     stroke-dasharray: 0 90%;
     stroke-width: 0;
   }
+
   100% {
     stroke: rgb(0, 0, 0);
     stroke-dashoffset: -25%;
@@ -505,14 +553,18 @@
 }
 
 #section1 .sec1 .img-wrap .i8 .line {
-  stroke: rgb(255, 255, 255);
+  opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i8.show .line {
   animation: stroke 5s 1s 1 linear both;
+  opacity: 1;
 }
+
 #section1 .sec1 .img-wrap .i8 .bg {
   opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i8.show .bg {
   animation: show 5s 1s 1 linear both;
 }
@@ -521,10 +573,12 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes stroke {
   0% {
     stroke: rgb(255, 255, 255);
@@ -532,6 +586,7 @@
     stroke-dasharray: 0 90%;
     stroke-width: 0;
   }
+
   100% {
     stroke: rgb(0, 0, 0);
     stroke-dashoffset: -25%;
@@ -546,12 +601,16 @@
   left: 27%;
   bottom: 5%;
 }
+
 #section1 .sec1 .img-wrap .i9 .line {
-  stroke: rgb(255, 255, 255);
+  opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i9.show .line {
   animation: stroke 5s 1s 1 linear both;
+  opacity: 1;
 }
+
 @keyframes stroke {
   0% {
     stroke: rgb(255, 255, 255);
@@ -559,6 +618,7 @@
     stroke-dasharray: 0 90%;
     stroke-width: 0;
   }
+
   100% {
     stroke: rgb(0, 0, 0);
     stroke-dashoffset: -25%;
@@ -573,12 +633,16 @@
   left: 10%;
   bottom: 12%;
 }
+
 #section1 .sec1 .img-wrap .i10 .line {
-  stroke: rgb(255, 255, 255);
+  opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i10.show .line {
   animation: stroke 5s 1s 1 linear both;
+  opacity: 1;
 }
+
 @keyframes stroke {
   0% {
     stroke: rgb(255, 255, 255);
@@ -586,6 +650,7 @@
     stroke-dasharray: 0 90%;
     stroke-width: 0;
   }
+
   100% {
     stroke: rgb(0, 0, 0);
     stroke-dashoffset: -25%;
@@ -600,12 +665,16 @@
   left: 69%;
   top: 15%;
 }
+
 #section1 .sec1 .img-wrap .i11 .line {
-  stroke: rgb(255, 255, 255);
+  opacity: 0;
 }
+
 #section1 .sec1 .img-wrap .i11.show .line {
   animation: stroke 5s 1s 1 linear both;
+  opacity: 1;
 }
+
 @keyframes stroke {
   0% {
     stroke: rgb(255, 255, 255);
@@ -613,6 +682,7 @@
     stroke-dasharray: 0 90%;
     stroke-width: 0;
   }
+
   100% {
     stroke: rgb(0, 0, 0);
     stroke-dashoffset: -25%;
@@ -628,9 +698,15 @@
   top: 15%;
 }
 
+#section1 .sec1 .img-wrap .i12 .line {
+  opacity: 0;
+}
+
 #section1 .sec1 .img-wrap .i12.show .line {
   animation: stroke 5s 1s 1 linear both;
+  opacity: 1;
 }
+
 @keyframes stroke {
   0% {
     stroke: rgb(255, 255, 255);
@@ -638,6 +714,7 @@
     stroke-dasharray: 0 90%;
     stroke-width: 0;
   }
+
   100% {
     stroke: rgb(0, 0, 0);
     stroke-dashoffset: -25%;
@@ -670,11 +747,11 @@
 
 #section2 .sec2_about .left .high {
   position: absolute;
-  left: -19%;
-  top: 50%;
+  left: 0%;
+  top: 59%;
   background: url(../images/high.svg) no-repeat;
   background-size: contain;
-  width: 50%;
+  width: 39%;
   height: 50%;
 }
 
@@ -2250,108 +2327,108 @@
   }
 
   #section1 .sec1 .text-wrap .t1 {
-    top: 61%;
-    left: 6%;
+    top: 64% !important;
+    left: 6% !important;
   }
 
   #section1 .sec1 .text-wrap .t2 {
-    top: 33%;
-    left: 20%;
+    top: 35% !important;
+    left: 20% !important;
   }
 
   #section1 .sec1 .text-wrap .t3 {
-    top: 57%;
-    left: 30%;
+    top: 61% !important;
+    left: 30% !important;
   }
 
   #section1 .sec1 .text-wrap .t4 {
-    top: 35%;
-    left: 40%;
+    top: 39% !important;
+    left: 40% !important;
   }
 
   #section1 .sec1 .text-wrap .t5 {
-    top: 50%;
-    left: 50%;
+    top: 50% !important;
+    left: 50% !important;
   }
 
   #section1 .sec1 .text-wrap .t6 {
-    top: 59%;
-    left: 59%;
+    top: 59% !important;
+    left: 60% !important;
   }
 
   #section1 .sec1 .text-wrap .t7 {
-    top: 37%;
-    left: 70%;
+    top: 36% !important;
+    left: 71% !important;
   }
 
   #section1 .sec1 .text-wrap .t8 {
-    top: 44%;
-    left: 80%;
+    top: 44% !important;
+    left: 81% !important;
   }
 
   #section1 .sec1 .text-wrap .t9 {
-    top: 60%;
-    left: 90%;
+    top: 60% !important;
+    left: 90% !important;
   }
 
   #section1 .sec1 .img-wrap .i1 {
-    left: 39%;
-    bottom: 7%;
+    left: 39% !important;
+    bottom: 4% !important;
   }
 
   #section1 .sec1 .img-wrap .i2 {
-    left: 51%;
-    top: 25%;
+    left: 52% !important;
+    top: 24% !important;
   }
 
   #section1 .sec1 .img-wrap .i3 {
-    left: 62%;
-    bottom: 20%;
+    left: 62% !important;
+    bottom: 19% !important;
   }
 
   #section1 .sec1 .img-wrap .i4 {
-    left: 3%;
-    bottom: 0%;
+    left: 3% !important;
+    bottom: -1% !important;
   }
 
   #section1 .sec1 .img-wrap .i5 {
-    left: 8%;
-    top: 35%;
+    left: 8% !important;
+    top: 35% !important;
   }
 
   #section1 .sec1 .img-wrap .i6 {
-    left: 33%;
-    top: 22%;
+    left: 33% !important;
+    top: 24% !important;
   }
 
   #section1 .sec1 .img-wrap .i7 {
-    left: 80%;
-    bottom: 19%;
+    left: 80% !important;
+    bottom: 18% !important;
   }
 
   #section1 .sec1 .img-wrap .i8 {
-    left: 15%;
-    top: 24%;
+    left: 17% !important;
+    top: 24% !important;
   }
 
   #section1 .sec1 .img-wrap .i9 {
-    left: 24%;
-    bottom: 19%;
+    left: 24% !important;
+    bottom: 17% !important;
   }
 
   #section1 .sec1 .img-wrap .i10 {
-    left: 10%;
-    bottom: 18%;
+    left: 10% !important;
+    bottom: 16% !important;
   }
 
   #section1 .sec1 .img-wrap .i11 {
-    left: 67%;
-    top: 20%;
+    left: 67% !important;
+    top: 22% !important;
   }
 
   #section1 .sec1 .img-wrap .i12 {
-    left: 79%;
-    top: 29%;
+    left: 79% !important;
+    top: 29% !important;
   }
 
   #section2 .sec2_about .right {
@@ -2829,108 +2906,108 @@
   }
 
   #section1 .sec1 .text-wrap .t1 {
-    left: 6%;
-    top: 64%;
+    left: 6% !important;
+    top: 55% !important;
   }
 
   #section1 .sec1 .text-wrap .t2 {
-    left: 20%;
-    top: 33%;
+    left: 21% !important;
+    top: 33% !important;
   }
 
   #section1 .sec1 .text-wrap .t3 {
-    left: 30%;
-    top: 64%;
+    left: 30% !important;
+    top: 53% !important;
   }
 
   #section1 .sec1 .text-wrap .t4 {
-    left: 40%;
-    top: 38%;
+    left: 40% !important;
+    top: 35% !important;
   }
 
   #section1 .sec1 .text-wrap .t5 {
-    left: 50%;
-    top: 51%;
+    left: 50% !important;
+    top: 46% !important;
   }
 
   #section1 .sec1 .text-wrap .t6 {
-    left: 58%;
-    top: 65%;
+    left: 59% !important;
+    top: 54% !important;
   }
 
   #section1 .sec1 .text-wrap .t7 {
-    left: 70%;
-    top: 37%;
+    left: 71% !important;
+    top: 37% !important;
   }
 
   #section1 .sec1 .text-wrap .t8 {
-    left: 79%;
-    top: 48%;
+    left: 80% !important;
+    top: 45% !important;
   }
 
   #section1 .sec1 .text-wrap .t9 {
-    left: 90%;
-    top: 63%;
+    left: 90% !important;
+    top: 53% !important;
   }
 
   #section1 .sec1 .img-wrap .i1 {
-    left: 39%;
-    bottom: -6%;
+    left: 39% !important;
+    bottom: 15% !important;
   }
 
   #section1 .sec1 .img-wrap .i2 {
-    left: 51%;
-    top: 20%;
+    left: 51% !important;
+    top: 27% !important;
   }
 
   #section1 .sec1 .img-wrap .i3 {
-    left: 62%;
-    bottom: 9%;
+    left: 62% !important;
+    bottom: 26% !important;
   }
 
   #section1 .sec1 .img-wrap .i4 {
-    left: 3%;
-    bottom: -1%;
+    left: 3% !important;
+    bottom: -2% !important;
   }
 
   #section1 .sec1 .img-wrap .i5 {
-    left: 8%;
-    top: 33%;
+    left: 8% !important;
+    top: 35% !important;
   }
 
   #section1 .sec1 .img-wrap .i6 {
-    left: 33%;
-    top: 17%;
+    left: 33% !important;
+    top: 26% !important;
   }
 
   #section1 .sec1 .img-wrap .i7 {
-    left: 79%;
-    bottom: 10%;
+    left: 79% !important;
+    bottom: 25% !important;
   }
 
   #section1 .sec1 .img-wrap .i8 {
-    left: 15%;
-    top: 22%;
+    left: 17% !important;
+    top: 25% !important;
   }
 
   #section1 .sec1 .img-wrap .i9 {
-    left: 26%;
-    bottom: 9%;
+    left: 23% !important;
+    bottom: 27% !important;
   }
 
   #section1 .sec1 .img-wrap .i10 {
-    left: 10%;
-    bottom: 12%;
+    left: 10% !important;
+    bottom: 27% !important;
   }
 
   #section1 .sec1 .img-wrap .i11 {
-    left: 66%;
-    top: 20%;
+    left: 66% !important;
+    top: 28% !important;
   }
 
   #section1 .sec1 .img-wrap .i12 {
-    left: 78%;
-    top: 22%;
+    left: 78% !important;
+    top: 32% !important;
   }
 
   #section2 .sec2_about .right {
@@ -3135,112 +3212,6 @@
 @media (max-width: 960px) {
   #contents section {
     width: 100%;
-    overflow: hidden;
-  }
-
-  #section1 .sec1 .text-wrap .t1 {
-    left: 6%;
-    top: 63%;
-  }
-
-  #section1 .sec1 .text-wrap .t2 {
-    left: 20%;
-    top: 36%;
-  }
-
-  #section1 .sec1 .text-wrap .t3 {
-    left: 30%;
-    top: 61%;
-  }
-
-  #section1 .sec1 .text-wrap .t4 {
-    left: 39%;
-    top: 40%;
-  }
-
-  #section1 .sec1 .text-wrap .t5 {
-    left: 50%;
-    top: 51%;
-  }
-
-  #section1 .sec1 .text-wrap .t6 {
-    left: 57%;
-    top: 65%;
-  }
-
-  #section1 .sec1 .text-wrap .t7 {
-    left: 69%;
-    top: 43%;
-  }
-
-  #section1 .sec1 .text-wrap .t8 {
-    left: 79%;
-    top: 49%;
-  }
-
-  #section1 .sec1 .text-wrap .t9 {
-    left: 90%;
-    top: 63%;
-  }
-
-  #section1 .sec1 .img-wrap .i1 {
-    left: 39%;
-    bottom: -1%;
-  }
-
-  #section1 .sec1 .img-wrap .i2 {
-    left: 51%;
-    top: 25%;
-  }
-
-  #section1 .sec1 .img-wrap .i3 {
-    left: 62%;
-    bottom: 14%;
-  }
-
-  #section1 .sec1 .img-wrap .i4 {
-    left: 2%;
-    bottom: -1%;
-  }
-
-  #section1 .sec1 .img-wrap .i5 {
-    left: 8%;
-    top: 37%;
-  }
-
-  #section1 .sec1 .img-wrap .i6 {
-    left: 33%;
-    top: 23%;
-  }
-
-  #section1 .sec1 .img-wrap .i7 {
-    left: 79%;
-    bottom: 17%;
-  }
-
-  #section1 .sec1 .img-wrap .i8 {
-    left: 16%;
-    top: 28%;
-  }
-
-  #section1 .sec1 .img-wrap .i9 {
-    left: 26%;
-    bottom: 17%;
-  }
-
-  #section1 .sec1 .img-wrap .i10 {
-    left: 10%;
-    bottom: 16%;
-  }
-
-  #section1 .sec1 .img-wrap .i11 {
-    left: 67%;
-    top: 26%;
-  }
-
-  #section1 .sec1 .img-wrap .i12 {
-    left: 78%;
-    top: 30%;
   }
 
   #section2 .sec2_about .right {
@@ -3456,129 +3427,108 @@
 /************************* Mobile Area Start *************************/
 @media (max-width: 768px) {
   #section1 .sec1 .text-wrap .t1 {
-    position: absolute !important;
     left: 6% !important;
     top: 53% !important;
   }
 
   #section1 .sec1 .text-wrap .t2 {
-    position: absolute;
-    left: 20%;
-    top: 34%;
+    left: 20% !important;
+    top: 36% !important;
   }
 
   #section1 .sec1 .text-wrap .t3 {
-    position: absolute;
-    left: 31%;
-    top: 51%;
+    left: 32% !important;
+    top: 50% !important;
   }
 
   #section1 .sec1 .text-wrap .t4 {
-    position: absolute;
-    left: 40%;
-    top: 36%;
+    left: 40% !important;
+    top: 36% !important;
   }
 
   #section1 .sec1 .text-wrap .t5 {
-    position: absolute;
-    left: 50%;
-    top: 43%;
+    left: 50% !important;
+    top: 43% !important;
   }
 
   #section1 .sec1 .text-wrap .t6 {
-    position: absolute;
-    left: 59%;
-    top: 50%;
+    left: 59% !important;
+    top: 50% !important;
   }
 
   #section1 .sec1 .text-wrap .t7 {
-    position: absolute;
-    left: 72%;
-    top: 35%;
+    left: 71% !important;
+    top: 37% !important;
   }
 
   #section1 .sec1 .text-wrap .t8 {
-    position: absolute;
-    left: 81%;
-    top: 41%;
+    left: 81% !important;
+    top: 41% !important;
   }
 
   #section1 .sec1 .text-wrap .t9 {
-    position: absolute;
-    left: 92%;
-    top: 51%;
+    left: 92% !important;
+    top: 51% !important;
   }
 
   #section1 .sec1 .img-wrap .i1 {
-    position: absolute;
-    left: 38%;
-    bottom: 25%;
+    left: 38% !important;
+    bottom: 25% !important;
   }
 
   #section1 .sec1 .img-wrap .i2 {
-    position: absolute;
-    left: 51%;
-    top: 27%;
+    left: 51% !important;
+    top: 27% !important;
   }
 
   #section1 .sec1 .img-wrap .i3 {
-    position: absolute;
-    left: 62%;
-    bottom: 34%;
+    left: 62% !important;
+    bottom: 34% !important;
   }
 
   #section1 .sec1 .img-wrap .i4 {
-    position: absolute;
-    left: 2%;
-    bottom: -1%;
+    left: 2% !important;
+    bottom: -1% !important;
   }
 
   #section1 .sec1 .img-wrap .i5 {
-    position: absolute;
-    left: 8%;
-    top: 37%;
+    left: 8% !important;
+    top: 37% !important;
   }
 
   #section1 .sec1 .img-wrap .i6 {
-    position: absolute;
-    left: 35%;
-    top: 29%;
+    left: 35% !important;
+    top: 29% !important;
   }
 
   #section1 .sec1 .img-wrap .i7 {
-    position: absolute;
-    left: 81%;
-    bottom: 33%;
+    left: 81% !important;
+    bottom: 33% !important;
   }
 
   #section1 .sec1 .img-wrap .i8 {
-    position: absolute;
-    left: 17%;
-    top: 31%;
+    left: 17% !important;
+    top: 31% !important;
   }
 
   #section1 .sec1 .img-wrap .i9 {
-    position: absolute;
-    left: 24%;
-    bottom: 32%;
+    left: 24% !important;
+    bottom: 32% !important;
   }
 
   #section1 .sec1 .img-wrap .i10 {
-    position: absolute;
-    left: 9%;
-    bottom: 33%;
+    left: 9% !important;
+    bottom: 33% !important;
   }
 
   #section1 .sec1 .img-wrap .i11 {
-    position: absolute;
-    left: 70%;
-    top: 28%;
+    left: 70% !important;
+    top: 28% !important;
   }
 
   #section1 .sec1 .img-wrap .i12 {
-    position: absolute;
-    left: 83%;
-    top: 36%;
+    left: 83% !important;
+    top: 36% !important;
   }
 
   #section2 .sec2_about .right {
@@ -3791,108 +3741,108 @@
   }
 
   #section1 .sec1 .text-wrap .t1 {
-    left: 6%;
-    top: 48%;
+    left: 6% !important;
+    top: 48% !important;
   }
 
   #section1 .sec1 .text-wrap .t2 {
-    left: 21%;
-    top: 35%;
+    left: 20% !important;
+    top: 37% !important;
   }
 
   #section1 .sec1 .text-wrap .t3 {
-    left: 32%;
-    top: 46%;
+    left: 32% !important;
+    top: 46% !important;
   }
 
   #section1 .sec1 .text-wrap .t4 {
-    left: 42%;
-    top: 36%;
+    left: 41% !important;
+    top: 37% !important;
   }
 
   #section1 .sec1 .text-wrap .t5 {
-    left: 52%;
-    top: 41%;
+    left: 52% !important;
+    top: 41% !important;
   }
 
   #section1 .sec1 .text-wrap .t6 {
-    left: 62%;
-    top: 46%;
+    left: 62% !important;
+    top: 45% !important;
   }
 
   #section1 .sec1 .text-wrap .t7 {
-    left: 74%;
-    top: 36%;
+    left: 74% !important;
+    top: 36% !important;
   }
 
   #section1 .sec1 .text-wrap .t8 {
-    left: 83%;
-    top: 40%;
+    left: 83% !important;
+    top: 40% !important;
   }
 
   #section1 .sec1 .text-wrap .t9 {
-    left: 94%;
-    top: 48%;
+    left: 95% !important;
+    top: 48% !important;
   }
 
   #section1 .sec1 .img-wrap .i1 {
-    left: 39%;
-    bottom: 31%;
+    left: 39% !important;
+    bottom: 37% !important;
   }
 
   #section1 .sec1 .img-wrap .i2 {
-    left: 53%;
-    top: 32%;
+    left: 53% !important;
+    top: 34% !important;
   }
 
   #section1 .sec1 .img-wrap .i3 {
-    left: 63%;
-    bottom: 39%;
+    left: 63% !important;
+    bottom: 43% !important;
   }
 
   #section1 .sec1 .img-wrap .i4 {
-    left: 2%;
-    bottom: -1%;
+    left: 2% !important;
+    bottom: -1% !important;
   }
 
   #section1 .sec1 .img-wrap .i5 {
-    left: 10%;
-    top: 38%;
+    left: 7% !important;
+    top: 40% !important;
   }
 
   #section1 .sec1 .img-wrap .i6 {
-    left: 35%;
-    top: 32%;
+    left: 33% !important;
+    top: 35% !important;
   }
 
   #section1 .sec1 .img-wrap .i7 {
-    left: 82%;
-    bottom: 39%;
+    left: 83% !important;
+    bottom: 42% !important;
   }
 
   #section1 .sec1 .img-wrap .i8 {
-    left: 19%;
-    top: 33%;
+    left: 16% !important;
+    top: 36% !important;
   }
 
   #section1 .sec1 .img-wrap .i9 {
-    left: 26%;
-    bottom: 39%;
+    left: 25% !important;
+    bottom: 42% !important;
   }
 
   #section1 .sec1 .img-wrap .i10 {
-    left: 10%;
-    bottom: 38%;
+    left: 10% !important;
+    bottom: 41% !important;
   }
 
   #section1 .sec1 .img-wrap .i11 {
-    left: 70%;
-    top: 32%;
+    left: 70% !important;
+    top: 34% !important;
   }
 
   #section1 .sec1 .img-wrap .i12 {
-    left: 82%;
-    top: 37%;
+    left: 82% !important;
+    top: 37% !important;
   }
 
   #section2 .sec2 {
