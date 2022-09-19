@@ -795,14 +795,36 @@
 #section2 .sec2 .sec2_about .right .img-wrap .i1 {
   width: 2vw;
   height: 1vw;
-  background: url(../images/angle\ brace.svg) no-repeat;
-  background-size: contain;
   position: absolute;
   left: 86%;
   top: 0%;
 }
+#section2 .sec2 .sec2_about .right .i1 .line {
+  opacity: 0;
+}
+
+#section2 .sec2 .sec2_about .right .i1.show .line {
+  animation: stroke 1s 0.5s 1 linear both;
+  opacity: 1;
+}
+
+@keyframes stroke {
+  0% {
+    stroke: rgb(0, 0, 0);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 90%;
+    stroke-width: 0;
+  }
+
+  100% {
+    stroke: rgb(255, 255, 255);
+    stroke-dasharray: 90% 0;
+    stroke-width: 1;
+  }
+}
 
 #section2 .sec2 .sec2_about .right .img-wrap .i2 {
+  stroke-dashoffset: -25%;
   width: 3vw;
   height: 4vw;
   background: url(../images/clock.svg) no-repeat;
