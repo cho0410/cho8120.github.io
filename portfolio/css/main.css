@@ -170,7 +170,50 @@
   max-width: 1400px;
   margin: 0 auto;
 }
+/* ******************* Header Area Start ****************** */
+#header {
+  height: 63px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+#header h1,
+#header #gnb {
+  height: 63px;
+}
+#header h1 a,
+#header #gnb a {
+  display: block;
+  height: 100%;
+  color: #000;
+}
+#header h1 {
+  width: 100px;
+}
+#header h1 a {
+  font: 700 2.1rem/63px "Roboto", sans-serif;
+}
+#header h1 a:hover {
+  text-decoration: none;
+}
+#header #gnb a {
+  padding: 0 15px;
+  font: 700 1.4rem/63px "Nanum Gothic", sans-serif;
+}
+#header #gnb a:hover {
+  color: #c00;
+}
 
+.fixed {
+  background-color: #fff !important;
+}
+.fixed h1 a,
+.fixed #gnb a {
+  color: #2d2d2d !important;
+}
 /* sec1 */
 .sec1 {
 }
