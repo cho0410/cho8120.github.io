@@ -2208,59 +2208,107 @@
 }
 
 /* footer  */
-/*contact*/
-.contact_wrap {
+
+#footer {
+  color: #000;
   background: #fff;
+}
+
+#footer .f_cont {
+  padding: 250px 50px 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .f_cont .f_left {
+  padding: 2% 0 0 9%;
+}
+
+#footer .footer .f_cont .f_left .col-sm-12 .title {
+  font-size: 6vw;
+  font-weight: 900;
+  font-family: "Fabringo";
+  margin-top: -62px;
+}
+
+#footer .footer .f_cont .f_left .col-sm-12 p {
+  color: #000;
+  margin-top: 21px;
+  font: 500 25px "Fabringo";
+}
+
+#footer .footer .f_cont .f_left .col-sm-12 ul li {
+  margin-top: 42px;
+}
+
+#footer .footer .f_cont .f_left .col-sm-12 ul li i {
+  font-size: 20px;
+}
+
+#footer ul li div {
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin-right: 21px;
+}
+
+#footer ul li span {
+  font: 400 20px "Fabringo";
+}
+
+.f_cont {
+  padding: 250px 50px 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f_right {
+  width: 45%;
+}
+
+.f_mail {
   width: 100%;
-  height: 100vh;
-  margin-top: auto;
+  padding: 20px 30px;
+  border: 1px solid #000;
+  border-radius: 30px;
 }
 
-.conct_sec {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+.f_mail input,
+.f_mail textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 200;
+  font-family: "Fabringo";
+  letter-spacing: 1px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
 }
 
-.conct_tit {
-  font-size: 75px;
-  font-weight: 600;
-  margin-top: auto;
+.f_mail .fEmail {
+  margin: 20px 0;
 }
 
-.conct_info {
-  border-top: 1px solid #191c19;
-  border-bottom: 1px solid #191c19;
-  margin-top: 25px;
-  padding: 40px 0;
-  text-transform: uppercase;
+.f_mail textarea {
+  border: 1px solid #ccc;
 }
 
-.conct_info .conct_list {
-  margin-top: 20px;
-  font-size: 15px;
-  display: flex;
-}
-
-.conct_info .conct_list:first-child {
-  margin-top: 0;
-}
-
-.conct_info .conct_list .tit {
-  font-weight: 500;
-  width: 100px;
-}
-
-.conct_info .conct_list .con {
-  font-weight: 300;
-  padding: 0 10px;
+.f_mail .f_btn {
+  padding: 10px 30px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-family: "Fabringo";
+  color: #777;
+  cursor: pointer;
+  border: 1px solid #ccc;
 }
 
 .copy {
-  margin-top: 25px;
-  margin-bottom: 150px;
-  font-size: 15px;
-  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 80px;
 }
 
 /******************************* 미디어쿼리 선언시작 **********************************/
@@ -3237,6 +3285,12 @@
     margin-bottom: 24px;
     width: 350px;
   }
+
+  #footer .footer .f_cont .f_left .col-sm-12 p {
+    color: #000;
+    margin-top: 21px;
+    font: 500 21px "Fabringo";
+  }
 }
 
 @media (max-width: 1024px) {
@@ -3655,6 +3709,12 @@
     margin: 43% 0 0 -4%;
     text-align: center;
   }
+
+  #footer .footer .f_cont .f_left .col-sm-12 p {
+    color: #000;
+    margin-top: 21px;
+    font: 500 18px "Fabringo";
+  }
 }
 
 /************************* Tablet Area Start *************************/
@@ -3926,6 +3986,12 @@
     margin: 45% 0 0 -4%;
     text-align: center;
   }
+
+  #footer .footer .f_cont .f_left .col-sm-12 p {
+    color: #000;
+    margin-top: 21px;
+    font: 500 16px "Fabringo";
+  }
 }
 
 /************************* Mobile Area Start *************************/
@@ -4144,7 +4210,9 @@
     width: 586px;
     height: 371px;
     position: absolute;
-    left: 14%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-19%, -50%);
   }
 
   #section3 .sec3 .site {
@@ -4170,13 +4238,13 @@
     height: 130px;
     position: absolute;
     top: -8%;
-    left: 14%;
+    left: 28%;
   }
 
   #section3 .sec3 .site .right h3 {
-    margin-top: 32%;
+    margin-top: 12%;
     text-align: center;
-    margin-left: 14%;
+    margin-left: 22%;
     font-family: "Outfit", sans-serif;
     font-size: 52px;
   }
@@ -4186,20 +4254,20 @@
     font-size: 14px;
     position: absolute;
     top: 40%;
-    left: 2%;
-    padding-right: 0%;
+    left: 8%;
+    padding-right: 21%;
   }
 
   #section3 .button-3d--1 {
     position: absolute;
-    left: 49%;
-    top: 67%;
+    left: 32%;
+    top: 59%;
   }
 
   #section3 .button-3d--2 {
     position: absolute;
-    left: 15%;
-    top: 67%;
+    left: 45%;
+    top: 59%;
   }
 
   #section3 .sec3 .site .right .i1 {
@@ -4208,6 +4276,7 @@
 
   #section3 .sec3 .site .right {
     display: flex;
+    width: 100%;
   }
 
   #section4 .site .left .bg .img {
@@ -4226,7 +4295,9 @@
     width: 586px;
     height: 371px;
     position: absolute;
-    right: 12%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-88%, -50%);
   }
 
   #section4 .site .right h3 {
@@ -4234,8 +4305,8 @@
     font-family: "Outfit", sans-serif;
     font-size: 52px;
     position: absolute;
-    top: 43%;
-    right: 1%;
+    top: 42%;
+    right: -6%;
   }
 
   #section4 .site .left .i3 {
@@ -4244,37 +4315,40 @@
 
   #section4 .site .right {
     height: 800px;
+    width: 100%;
   }
 
   .container-button--2 {
-    margin-top: 182%;
+    margin-top: 130%;
   }
 
   #section4 .site .right p {
     margin-bottom: 30px;
     font-size: 14px;
     position: absolute;
-    top: 66%;
-    left: 3%;
-    padding-right: 2%;
+    top: 70%;
+    left: 24%;
     text-align: left;
+    width: 100%;
   }
 
   #section4 .button-3d--1 {
     position: absolute;
-    left: 19%;
+    left: 75%;
+    top: 85.4%;
   }
 
   #section4 .button-3d--2 {
     position: absolute;
-    left: 54%;
+    left: 56%;
+    top: 85.4%;
   }
 
   #section4 .site .left .i5 {
     position: absolute;
     top: -19%;
-    left: -81%;
-    width: 74%;
+    left: -160%;
+    width: 100%;
   }
 
   #section4 .site .left .i4 {
@@ -4305,9 +4379,9 @@
   }
 
   #section5 .site .right h3 {
-    margin-top: 117%;
+    margin-top: 109%;
     text-align: center;
-    margin-left: -164%;
+    margin-left: -111%;
     font-family: "Outfit", sans-serif;
     font-size: 52px;
   }
@@ -4316,11 +4390,11 @@
     margin-bottom: 30px;
     font-size: 14px;
     position: absolute;
-    top: 107%;
-    left: -96%;
-    padding-right: 79%;
+    top: 100%;
+    left: -61%;
+    width: 100%;
+    padding-right: 0%;
   }
-
   #section5 .site .right .container-button--2 {
     margin-left: 11%;
   }
@@ -4341,19 +4415,19 @@
 
   #section5 .button-3d--1 {
     position: absolute;
-    left: -83%;
+    left: -36%;
     top: 131%;
   }
 
   #section5 .button-3d--2 {
     position: absolute;
-    left: -54%;
+    left: -8%;
     top: 131%;
   }
 
   #section7 .site .right h3 {
     font-size: 29px;
-    margin-left: 18%;
+    margin-left: 15%;
     margin-top: 4%;
     text-align: left;
   }
@@ -4376,14 +4450,14 @@
     max-width: 1400px;
     position: absolute;
     bottom: 7%;
-    left: 17%;
+    left: 12%;
   }
 
   #section7 .site .right p {
     font-size: 14px;
     line-height: 1.6;
     margin-top: 3%;
-    margin-left: 18%;
+    margin-left: 15%;
     text-align: left;
   }
 
@@ -4394,7 +4468,7 @@
     flex-direction: row;
     margin-right: 46%;
     position: absolute;
-    left: -41%;
+    left: -44%;
     top: 33%;
   }
 
@@ -4425,13 +4499,13 @@
   #section7 .site .right h2 {
     margin-top: 3vw;
     font-size: 13px;
-    margin-left: 18%;
+    margin-left: 15%;
     text-align: left;
   }
 
   #section7 .site .right span {
     font-size: 14px;
-    margin-left: 18%;
+    margin-left: 15%;
     text-align: left;
   }
 
@@ -4479,7 +4553,7 @@
     margin-right: 46%;
     position: absolute;
     right: 5%;
-    top: 119%;
+    top: 133%;
   }
 
   #section8 .site .left .btn a {
@@ -4511,7 +4585,7 @@
     margin-left: 15%;
     text-align: left;
     margin-top: 3%;
-    padding-top: 67%;
+    padding-top: 76%;
   }
 
   #section8 .site .left span {
@@ -4522,7 +4596,7 @@
 
   #section9 .site .right h3 {
     font-size: 29px;
-    margin-left: 18%;
+    margin-left: 15%;
     margin-top: 4%;
     text-align: left;
   }
@@ -4545,14 +4619,14 @@
     max-width: 1400px;
     position: absolute;
     bottom: 7%;
-    left: 17%;
+    left: 12%;
   }
 
   #section9 .site .right p {
     font-size: 14px;
     line-height: 1.6;
     margin-top: 3%;
-    margin-left: 18%;
+    margin-left: 15%;
     text-align: left;
   }
 
@@ -4563,7 +4637,7 @@
     flex-direction: row;
     margin-right: 46%;
     position: absolute;
-    left: -41%;
+    left: -44%;
     top: 33%;
   }
 
@@ -4592,15 +4666,15 @@
   }
 
   #section9 .site .right h2 {
-    margin-top: 3vw;
+    margin-top: 1vw;
     font-size: 13px;
-    margin-left: 18%;
+    margin-left: 15%;
     text-align: left;
   }
 
   #section9 .site .right span {
     font-size: 14px;
-    margin-left: 18%;
+    margin-left: 15%;
     text-align: left;
   }
 
@@ -4648,7 +4722,7 @@
     margin-right: 46%;
     position: absolute;
     right: 5%;
-    top: 119%;
+    top: 133%;
   }
 
   #section10 .site .left .btn a {
@@ -4680,13 +4754,58 @@
     margin-left: 15%;
     text-align: left;
     margin-top: 3%;
-    padding-top: 67%;
+    padding-top: 76%;
   }
 
   #section10 .site .left span {
     font-size: 14px;
     margin-left: 14%;
     text-align: left;
+  }
+
+  #section11 .sec4__wrap {
+    display: block;
+    justify-content: space-between;
+    padding: 9.5vw 5.5vw;
+  }
+
+  #section11 .sec4__title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: translate(27%, -50%);
+  }
+
+  #section11 .sec4__title h2 {
+    color: #000;
+    font-size: 5.5vw;
+    line-height: 4.5vw;
+    font-family: "Syncopate";
+    font-weight: 600;
+    margin-bottom: 1%;
+    margin-left: -14%;
+  }
+
+  #section11 .sec4__title h2 span {
+    display: inline-block;
+  }
+
+  #section11 .sec4__title__btn {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 44%;
+    border-radius: 3.5vw;
+    padding: 1vw;
+    margin-top: 5%;
+  }
+
+  #section11 .sec4__items {
+    width: 100%;
   }
 
   #section13 .site .right h3 {
@@ -4765,6 +4884,15 @@
     margin-left: 32%;
     margin-bottom: 24px;
     width: 222px;
+  }
+  #footer .f_cont .f_left .col-sm-12 > ul {
+    margin-top: 20%;
+  }
+  #footer .footer .f_cont .f_left .col-sm-12 p {
+    font: 500 14px "Fabringo";
+  }
+  #footer .f_cont {
+    padding: 0 50px 100px 0;
   }
 }
 
@@ -4924,8 +5052,9 @@
   #section2 .sec2_about .right p {
     font-size: 0.8rem;
     line-height: 21px;
-    text-align: left;
-    padding-right: 10%;
+    text-align: center;
+    margin-right: 62px;
+    padding-right: 7%;
   }
 
   #section2 .sec2_about .left {
@@ -4950,29 +5079,31 @@
     width: 490px;
     height: 275px;
     position: absolute;
-    left: 1%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-25%, -50%);
   }
 
   #section3 .button-3d--1 {
     position: absolute;
-    left: 61%;
-    top: 157%;
+    left: 48%;
+    top: 101%;
   }
 
   #section3 .button-3d--2 {
     position: absolute;
-    left: 12%;
-    top: 157%;
+    left: 24%;
+    top: 101%;
   }
 
   #section3 .sec3 .site .right p {
     margin-bottom: 30px;
     font-size: 14px;
     position: absolute;
-    top: 46%;
-    left: 5%;
-    margin-right: -53%;
-    padding: 0;
+    top: -12%;
+    left: -4%;
+    width: 100%;
+    text-align: center;
   }
 
   #section3 .sec3 .site {
@@ -4999,9 +5130,7 @@
   }
 
   #section3 .sec3 .site .right .i0 {
-    width: 413px;
-    height: 130px;
-    margin-top: -66%;
+    display: none;
   }
 
   #section3 .sec3 .site .right {
@@ -5009,15 +5138,15 @@
   }
 
   #section3 .sec3 .site .right h3 {
-    margin-top: -10%;
+    margin-top: -17%;
     text-align: center;
-    margin-left: 14%;
+    margin-left: 18%;
     font-family: "Outfit", sans-serif;
     font-size: 38px;
   }
 
   #section4 .site {
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 100px;
   }
 
@@ -5025,7 +5154,9 @@
     width: 490px;
     height: 275px;
     position: absolute;
-    right: -6%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-81%, -79%);
   }
 
   #section4 .site .left .bg .img {
@@ -5043,23 +5174,26 @@
 
   #section4 .site .right h3 {
     position: absolute;
-    top: 39%;
-    left: -15%;
+    top: 42%;
+    left: 7%;
+    font-size: 38px;
   }
 
   #section4 .site .right p {
     margin-bottom: 30px;
     font-size: 14px;
     position: absolute;
-    top: 65%;
-    left: 17%;
-    margin-right: -53%;
+    top: 69%;
+    left: 24%;
     padding: 0;
+    text-align: center;
+    width: 100%;
   }
 
   #section4 .button-3d--1 {
     position: absolute;
-    left: 68%;
+    left: 77%;
+    top: 90%;
   }
 
   .container-button--2 {
@@ -5068,13 +5202,12 @@
 
   #section4 .button-3d--2 {
     position: absolute;
-    left: 24%;
+    left: 47%;
+    top: 90%;
   }
 
   #section4 .site .left .i5 {
-    width: 109%;
-    left: -59%;
-    top: -26%;
+    display: none;
   }
 
   #section5 .site .left .bg {
@@ -5083,18 +5216,21 @@
     position: absolute;
     left: 14%;
   }
+  .container-button--2 {
+    margin-top: 0;
+  }
 
   #section5 .site {
     display: block;
     flex-direction: column;
-    padding: 105px 0;
+    padding: 105px 50px;
   }
 
   #section5 .site .left .bg {
     width: 490px;
     height: 275px;
     position: absolute;
-    left: 1%;
+    left: -27%;
   }
 
   #section5 .site .left .bg .img {
@@ -5123,37 +5259,35 @@
   }
 
   #section5 .site .right h3 {
-    margin-top: -81%;
+    margin-top: -103%;
     text-align: center;
     font-family: "Outfit", sans-serif;
     font-size: 38px;
-    margin-left: -23%;
+    margin-left: -3%;
   }
 
   #section5 .site .right p {
     margin-bottom: 30px;
     font-size: 14px;
     position: absolute;
-    top: 43%;
+    top: 46%;
     left: -4%;
-    padding-right: 22%;
+    width: 100%;
+    text-align: center;
   }
 
   #section5 .button-3d--1 {
     position: absolute;
-    left: 34%;
+    left: 50%;
   }
 
   #section5 .button-3d--2 {
     position: absolute;
-    left: 8%;
+    left: 21%;
   }
 
   #section5 .site .right .i7 {
-    position: absolute;
-    top: -268%;
-    left: 8%;
-    width: 13%;
+    display: none;
   }
 
   #section5 .site .right .i8 {
@@ -5296,6 +5430,11 @@
     top: 121%;
   }
 
+  #section11 .sec4__items {
+    width: 100%;
+    padding: 9px;
+  }
+
   #section13 .site .right h3 {
     font-size: 2rem;
     font-family: "Syncopate";
@@ -5384,5 +5523,30 @@
     margin-left: 26%;
     margin-bottom: 24px;
     width: 222px;
+  }
+  #footer .f_cont {
+    display: block;
+    padding: 0 50px 40px 0;
+  }
+  .copy {
+    padding-top: 0;
+  }
+  .f_right {
+    width: 80%;
+    margin-left: 16%;
+  }
+  #footer .footer .f_cont .f_left .col-sm-12 ul li {
+    margin-top: 21px;
+    margin-bottom: 21px;
+  }
+  #footer .f_cont .f_left {
+    padding: 2% 0 0 35%;
+  }
+  #footer .f_cont .f_left .col-sm-12 > ul {
+    margin-top: 0;
+  }
+  #footer .footer .f_cont .f_left .col-sm-12 p {
+    font: 500 14px "Fabringo";
+    margin-left: -10%;
   }
 }
