@@ -5193,7 +5193,7 @@
   #section4 .button-3d--1 {
     position: absolute;
     left: 77%;
-    top: 90%;
+    top: 91%;
   }
 
   .container-button--2 {
@@ -5203,7 +5203,7 @@
   #section4 .button-3d--2 {
     position: absolute;
     left: 47%;
-    top: 90%;
+    top: 91%;
   }
 
   #section4 .site .left .i5 {
@@ -5278,7 +5278,7 @@
 
   #section5 .button-3d--1 {
     position: absolute;
-    left: 50%;
+    left: 51%;
   }
 
   #section5 .button-3d--2 {
@@ -5303,7 +5303,7 @@
   }
 
   #section7 .site .right h2 {
-    margin-left: 15%;
+    margin-left: 31%;
   }
 
   #section7 .site .right h3 {
@@ -5311,37 +5311,40 @@
   }
 
   #section7 .site .right span {
-    margin-left: 15%;
+    margin-left: 28%;
   }
 
   #section7 .site .right p {
-    margin-left: 15%;
+    margin-left: -5%;
+    text-align: center;
   }
 
   #section7 .site .right .btn {
-    left: -44%;
+    left: -42%;
   }
 
   #section8 .site .left h2 {
     font-size: 13px;
     margin-left: 15%;
-    text-align: left;
+    text-align: center;
     margin-top: 3%;
     padding-top: 119%;
   }
 
   #section8 .site .left h3 {
     font-size: 29px;
-    margin-left: 14%;
+    margin-left: 7%;
     margin-top: 4%;
-    text-align: left;
+    text-align: center;
   }
 
   #section8 .site .left span {
     font-size: 14px;
-    margin-right: 14%;
-    text-align: left;
-    padding-left: 0%;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 104px;
   }
 
   #section8 .site .left p {
@@ -5349,8 +5352,10 @@
     line-height: 1.6;
     margin-top: 3%;
     margin-right: 0%;
-    text-align: left;
+    text-align: center;
     padding-left: 0%;
+    margin-left: 0;
+}
   }
 
   #section8 .site .left .btn {
@@ -5360,7 +5365,7 @@
     flex-direction: row;
     margin-right: 46%;
     position: absolute;
-    right: -18%;
+    right: -23%;
     top: 121%;
   }
 
@@ -5369,7 +5374,7 @@
   }
 
   #section9 .site .right h2 {
-    margin-left: 15%;
+    margin-left: 31%;
   }
 
   #section9 .site .right h3 {
@@ -5377,37 +5382,40 @@
   }
 
   #section9 .site .right span {
-    margin-left: 15%;
+    margin-left: 28%;
   }
 
   #section9 .site .right p {
-    margin-left: 15%;
+    margin-left: -5%;
+    text-align: center;
   }
 
   #section9 .site .right .btn {
-    left: -44%;
+    left: -42%;
   }
 
   #section10 .site .left h2 {
     font-size: 13px;
     margin-left: 15%;
-    text-align: left;
+    text-align: center;
     margin-top: 3%;
     padding-top: 119%;
   }
 
   #section10 .site .left h3 {
     font-size: 29px;
-    margin-left: 14%;
+    margin-left: 7%;
     margin-top: 4%;
-    text-align: left;
+    text-align: center;
   }
 
   #section10 .site .left span {
     font-size: 14px;
-    margin-right: 14%;
-    text-align: left;
-    padding-left: 0%;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 104px;
   }
 
   #section10 .site .left p {
@@ -5415,8 +5423,10 @@
     line-height: 1.6;
     margin-top: 3%;
     margin-right: 0%;
-    text-align: left;
+    text-align: center;
     padding-left: 0%;
+    margin-left: 0;
+
   }
 
   #section10 .site .left .btn {
@@ -5426,9 +5436,10 @@
     flex-direction: row;
     margin-right: 46%;
     position: absolute;
-    right: -18%;
+    right: -23%;
     top: 121%;
   }
+
 
   #section11 .sec4__items {
     width: 100%;
