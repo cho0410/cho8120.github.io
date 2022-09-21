@@ -4395,6 +4395,7 @@
     width: 100%;
     padding-right: 0%;
   }
+
   #section5 .site .right .container-button--2 {
     margin-left: 11%;
   }
@@ -4885,12 +4886,15 @@
     margin-bottom: 24px;
     width: 222px;
   }
+
   #footer .f_cont .f_left .col-sm-12 > ul {
     margin-top: 20%;
   }
+
   #footer .footer .f_cont .f_left .col-sm-12 p {
     font: 500 14px "Fabringo";
   }
+
   #footer .f_cont {
     padding: 0 50px 100px 0;
   }
@@ -5216,6 +5220,7 @@
     position: absolute;
     left: 14%;
   }
+
   .container-button--2 {
     margin-top: 0;
   }
@@ -5355,7 +5360,6 @@
     text-align: center;
     padding-left: 0%;
     margin-left: 0;
-}
   }
 
   #section8 .site .left .btn {
@@ -5426,7 +5430,6 @@
     text-align: center;
     padding-left: 0%;
     margin-left: 0;
-
   }
 
   #section10 .site .left .btn {
@@ -5439,7 +5442,6 @@
     right: -23%;
     top: 121%;
   }
-
 
   #section11 .sec4__items {
     width: 100%;
@@ -5535,32 +5537,40 @@
     margin-bottom: 24px;
     width: 222px;
   }
+
   #footer .f_cont {
     display: block;
     padding: 0 50px 40px 0;
   }
+
   .copy {
     padding-top: 0;
   }
+
   .f_right {
     width: 80%;
     margin-left: 16%;
   }
+
   #footer .footer .f_cont .f_left .col-sm-12 ul li {
     margin-top: 21px;
     margin-bottom: 21px;
   }
+
   #footer .f_cont .f_left {
     padding: 2% 0 0 35%;
   }
+
   #footer .f_cont .f_left .col-sm-12 > ul {
     margin-top: 0;
   }
+
   #footer .footer .f_cont .f_left .col-sm-12 p {
     font: 500 14px "Fabringo";
     margin-left: -10%;
   }
 }
+
 @media (max-width: 480px) {
   #section2,
   #section3,
