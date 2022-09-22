@@ -985,18 +985,6 @@
   top: -11%;
   left: 14%;
   width: 50%;
-  animation: 1s infinite linear alternate-reverse;
-  stroke-dasharray: 411px;
-  stroke-dashoffset: 411px;
-}
-
-@keyframes stroke {
-  0% {
-    stroke-dashoffset: 411px;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
 }
 
 #section3 .sec3 .site .right .i1 {
@@ -1327,6 +1315,15 @@
   left: 12%;
   transform: rotate(1deg);
 }
+#section7 .site .right .i2 {
+  background: url(../images/img3.svg) no-repeat;
+  width: 285px;
+  height: 163px;
+  position: absolute;
+  top: 77%;
+  left: 27%;
+  transform: rotate(1deg);
+}
 
 #section7 .site .right .btn a {
   display: flex;
@@ -1388,12 +1385,12 @@
   width: 214px;
   height: 200px;
   position: absolute;
-  top: -10%;
+  top: -18%;
   left: 61%;
 }
 
 #section8 .site .left h3 {
-  font-size: 5vw;
+  font-size: 3vw;
   font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
@@ -1601,7 +1598,7 @@
 }
 
 #section10 .site .left h3 {
-  font-size: 5vw;
+  font-size: 3vw;
   font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
@@ -2469,7 +2466,25 @@
   }
 }
 
+@media (max-width: 1350px) {
+  #section7 .site .right .i1 {
+    width: 285px;
+    height: 163px;
+    position: absolute;
+    top: -35%;
+    left: 18%;
+    transform: rotate(1deg);
+  }
+}
 @media (max-width: 1300px) {
+  #section7 .site .right .i1 {
+    width: 70%;
+    height: 163px;
+    position: absolute;
+    top: -35%;
+    left: 24%;
+    transform: rotate(1deg);
+  }
   #section7 .site .right p {
     font-size: 16px;
     margin-left: 42%;
@@ -3698,7 +3713,7 @@
 
   #section7 .site .right span {
     font-size: 14px;
-    margin-left: 64%;
+    margin-left: 68%;
   }
 
   #section9 .site .right h3 {
@@ -3709,7 +3724,7 @@
 
   #section9 .site .right span {
     font-size: 14px;
-    margin-left: 64%;
+    margin-left: 68%;
   }
 
   #section13 .site .right h3 {
@@ -4454,7 +4469,19 @@
     left: -8%;
     top: 131%;
   }
+  #section7 .site .right .i1 {
+    display: none;
+  }
 
+  #section7 .site .right .i2 {
+    background: url(../images/img3.svg) no-repeat;
+    width: 285px;
+    height: 163px;
+    position: absolute;
+    top: -4%;
+    left: 61%;
+    transform: rotate(1deg);
+  }
   #section7 .site .right h3 {
     font-size: 29px;
     margin-left: 15%;
@@ -5331,6 +5358,9 @@
   #section5 .site .right {
     height: 150px;
   }
+  #section7 .site .right .i2 {
+    display: none;
+  }
 
   #section7 .site .left .top-box {
     left: 13%;
@@ -5349,7 +5379,7 @@
   }
 
   #section7 .site .right p {
-    margin-left: -5%;
+    margin-left: 0%;
     text-align: center;
   }
 
@@ -5387,7 +5417,7 @@
     margin-top: 3%;
     margin-right: 0%;
     text-align: center;
-    padding-left: 0%;
+    padding-left: 1%;
     margin-left: 0;
   }
 
@@ -5403,7 +5433,7 @@
   }
 
   #section9 .site .left .top-box {
-    left: 13%;
+    left: 12%;
   }
 
   #section9 .site .right h2 {
@@ -5419,12 +5449,12 @@
   }
 
   #section9 .site .right p {
-    margin-left: -5%;
+    margin-left: 0%;
     text-align: center;
   }
 
   #section9 .site .right .btn {
-    left: -42%;
+    left: -40%;
   }
 
   #section10 .site .left h2 {
@@ -5457,7 +5487,7 @@
     margin-top: 3%;
     margin-right: 0%;
     text-align: center;
-    padding-left: 0%;
+    padding-left: 1%;
     margin-left: 0;
   }
 
@@ -5468,7 +5498,7 @@
     flex-direction: row;
     margin-right: 46%;
     position: absolute;
-    right: -23%;
+    right: -25%;
     top: 121%;
   }
 
@@ -5482,14 +5512,14 @@
     font-family: "Syncopate";
     text-transform: uppercase;
     font-weight: bold;
-    margin: 71% 0 0 -4%;
+    margin: 71% 0 0 0;
     text-align: center;
   }
 
   #section13 .site .right p {
     margin-bottom: -23px;
     padding-right: 11%;
-    margin-left: 8%;
+    margin-left: 12%;
     font-size: 14px;
   }
 
@@ -5502,7 +5532,7 @@
     flex: 2;
     justify-content: space-between;
     flex-direction: row;
-    margin-left: 26%;
+    margin-left: 25%;
     margin-bottom: 24px;
     width: 222px;
   }
@@ -5512,14 +5542,14 @@
     font-family: "Syncopate";
     text-transform: uppercase;
     font-weight: bold;
-    margin: 71% 0 0 -4%;
+    margin: 71% 0 0 0;
     text-align: center;
   }
 
   #section13 .site1 .right p {
     margin-bottom: -23px;
     padding-right: 11%;
-    margin-left: 8%;
+    margin-left: 12%;
     font-size: 14px;
   }
 
@@ -5532,7 +5562,7 @@
     flex: 2;
     justify-content: space-between;
     flex-direction: row;
-    margin-left: 26%;
+    margin-left: 25%;
     margin-bottom: 24px;
     width: 222px;
   }
@@ -5542,14 +5572,14 @@
     font-family: "Syncopate";
     text-transform: uppercase;
     font-weight: bold;
-    margin: 71% 0 0 -4%;
+    margin: 71% 0 0 0%;
     text-align: center;
   }
 
   #section13 .site2 .right p {
     margin-bottom: -23px;
     padding-right: 11%;
-    margin-left: 8%;
+    margin-left: 12%;
     font-size: 14px;
   }
 
@@ -5562,14 +5592,14 @@
     flex: 2;
     justify-content: space-between;
     flex-direction: row;
-    margin-left: 26%;
+    margin-left: 27%;
     margin-bottom: 24px;
     width: 222px;
   }
 
   #footer .f_cont {
     display: block;
-    padding: 0 50px 40px 0;
+    padding: 0 40px 40px 0;
   }
 
   .copy {
@@ -5596,7 +5626,7 @@
 
   #footer .footer .f_cont .f_left .col-sm-12 p {
     font: 500 14px "Fabringo";
-    margin-left: -10%;
+    margin-left: -19%;
   }
 }
 
