@@ -1044,15 +1044,14 @@
 
 #section4 .site .left .bg .img {
   height: 100%;
-  background: url(../images/i-bg.svg) no-repeat center;
+  background: url(../images/responsive.svg) no-repeat center;
   transform: translateX(7%);
 }
 
 #section4 .site .left .bg .img1 {
   height: 100%;
-  background: url(../images/i-bg.svg) no-repeat center;
+  background: url(../images/responsive.svg) no-repeat center;
   transform: translate(4%, -95.5%);
-  border: 1px solid #000;
 }
 
 #section4 .site .right h3 {
@@ -1140,13 +1139,13 @@
 
 #section5 .site .left .bg .img {
   height: 100%;
-  background: url(../images/i-bg.svg) no-repeat center;
+  background: url(../images/megabox.svg) no-repeat center;
   transform: translateX(-1%);
 }
 
 #section5 .site .left .bg .img1 {
   height: 100%;
-  background: url(../images/i-bg.svg) no-repeat center;
+  background: url(../images/megabox.svg) no-repeat center;
   transform: translate(2%, -95.5%);
 }
 
@@ -1332,12 +1331,37 @@
   color: #fff;
   background-color: #000;
 }
-
+#section7 .site .right .i1 {
+  background: url(../images/j-icon1.svg) no-repeat;
+  width: 285px;
+  height: 163px;
+  position: absolute;
+  top: -35%;
+  left: 12%;
+  transform: rotate(1deg);
+}
+#section7 .site .right .i2 {
+  background: url(../images/img3.svg) no-repeat;
+  width: 285px;
+  height: 163px;
+  position: absolute;
+  top: 77%;
+  left: 27%;
+  transform: rotate(1deg);
+}
 /* #section8 */
 #section8 .site {
   padding: 200px 0;
   display: flex;
   justify-content: space-between;
+}
+#section8 .site .left .i1 {
+  background: url(../images/music.svg) no-repeat;
+  width: 214px;
+  height: 200px;
+  position: absolute;
+  top: -18%;
+  left: 61%;
 }
 
 #section8 .site .left {
@@ -2895,7 +2919,6 @@
   #section4 .site .left .bg .img {
     width: 465px;
     height: 261px;
-    background: url(../images/i-bg.svg) no-repeat center;
     transform: translate(5%, 43%);
   }
 
@@ -2912,7 +2935,6 @@
   #section4 .site .left .bg .img1 {
     width: 465px;
     height: 261px;
-    background: url(../images/i-bg.svg) no-repeat center;
     transform: translate(3%, -51.5%);
   }
 
