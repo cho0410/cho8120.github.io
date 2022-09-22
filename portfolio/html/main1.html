@@ -22,22 +22,6 @@
   </head>
 
   <body>
-    <div id="sidebar">
-      <h1>Site Logo</h1>
-
-      <hr />
-
-      <div class="gnb">
-        <ul>
-          <li><a href="#intro" class="menu-act">Intro</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-
-      <div class="count-box">0<span>1 </span></div>
-    </div>
     <div id="contents">
       <section id="section1">
         <div class="sec1">
@@ -899,11 +883,11 @@
       <section id="section2">
         <div class="sec2">
           <div class="sec2_about container">
-            <div class="left animate__animated animate__bounce">
+            <div class="left">
               <div class="img"></div>
               <div class="high"></div>
             </div>
-            <div class="right">
+            <div class="right wow slideInLeft">
               <h2><em>Frontend</em> <em>Devloper</em> <em>About ME</em></h2>
               <p>
                 변화하지만 변함없는, 반갑습니다 신입 프론트엔드 개발자
@@ -1920,22 +1904,12 @@
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <!-- WOW JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-
     <!-- gsap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
     <script>
-      // 부드러운 움직임 함수 만들기
-      function scrollMove(el, navHeight) {
-        var offset = el.offset().top;
-        var totalPos = offset - navHeight;
+      // WOW JS
+      new WOW().init();
 
-        $("html, body").animate(
-          {
-            scrollTop: totalPos,
-          },
-          800
-        );
-      }
       setTimeout(() => {
         document.querySelector(".img-wrap .i1").classList.add("show");
         document.querySelector(".img-wrap .i2").classList.add("show");
