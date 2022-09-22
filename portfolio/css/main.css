@@ -1356,12 +1356,12 @@
   justify-content: space-between;
 }
 #section8 .site .left .i1 {
-  background: url(../images/music.svg) no-repeat;
-  width: 214px;
-  height: 200px;
+  background: url(../images/j-i1.svg) no-repeat;
+  width: 674px;
+  height: 264px;
   position: absolute;
   top: -18%;
-  left: 61%;
+  left: 30%;
 }
 
 #section8 .site .left {
@@ -2385,6 +2385,10 @@
     text-underline-position: under;
   }
 
+  #section8 .site .left .i1 {
+    top: -19%;
+    left: 16%;
+  }
   #section8 .site .right .top-box {
     width: 730px;
     height: 500px;
@@ -2512,6 +2516,10 @@
     text-align: left;
   }
 
+  #section8 .site .left .i1 {
+    top: -19%;
+    left: 1%;
+  }
   #section8 .site .left p {
     font-family: "NexonLv1Gothic";
     word-break: keep-all;
@@ -3149,11 +3157,18 @@
     bottom: 7%;
     left: 17%;
   }
+  #section8 .site .left .i1 {
+    top: -12%;
+    left: 1%;
+  }
 
   #section8 .site .left .btn a {
     font-size: 14px;
   }
 
+  #section8 .site .left .i1 {
+    display: none;
+  }
   #section9 .site {
     padding: 200px 60px;
   }
@@ -3711,6 +3726,10 @@
   #section7 .site .right span {
     font-size: 14px;
     margin-left: 68%;
+  }
+  #section8 .site .left .i1 {
+    top: -12%;
+    left: -9%;
   }
 
   #section9 .site .right h3 {
@@ -4569,7 +4588,11 @@
     margin-top: 4%;
     text-align: left;
   }
-
+  #section8 .site .left .i1 {
+    top: 82%;
+    left: 22%;
+    display: flex;
+  }
   #section8 .site {
     display: block;
     padding-top: 100px;
@@ -4607,7 +4630,7 @@
     margin-right: 46%;
     position: absolute;
     right: 5%;
-    top: 133%;
+    top: 146%;
   }
 
   #section8 .site .left .btn a {
@@ -5391,6 +5414,16 @@
     margin-top: 3%;
     padding-top: 119%;
   }
+  #section8 .site .left .btn {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 46%;
+    position: absolute;
+    right: -23%;
+    top: 133%;
+  }
 
   #section8 .site .left h3 {
     font-size: 29px;
@@ -5425,8 +5458,11 @@
     flex-direction: row;
     margin-right: 46%;
     position: absolute;
-    right: -23%;
-    top: 121%;
+    right: -25%;
+    top: 133%;
+  }
+  #section8 .site .left .i1 {
+    display: none;
   }
 
   #section9 .site .left .top-box {
