@@ -1306,24 +1306,6 @@
   flex-direction: row;
   margin-left: 59%;
 }
-#section7 .site .right .i1 {
-  background: url(../images/j-icon1.svg) no-repeat;
-  width: 285px;
-  height: 163px;
-  position: absolute;
-  top: -35%;
-  left: 12%;
-  transform: rotate(1deg);
-}
-#section7 .site .right .i2 {
-  background: url(../images/img3.svg) no-repeat;
-  width: 285px;
-  height: 163px;
-  position: absolute;
-  top: 77%;
-  left: 27%;
-  transform: rotate(1deg);
-}
 
 #section7 .site .right .btn a {
   display: flex;
@@ -1379,14 +1361,6 @@
   margin-right: 17%;
   text-align: left;
   margin-top: -1vw;
-}
-#section8 .site .left .i1 {
-  background: url(../images/music.svg) no-repeat;
-  width: 214px;
-  height: 200px;
-  position: absolute;
-  top: -18%;
-  left: 61%;
 }
 
 #section8 .site .left h3 {
@@ -1734,8 +1708,9 @@
   transition: 1s;
 }
 
-#section11 .sec4__title__btn:hover span {
+#section11 .sec4__title__btn:hover {
   color: #000;
+  background-color: #fff;
 }
 
 #section11 .sec4__title__btn .arrow {
