@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTFOLIO</title>
+
     <!-- Animate CSS -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
     />
 
     <!-- font-awesome CSS -->
@@ -882,14 +883,24 @@
 
       <section id="section2">
         <div class="sec2">
-          <div class="sec2_about container">
+          <div class="sec2_about container wow">
             <div class="left">
-              <div class="img"></div>
-              <div class="high"></div>
+              <div class="img wow slideInLeft"></div>
+              <div class="high wow slideInUp" data-wow-delay="0.2s"></div>
             </div>
-            <div class="right wow slideInLeft">
-              <h2><em>Frontend</em> <em>Devloper</em> <em>About ME</em></h2>
-              <p>
+            <div class="right">
+              <h2>
+                <em class="wow bounceInRight" data-wow-delay="0.2s"
+                  >Frontend</em
+                >
+                <em class="wow bounceInRight" data-wow-delay="0.4s"
+                  >Devloper</em
+                >
+                <em class="wow bounceInRight" data-wow-delay="0.6s"
+                  >About ME</em
+                >
+              </h2>
+              <p class="wow slideInRight">
                 변화하지만 변함없는, 반갑습니다 신입 프론트엔드 개발자
                 조초롱입니다. 흰 화면이 코드를 통해 하나씩 채워지는 것을
                 직관적으로 확인할 수 있기에 프론트엔드 라는 직업이 매력적으로
@@ -902,7 +913,7 @@
               </p>
 
               <div class="img-wrap">
-                <div class="i1">
+                <div class="i1 wow pulse" data-wow-iteration="10">
                   <svg
                     viewBox="0 0 24 18"
                     fill="none"
@@ -931,7 +942,7 @@
                     />
                   </svg>
                 </div>
-                <div class="i2">
+                <div class="i2 wow pulse" data-wow-iteration="10">
                   <svg
                     viewBox="0 0 50 55"
                     fill="none"
@@ -988,7 +999,7 @@
                     />
                   </svg>
                 </div>
-                <div class="i3">
+                <div class="i3 wow pulse" data-wow-iteration="10">
                   <svg
                     viewBox="0 0 87 64"
                     fill="none"
@@ -1108,7 +1119,7 @@
                     />
                   </svg>
                 </div>
-                <div class="i4">
+                <div class="i4 wow pulse" data-wow-iteration="10">
                   <svg
                     viewBox="0 0 160 135"
                     fill="none"
@@ -1347,7 +1358,7 @@
                     />
                   </svg>
                 </div>
-                <div class="i5">
+                <div class="i5 wow pulse" data-wow-iteration="10">
                   <svg
                     viewBox="0 0 60 91"
                     fill="none"
@@ -1432,7 +1443,7 @@
                     />
                   </svg>
                 </div>
-                <div class="i6">
+                <div class="i6 wow pulse" data-wow-iteration="10">
                   <svg
                     viewBox="0 0 72 59"
                     fill="none"
@@ -1481,7 +1492,7 @@
                     />
                   </svg>
                 </div>
-                <div class="i7">
+                <div class="i7 wow pulse" data-wow-iteration="10">
                   <svg
                     viewBox="0 0 47 37"
                     fill="none"
@@ -1503,7 +1514,7 @@
                     />
                   </svg>
                 </div>
-                <div class="i8">
+                <div class="i8 wow pulse" data-wow-iteration="10">
                   <svg
                     viewBox="0 0 61 47"
                     fill="none"
@@ -1527,12 +1538,14 @@
 
       <section id="section3">
         <div class="sec3">
-          <h2><em>Site</em>project</h2>
+          <h2 class="wow fadeInRight">
+            <em class="wow fadeInLeft" data-wow-delay="0.3s">Site</em>project
+          </h2>
           <div class="site-wrap container">
             <div class="site">
-              <div class="left">
-                <div class="bg">
-                  <div class="img"></div>
+              <div class="left wow fadeInLeft">
+                <div class="bg wow fadeInLeft">
+                  <div class="img wow fadeInLeft"></div>
                   <div class="img1"></div>
                 </div>
               </div>
@@ -1586,9 +1599,9 @@
               </div>
             </div>
             <div class="left">
-              <div class="bg">
-                <div class="img"></div>
-                <div class="img1"></div>
+              <div class="bg wow slideInUp">
+                <div class="img wow slideInUp"></div>
+                <div class="img1 wow slideInUp"></div>
               </div>
               <img src="../images/i-img2.svg" alt="i3" class="i3" />
               <div class="img"></div>
@@ -1903,177 +1916,9 @@
     <!-- jQuery JS -->
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <!-- WOW JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="../js/wow.min.js"></script>
     <!-- gsap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
-    <script>
-      // WOW JS
-      new WOW().init();
-
-      setTimeout(() => {
-        document.querySelector(".img-wrap .i1").classList.add("show");
-        document.querySelector(".img-wrap .i2").classList.add("show");
-        document.querySelector(".img-wrap .i3").classList.add("show");
-        document.querySelector(".img-wrap .i4").classList.add("show");
-        document.querySelector(".img-wrap .i5").classList.add("show");
-        document.querySelector(".img-wrap .i6").classList.add("show");
-        document.querySelector(".img-wrap .i7").classList.add("show");
-        document.querySelector(".img-wrap .i8").classList.add("show");
-      }, 3500);
-
-      // gsap JS
-      gsap.set(".text-wrap .t1", {
-        left: "-35%",
-        top: "100%",
-        left: "0",
-        top: "-85%",
-        rotation: 500,
-      });
-      gsap.set(".text-wrap .t2", {
-        left: "-35%",
-        top: "0%",
-        rotation: 700,
-        left: "0",
-        top: "-60%",
-        rotation: 600,
-      });
-      gsap.set(".text-wrap .t3", {
-        left: "-35%",
-        top: "100%",
-        rotation: 500,
-        left: "0",
-        top: "30%",
-        rotation: 700,
-      });
-      gsap.set(".text-wrap .t4", {
-        left: "-35%",
-        top: "0%",
-        rotation: 700,
-        left: "0",
-        top: "90%",
-        rotation: 750,
-      });
-      gsap.set(".text-wrap .t5", {
-        left: "-35%",
-        top: "100%",
-        rotation: 500,
-        left: "0",
-        top: "80%",
-        rotation: 800,
-      });
-      gsap.set(".text-wrap .t6", {
-        left: "-35%",
-        top: "0%",
-        rotation: 700,
-        left: "0",
-        top: "-85%",
-        rotation: 850,
-      });
-      gsap.set(".text-wrap .t7", {
-        left: "-35%",
-        top: "100%",
-        rotation: 500,
-        left: "0",
-        top: "-40%",
-        rotation: 900,
-      });
-      gsap.set(".text-wrap .t8", {
-        left: "-35%",
-        top: "0%",
-        left: "0",
-        top: "-20%",
-        rotation: 700,
-      });
-      gsap.set(".text-wrap .t9", {
-        left: "-35%",
-        left: "0",
-        top: "100%",
-        rotation: 500,
-        top: "-70%",
-        rotation: 900,
-      });
-
-      setTimeout(() => {
-        var tl = gsap.timeline();
-        tl.to(".text-wrap .t1", {
-          duration: 0.6,
-          opacity: 1,
-          left: "6%",
-          top: "70%",
-          rotation: 0,
-        });
-        tl.to(".text-wrap .t2", {
-          duration: 0.6,
-          opacity: 1,
-          left: "20%",
-          top: "30%",
-          rotation: 0,
-        });
-        tl.to(".text-wrap .t3", {
-          duration: 0.6,
-          opacity: 1,
-          left: "30%",
-          top: "65%",
-          rotation: 0,
-        });
-        tl.to(".text-wrap .t4", {
-          duration: 0.6,
-          opacity: 1,
-          left: "40%",
-          top: "35%",
-          rotation: 0,
-        });
-        tl.to(".text-wrap .t5", {
-          duration: 0.6,
-          opacity: 1,
-          left: "50%",
-          top: "50%",
-          rotation: 0,
-        });
-        tl.to(".text-wrap .t6", {
-          duration: 0.6,
-          opacity: 1,
-          left: "60%",
-          top: "65%",
-          rotation: 0,
-        });
-        tl.to(".text-wrap .t7", {
-          duration: 0.6,
-          opacity: 1,
-          left: "70%",
-          top: "30%",
-          rotation: 0,
-        });
-        tl.to(".text-wrap .t8", {
-          duration: 0.6,
-          opacity: 1,
-          left: "80%",
-          top: "40%",
-          rotation: 0,
-        });
-        tl.to(".text-wrap .t9", {
-          duration: 0.6,
-          opacity: 1,
-          left: "90%",
-          top: "60%",
-          rotation: 0,
-        });
-      }, 2000);
-
-      setTimeout(() => {
-        document.querySelector(".i1").classList.add("show");
-        document.querySelector(".i2").classList.add("show");
-        document.querySelector(".i3").classList.add("show");
-        document.querySelector(".i4").classList.add("show");
-        document.querySelector(".i5").classList.add("show");
-        document.querySelector(".i6").classList.add("show");
-        document.querySelector(".i7").classList.add("show");
-        document.querySelector(".i8").classList.add("show");
-        document.querySelector(".i9").classList.add("show");
-        document.querySelector(".i10").classList.add("show");
-        document.querySelector(".i11").classList.add("show");
-        document.querySelector(".i12").classList.add("show");
-      }, 3500);
-    </script>
+    <script src="../js/main.js"></script>
   </body>
 </html>
