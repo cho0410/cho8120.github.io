@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTFOLIO</title>
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <!-- font-awesome CSS -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <!-- Swiper CSS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
     />
 
     <link rel="stylesheet" href="../css/main.css" />
@@ -22,6 +22,22 @@
   </head>
 
   <body>
+    <div id="sidebar">
+      <h1>Site Logo</h1>
+
+      <hr />
+
+      <div class="gnb">
+        <ul>
+          <li><a href="#intro" class="menu-act">Intro</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="count-box">0<span>1 </span></div>
+    </div>
     <div id="contents">
       <section id="section1">
         <div class="sec1">
@@ -883,7 +899,7 @@
       <section id="section2">
         <div class="sec2">
           <div class="sec2_about container">
-            <div class="left">
+            <div class="left animate__animated animate__bounce">
               <div class="img"></div>
               <div class="high"></div>
             </div>
@@ -1902,11 +1918,24 @@
     </div>
     <!-- jQuery JS -->
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- WOW JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
     <!-- gsap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
     <script>
+      // 부드러운 움직임 함수 만들기
+      function scrollMove(el, navHeight) {
+        var offset = el.offset().top;
+        var totalPos = offset - navHeight;
+
+        $("html, body").animate(
+          {
+            scrollTop: totalPos,
+          },
+          800
+        );
+      }
       setTimeout(() => {
         document.querySelector(".img-wrap .i1").classList.add("show");
         document.querySelector(".img-wrap .i2").classList.add("show");
