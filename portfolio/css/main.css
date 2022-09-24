@@ -2240,7 +2240,7 @@
 }
 
 #footer .f_cont {
-  padding: 250px 50px 100px 0;
+  padding: 250px 136px 100px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -2333,7 +2333,6 @@
 .copy {
   font-size: 14px;
   text-align: center;
-  padding-top: 80px;
 }
 
 /******************************* 미디어쿼리 선언시작 **********************************/
@@ -5659,7 +5658,7 @@
 
   #footer .footer .f_cont .f_left .col-sm-12 p {
     font: 500 14px "Fabringo";
-    margin-left: -19%;
+    margin-left: -12%;
   }
 }
 
