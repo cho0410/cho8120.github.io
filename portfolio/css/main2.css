@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+#section1 {
+  background: #ccc;
+  height: 100vh;
+  width: 100%;
+  z-index: 10000;
+}
+
+#section2 {
+  background: #ddd;
+  height: 100vh;
+  width: 100%;
+  z-index: 9000;
+}
+
+#section3 {
+  background: #eee;
+  height: 100vh;
+  width: 100%;
+  z-index: 8000;
+}
+
+#section4 {
+  background: #222;
+  z-index: 7000;
+  overflow: hidden;
+  height: 800vh;
+}
+#section4 .sec4 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 1100vh;
+  height: 100%;
+  display: flex;
+}
+
+#section4 .sec4 article {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+#section4 .cont1 {
+  background: red;
+  height: 100vw;
+  width: 100vw;
+}
+#section4 .cont2 {
+  background: #fff;
+  height: 100vw;
+  width: 100vw;
+}
+#section4 .cont3 {
+  background: blue;
+  height: 100vw;
+  width: 100vw;
+}
+#section4 .cont4 {
+  background: skyblue;
+  height: 100vh;
+  width: 100vw;
+}
+
+#section5 {
+  background: #777;
+  height: 100vh;
+  width: 100%;
+  z-index: 8000;
+}
+
+#section6 {
+  background: #888;
+  height: 100vh;
+  width: 100%;
+  z-index: 9000;
+}
+#section7 {
+  background: #333;
+  height: 100vh;
+  width: 100%;
+  z-index: 10000;
+}
+.content__item {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
