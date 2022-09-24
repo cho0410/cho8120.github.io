@@ -148,6 +148,20 @@
 /* layout */
 #contents {
 }
+/* scroll */
+.scroll {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  z-index: 20000;
+}
 
 #section1 {
   height: 100vh;
@@ -200,9 +214,14 @@
 }
 
 #section13 {
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 1000;
-  height: 400vh;
-  width: 100%;
+  width: 1200vh;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 #footer {
@@ -216,17 +235,14 @@
   margin: 0 auto;
 }
 #section13 .site-wrap {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 1100vh;
-  height: 100%;
+  width: 300vw;
   display: flex;
 }
 #section13 .site-wrap section {
-  width: 200vh;
+  width: 100vh;
   height: 100vh;
   position: relative;
+  background-color: #777;
 }
 
 /* ******************* Header Area Start ****************** */
@@ -2035,10 +2051,11 @@
 /* section13 */
 #section13 {
   padding: 200px 0;
-  padding-bottom: 200px;
 }
 
 #section13 .title {
+  width: 100vw;
+  height: 100vh;
   background: #000;
 }
 
