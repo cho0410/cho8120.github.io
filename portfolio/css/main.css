@@ -1363,6 +1363,14 @@
   top: -18%;
   left: 30%;
 }
+#section8 .site .left .i2 {
+  background: url(../images/clock1.svg) no-repeat;
+  width: 408px;
+  height: 264px;
+  position: absolute;
+  top: 72%;
+  left: 56%;
+}
 
 #section8 .site .left {
   width: 50%;
@@ -2544,6 +2552,10 @@
 
   #section8 .site .right .top-box {
     width: 730px;
+  }
+  #section8 .site .left .i2 {
+    top: 66%;
+    left: 50%;
   }
 
   #section9 .site .right p {
@@ -3730,6 +3742,10 @@
     top: -12%;
     left: -9%;
   }
+  #section8 .site .left .i2 {
+    top: 74%;
+    left: 52%;
+  }
 
   #section9 .site .right h3 {
     font-size: 32px;
@@ -4588,9 +4604,11 @@
     text-align: left;
   }
   #section8 .site .left .i1 {
-    top: 82%;
-    left: 22%;
-    display: flex;
+    display: none;
+  }
+  #section8 .site .left .i2 {
+    top: 84%;
+    left: 66%;
   }
   #section8 .site {
     display: block;
@@ -5405,6 +5423,9 @@
   #section7 .site .right .btn {
     left: -42%;
   }
+  #section8 .site .left .i2 {
+    display: none;
+  }
 
   #section8 .site .left h2 {
     font-size: 13px;
@@ -5649,16 +5670,15 @@
   }
 
   #footer .f_cont .f_left {
-    padding: 2% 0 0 35%;
+    text-align: center;
   }
 
   #footer .f_cont .f_left .col-sm-12 > ul {
     margin-top: 0;
   }
-
-  #footer .footer .f_cont .f_left .col-sm-12 p {
-    font: 500 14px "Fabringo";
-    margin-left: -12%;
+  #footer .footer .f_cont .f_left .col-sm-12 ul li i {
+    font-size: 20px;
+    margin-left: 105px;
   }
 }
 
