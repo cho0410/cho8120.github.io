@@ -1,13 +1,24 @@
 function scroll() {
   let scrollTop =
     window.pageYOffset || document.documentElement.scrollTop || window.scrollY;
+  document.querySelector(".scroll").innerHTML = Math.trunc(scrollTop);
 
-  //4번째 섹션에 왔을 때 스크롤탑을 0으로 초기화해서 시작
   let offset = scrollTop - document.querySelector("#section13").offsetTop;
+  let sec13 = document.querySelector("#section13");
 
   if (scrollTop >= document.querySelector("#section13").offsetTop) {
     //document.querySelector(".sec4").style.backgroundColor = "blue";
-    gsap.to("#section13 .site-wrap", { left: -offset, ease: "linear" });
+    gsap.to("#section13", { left: -offset, ease: "linear" });
+  }
+
+  // sec13.style.display = "none";
+
+  // if (scrollTop >= document.querySelector("#section13").offsetTop) {
+  //   sec13.style.display = "flex";
+  // }sec13.style.display = "none";
+
+  if (scrollTop >= document.querySelector("#section13").offsetTop) {
+    sec13.style.display = "flex";
   }
 
   requestAnimationFrame(scroll);
