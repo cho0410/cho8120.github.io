@@ -17,9 +17,9 @@ function scroll() {
   //   sec13.style.display = "flex";
   // }sec13.style.display = "none";
 
-  if (scrollTop >= document.querySelector("#section13").offsetTop) {
-    sec13.style.display = "flex";
-  }
+  // if (scrollTop >= document.querySelector("#section13").offsetTop) {
+  //   sec13.style.display = "flex";
+  // }
 
   requestAnimationFrame(scroll);
 }

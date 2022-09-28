@@ -220,6 +220,8 @@
   width: 400vw;
   height: 100vh;
   z-index: 1000;
+  width: 1200vh;
+  height: 100%;
   display: flex;
   flex-wrap: nowrap;
 }
@@ -240,12 +242,13 @@
   background-color: #777;
   display: flex;
 }
-/* #section13 .site-wrap section {
+ #section13 .site-wrap section {
   width: 100vh;
   height: 100vh;
   position: relative;
   background-color: #777;
-} */
+}
+
 
 /* ******************* Header Area Start ****************** */
 
@@ -2052,6 +2055,7 @@
 
 /* section13 */
 #section13 {
+  padding: 200px 0;
   /* padding: 200px 0; */
 }
 
@@ -3393,7 +3397,7 @@
     padding-top: 4vw;
   }
 
-  /* #section13 .site .right h3 {
+ #section13 .site .right h3 {
     font-size: 3rem;
     font-family: "Syncopate";
     text-transform: uppercase;
@@ -3469,7 +3473,7 @@
     margin-left: 30%;
     margin-bottom: 24px;
     width: 350px;
-  } */
+  }
 
   #footer .footer .f_cont .f_left .col-sm-12 p {
     color: #000;
@@ -3877,8 +3881,7 @@
     font-size: 14px;
     margin-left: 68%;
   }
-
-  /* #section13 .site .right h3 {
+  #section13 .site .right h3 {
     font-size: 3rem;
     font-family: "Syncopate";
     text-transform: uppercase;
@@ -3903,15 +3906,16 @@
     font-weight: bold;
     margin: 43% 0 0 -4%;
     text-align: center;
-  } */
+  }
+
 
   #footer .footer .f_cont .f_left .col-sm-12 p {
     color: #000;
     margin-top: 21px;
     font: 500 18px "Fabringo";
   }
-}
 
+}
 /************************* Tablet Area Start *************************/
 @media (max-width: 960px) {
   #contents section {
@@ -4155,6 +4159,7 @@
     margin-right: 53%;
   }
 
+  #section13 .site .right h3 {
   /* #section13 .site .right h3 {
     font-size: 3rem;
     font-family: "Syncopate";
@@ -4180,6 +4185,7 @@
     font-weight: bold;
     margin: 45% 0 0 -4%;
     text-align: center;
+  }
   } */
 
   #footer .footer .f_cont .f_left .col-sm-12 p {
@@ -5027,6 +5033,7 @@
     width: 100%;
   }
 
+  #section13 .site .right h3 {
   /* #section13 .site .right h3 {
     font-size: 3rem;
     font-family: "Syncopate";
@@ -5103,6 +5110,7 @@
     margin-left: 32%;
     margin-bottom: 24px;
     width: 222px;
+  }
   } */
 
   #footer .f_cont .f_left .col-sm-12 > ul {
@@ -5689,6 +5697,7 @@
     padding: 9px;
   }
 
+  #section13 .site .right h3 {
   /* #section13 .site .right h3 {
     font-size: 2rem;
     font-family: "Syncopate";
@@ -5777,6 +5786,7 @@
     margin-left: 27%;
     margin-bottom: 24px;
     width: 222px;
+  }
   } */
 
   #footer .f_cont {
