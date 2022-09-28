@@ -1,29 +1,3 @@
-function scroll() {
-  let scrollTop =
-    window.pageYOffset || document.documentElement.scrollTop || window.scrollY;
-  document.querySelector(".scroll").innerHTML = Math.trunc(scrollTop);
-
-  let offset = scrollTop - document.querySelector("#section13").offsetTop;
-  let sec13 = document.querySelector("#section13");
-
-  if (scrollTop >= document.querySelector("#section13").offsetTop) {
-    //document.querySelector(".sec4").style.backgroundColor = "blue";
-    gsap.to("#section13", { left: -offset, ease: "linear" });
-  }
-
-  // sec13.style.display = "none";
-
-  // if (scrollTop >= document.querySelector("#section13").offsetTop) {
-  //   sec13.style.display = "flex";
-  // }sec13.style.display = "none";
-
-  // if (scrollTop >= document.querySelector("#section13").offsetTop) {
-  //   sec13.style.display = "flex";
-  // }
-
-  requestAnimationFrame(scroll);
-}
-scroll();
 // WOW JS
 new WOW().init();
 
