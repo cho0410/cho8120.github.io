@@ -27,7 +27,32 @@
 .b {
   font-family: "Berkshire Swash";
 }
+/* mouse cursor */
+#cursor {
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  will-change: transform;
+  /* mix-blend-mode: difference; */
+}
 
+@media (hover: hover) and (pointer: fine) {
+  .cursor__circle {
+    width: 64px;
+    height: 64px;
+    margin-top: -50%;
+    margin-left: -50%;
+    border-radius: 50%;
+    background-color: rgba(125, 229, 255, 0.3);
+    transition: opacity 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+      background-color 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+      border-color 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+      width 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+      height 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+}
 .button {
   width: 100px;
   height: 40px;
@@ -712,16 +737,22 @@
 #section2 .sec2_about .left {
   width: 50%;
   position: relative;
+  perspective: 1000px;
 }
 
-#section2 .sec2_about .left .img {
+#section2 .sec2_about .hover8 .front .img {
   background: url(../images/my.jpg) no-repeat center / cover;
   width: 40vw;
   height: 40vw;
   border-radius: 50%;
 }
-
-#section2 .sec2_about .left .high {
+#section2 .sec2_about .hover8 .back .img1 {
+  background: url(../images/my1.jpg) no-repeat center / cover;
+  width: 40vw;
+  height: 40vw;
+  border-radius: 50%;
+}
+#section2 .sec2_about .hover8 .front .high {
   position: absolute;
   left: 0%;
   top: 59%;
@@ -730,6 +761,36 @@
   width: 50%;
   width: 39%;
   height: 50%;
+}
+
+#section2 .sec2_about .hover8 .front {
+  transition: transform 1.5s;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+#section2 .sec2_about .hover8 .back {
+  transition: transform 1.5s;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/* hover effect */
+#section2 .sec2_about .hover8 .front {
+  transform: rotateY(0deg);
+}
+#section2 .sec2_about .hover8:hover .front {
+  transform: rotateY(180deg);
+}
+#section2 .sec2_about .hover8 .back {
+  transform: rotateY(-180deg);
+}
+#section2 .sec2_about .hover8:hover .back {
+  transform: rotateY(0deg);
 }
 
 #section2 .sec2_about .right {
@@ -1991,7 +2052,7 @@
   font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
-  margin: 31% 0 0 1%;
+  margin: 32% 0 0 1%;
   text-align: center;
 }
 
@@ -2078,7 +2139,7 @@
   font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
-  margin: 31% 0 0 1%;
+  margin: 32% 0 0 1%;
   text-align: center;
 }
 
@@ -2223,7 +2284,7 @@
   font-family: "Syncopate";
   text-transform: uppercase;
   font-weight: bold;
-  margin: 31% 0 0 1%;
+  margin: 32% 0 0 1%;
   text-align: center;
 }
 
@@ -2367,7 +2428,6 @@
   margin: 10px 0;
   font-size: 16px;
   font-family: "Fabringo";
-  color: #777;
   cursor: pointer;
   border: 1px solid #ccc;
 }
@@ -5604,15 +5664,15 @@
     display: none;
   }
   #section13 .site .right h3 {
-    padding-top: 34%;
+    padding-top: 36%;
     font-size: 29px;
   }
   #section13 .site1 .right h3 {
-    padding-top: 34%;
+    padding-top: 36%;
     font-size: 29px;
   }
   #section13 .site2 .right h3 {
-    padding-top: 34%;
+    padding-top: 36%;
     font-size: 29px;
   }
   #section13 .site .right p {
