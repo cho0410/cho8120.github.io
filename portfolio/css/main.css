@@ -68,40 +68,26 @@
 }
 
 .container-button--2 .button-3d--1 .front__1,
-.container-button--2 .button-3d--1 .back__1,
-.container-button--2 .button-3d--2 .front__1,
-.container-button--2 .button-3d--2 .back__1 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  font-family: "NexonLv1Gothic";
-  font-weight: 600;
-  color: #000;
-  transition: all 1s;
-}
-
-.container-button--2 .button-3d--1 .front__1,
 .container-button--2 .button-3d--2 .front__1 {
-  transform: rotateX(0deg) translateZ(20px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-family: "NexonLv1Gothic";
+  font-weight: 600;
+  color: #000;
+  transition: all 0.3s ease-out;
 }
-
-.container-button--2 .button-3d--1 .back__1,
-.container-button--2 .button-3d--2 .back__1 {
-  transform: rotateX(-90deg) translateZ(20px);
+.container-button--2 .button:hover {
+  background-color: #e2e2e2;
+  transition: all 0.3s ease-out;
 }
-
-.container-button--2:hover .button-3d--1 {
-  transform: rotateX(90deg);
-}
-
-.container-button--2 .button-3d--2 .front__2,
-.container-button--2 .button-3d--2 .back__2 {
+.container-button--2 .button-3d--2 .front__2 {
   position: absolute;
   left: 0;
   top: 0;
@@ -115,28 +101,6 @@
   background-color: white;
   color: #000;
   transition: all 1s;
-}
-
-.container-button--2 .button-3d--2 .front__2 {
-  transform: rotateX(0deg) translateZ(20px);
-}
-
-.container-button--2 .button-3d--2 .back__2 {
-  transform: rotateX(90deg) translateZ(20px);
-}
-
-.container-button--2:hover .button-3d--2 {
-  transform: rotateX(-90deg);
-}
-
-.container-button--2:hover .back__1 {
-  background-color: white;
-  color: black;
-}
-
-.container-button--2:hover .back__2 {
-  background-color: white;
-  color: black;
 }
 
 /* layout */
@@ -2090,7 +2054,7 @@
   width: 65%;
   height: 80%;
   vertical-align: top;
-  background: url(../images/prontend.svg);
+  background: url(../images/react.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
