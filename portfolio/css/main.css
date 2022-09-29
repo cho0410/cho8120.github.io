@@ -1306,7 +1306,7 @@
 #section7 .site .right span {
   font-family: "NexonLv1Gothic";
   font-size: 18px;
-  margin-left: 74%;
+  margin-left: 84%;
   text-align: right;
   text-decoration: underline;
   text-underline-position: under;
@@ -1447,7 +1447,7 @@
 #section8 .site .left span {
   font-family: "NexonLv1Gothic";
   font-size: 18px;
-  margin-right: 74%;
+  margin-right: 84%;
   text-align: right;
   text-decoration: underline;
   text-underline-position: under;
@@ -1551,7 +1551,7 @@
 #section9 .site .right span {
   font-family: "NexonLv1Gothic";
   font-size: 18px;
-  margin-left: 74%;
+  margin-left: 84%;
   text-align: right;
   text-decoration: underline;
   text-underline-position: under;
@@ -2466,6 +2466,9 @@
     width: 39%;
     height: 50%;
   }
+  #section2 .sec2_about .hover8 .back {
+    margin-left: 87px;
+  }
 }
 
 @media (max-width: 1500px) {
@@ -2490,7 +2493,7 @@
   #section7 .site .right span {
     font-family: "NexonLv1Gothic";
     font-size: 18px;
-    margin-left: 70%;
+    margin-left: 83%;
     text-align: right;
     text-decoration: underline;
     text-underline-position: under;
@@ -2547,7 +2550,7 @@
   #section9 .site .right span {
     font-family: "NexonLv1Gothic";
     font-size: 18px;
-    margin-left: 70%;
+    margin-left: 83%;
     text-align: right;
     text-decoration: underline;
     text-underline-position: under;
@@ -2905,11 +2908,22 @@
     position: relative;
     right: 8%;
   }
-
+  #section2 .sec2_about .hover8 .back {
+    margin-left: 67px;
+  }
   #section2 .sec2_about .left .high {
     position: absolute;
     left: 4%;
     top: 59%;
+  }
+  #section2 .sec2_about .hover8 .front .high {
+    position: absolute;
+    left: -11%;
+    top: 63%;
+    background: url(../images/high.svg) no-repeat;
+    background-size: contain;
+    width: 39%;
+    height: 50%;
   }
 
   #section2 .sec2 .sec2_about .right .img-wrap .i1 {
@@ -2953,7 +2967,7 @@
   }
 
   #section2 .sec2_about .left {
-    margin-left: 12vw;
+    margin-left: 7vw;
   }
 
   #section3 .sec3 .site {
@@ -3227,7 +3241,6 @@
 
   #section7 .site .right span {
     font-size: 14px;
-    margin-left: 68%;
   }
 
   #section7 .site .right p {
@@ -3243,14 +3256,17 @@
     width: 100%;
     max-width: 1400px;
     position: absolute;
-    bottom: 7%;
-    left: 17%;
+    bottom: 0%;
+    left: 0%;
   }
 
   #section7 .site .right .btn a {
     font-size: 14px;
   }
-
+  #section7 .site .right .i1 {
+    top: -35%;
+    left: 10%;
+  }
   #section8 .site {
     padding: 200px 60px;
   }
@@ -3284,8 +3300,8 @@
     width: 100%;
     max-width: 1400px;
     position: absolute;
-    bottom: 7%;
-    left: 17%;
+    bottom: 0%;
+    left: 26%;
   }
   #section8 .site .left .i1 {
     top: -12%;
@@ -3315,7 +3331,6 @@
 
   #section9 .site .right span {
     font-size: 14px;
-    margin-left: 68%;
   }
 
   #section9 .site .right p {
@@ -3331,8 +3346,8 @@
     width: 100%;
     max-width: 1400px;
     position: absolute;
-    bottom: 7%;
-    left: 17%;
+    bottom: 0%;
+    left: 0%;
   }
 
   #section9 .site .right .btn a {
@@ -3379,8 +3394,8 @@
     width: 100%;
     max-width: 1400px;
     position: absolute;
-    bottom: 7%;
-    left: 17%;
+    bottom: 0%;
+    left: 26%;
   }
 
   #section10 .site .left .btn a {
@@ -3804,7 +3819,7 @@
 
   #section7 .site .right span {
     font-size: 14px;
-    margin-left: 68%;
+    margin-left: 80%;
   }
   #section8 .site .left .i1 {
     top: -12%;
@@ -3822,7 +3837,7 @@
 
   #section9 .site .right span {
     font-size: 14px;
-    margin-left: 68%;
+    margin-left: 80%;
   }
 
   #section13 .site .right h3 {
@@ -4085,7 +4100,7 @@
 
   #section7 .site .right span {
     font-size: 14px;
-    margin-left: 58%;
+    margin-left: 79%;
   }
 
   #section7 .site .right p {
@@ -4100,16 +4115,22 @@
     font-size: 14px;
     margin-right: 53%;
   }
-
+  #section8 .site .left .i2 {
+    top: 74%;
+    left: 66%;
+  }
   #section9 .site .right h3 {
     font-size: 28px;
     margin-left: 10%;
     margin-top: 4%;
   }
-
+  #section9 .site .right .i1 {
+    top: -50%;
+    left: 0%;
+  }
   #section9 .site .right span {
     font-size: 14px;
-    margin-left: 58%;
+    margin-left: 79%;
   }
 
   #section9 .site .right p {
@@ -4124,6 +4145,10 @@
     top: -16%;
     left: 31%;
   }
+  #section10 .site .left .i1 {
+    top: -16%;
+    left: 39%;
+  }
 
   #section10 .site .left span {
     font-size: 14px;
@@ -4131,7 +4156,7 @@
   }
   #section10 .site .left .i2 {
     top: 67%;
-    left: 31%;
+    left: 41%;
   }
   #section13 .site .right .btn {
     margin-left: 33%;
@@ -4368,6 +4393,9 @@
   #section2 .sec2_about .right {
     width: 100%;
   }
+  #section2 .sec2_about .hover8 .back {
+    margin-left: 85px;
+  }
 
   #section2 .sec2_about .right h2 em:nth-child(1) {
     display: none;
@@ -4416,12 +4444,12 @@
     width: 413px;
     height: 130px;
     position: absolute;
-    top: -8%;
-    left: 28%;
+    top: -7%;
+    left: 39%;
   }
 
   #section3 .sec3 .site .right h3 {
-    margin-top: 12%;
+    margin-top: 3%;
     text-align: center;
     margin-left: 22%;
     font-family: "Outfit", sans-serif;
@@ -4432,21 +4460,22 @@
     margin-bottom: 30px;
     font-size: 14px;
     position: absolute;
-    top: 40%;
-    left: 8%;
+    top: 22%;
+    left: 4%;
     padding-right: 21%;
+    text-align: center;
   }
 
   #section3 .button-3d--1 {
     position: absolute;
-    left: 32%;
-    top: 59%;
+    left: 37%;
+    top: 47%;
   }
 
   #section3 .button-3d--2 {
     position: absolute;
-    left: 45%;
-    top: 59%;
+    left: 49%;
+    top: 47%;
   }
 
   #section3 .sec3 .site .right .i1 {
@@ -4485,7 +4514,7 @@
     font-size: 52px;
     position: absolute;
     top: 42%;
-    right: -6%;
+    right: -9%;
   }
 
   #section4 .site .left .i3 {
@@ -4507,19 +4536,19 @@
     position: absolute;
     top: 70%;
     left: 24%;
-    text-align: left;
+    text-align: center;
     width: 100%;
   }
 
   #section4 .button-3d--1 {
     position: absolute;
-    left: 75%;
+    left: 80%;
     top: 85.4%;
   }
 
   #section4 .button-3d--2 {
     position: absolute;
-    left: 56%;
+    left: 62%;
     top: 85.4%;
   }
 
@@ -4542,7 +4571,7 @@
     width: 586px;
     height: 371px;
     position: absolute;
-    left: 14%;
+    left: 21%;
   }
 
   #section5 .site .left .bg .img {
@@ -4560,7 +4589,7 @@
   #section5 .site .right h3 {
     margin-top: 109%;
     text-align: center;
-    margin-left: -111%;
+    margin-left: -99%;
     font-family: "Outfit", sans-serif;
     font-size: 52px;
   }
@@ -4570,9 +4599,10 @@
     font-size: 14px;
     position: absolute;
     top: 100%;
-    left: -61%;
+    left: -55%;
     width: 100%;
     padding-right: 0%;
+    text-align: center;
   }
 
   #section5 .site .right .container-button--2 {
@@ -4595,14 +4625,14 @@
 
   #section5 .button-3d--1 {
     position: absolute;
-    left: -36%;
-    top: 131%;
+    left: -28%;
+    top: 125%;
   }
 
   #section5 .button-3d--2 {
     position: absolute;
-    left: -8%;
-    top: 131%;
+    left: -2%;
+    top: 125%;
   }
   #section7 .site .right .i1 {
     display: none;
@@ -4620,7 +4650,7 @@
   #section7 .site .right h3 {
     font-size: 29px;
     margin-left: 15%;
-    margin-top: 4%;
+    margin-top: 1%;
     text-align: left;
   }
 
@@ -4661,7 +4691,7 @@
     margin-right: 46%;
     position: absolute;
     left: -44%;
-    top: 33%;
+    top: 37%;
   }
 
   #section7 .site .right .btn a {
@@ -4689,7 +4719,7 @@
   }
 
   #section7 .site .right h2 {
-    margin-top: 3vw;
+    margin-top: 0vw;
     font-size: 13px;
     margin-left: 15%;
     text-align: left;
@@ -4704,7 +4734,7 @@
   #section8 .site .left h3 {
     font-size: 29px;
     margin-left: 14%;
-    margin-top: 4%;
+    margin-top: 1%;
     text-align: left;
   }
 
@@ -4751,9 +4781,8 @@
     flex-direction: row;
     margin-right: 46%;
     position: absolute;
-    right: 5%;
-    top: 133%;
-    top: 146%;
+    right: 6%;
+    top: 130%;
   }
 
   #section8 .site .left .btn a {
@@ -4785,7 +4814,7 @@
     margin-left: 15%;
     text-align: left;
     margin-top: 3%;
-    padding-top: 76%;
+    padding-top: 67%;
   }
 
   #section8 .site .left span {
@@ -4797,7 +4826,7 @@
   #section9 .site .right h3 {
     font-size: 29px;
     margin-left: 15%;
-    margin-top: 4%;
+    margin-top: 1%;
     text-align: left;
   }
 
@@ -4816,7 +4845,7 @@
     display: none;
   }
   #section9 .site .right .i2 {
-    top: 39%;
+    top: 47%;
     left: 70%;
   }
   #section9 .site .left .top-box {
@@ -4844,7 +4873,7 @@
     margin-right: 46%;
     position: absolute;
     left: -44%;
-    top: 33%;
+    top: 37%;
   }
 
   #section9 .site .right .btn a {
@@ -4872,7 +4901,7 @@
   }
 
   #section9 .site .right h2 {
-    margin-top: 1vw;
+    margin-top: 0vw;
     font-size: 13px;
     margin-left: 15%;
     text-align: left;
@@ -4887,7 +4916,7 @@
   #section10 .site .left h3 {
     font-size: 29px;
     margin-left: 14%;
-    margin-top: 4%;
+    margin-top: 1%;
     text-align: left;
   }
 
@@ -4900,8 +4929,9 @@
     display: none;
   }
   #section10 .site .left .i2 {
-    top: 77%;
-    left: 44%;
+    top: 74%;
+    left: 53%;
+    transform: rotate(-48deg);
   }
   #section10 .site .right {
     width: 100%;
@@ -4933,8 +4963,8 @@
     flex-direction: row;
     margin-right: 46%;
     position: absolute;
-    right: 5%;
-    top: 133%;
+    right: 6%;
+    top: 116%;
   }
 
   #section10 .site .left .btn a {
@@ -4966,7 +4996,7 @@
     margin-left: 15%;
     text-align: left;
     margin-top: 3%;
-    padding-top: 76%;
+    padding-top: 67%;
   }
 
   #section10 .site .left span {
@@ -5496,6 +5526,9 @@
   #section5 .site .right {
     height: 150px;
   }
+  #section6 .sec3 {
+    padding: 100px 0;
+  }
   #section7 .site .right .i2 {
     display: none;
   }
@@ -5513,7 +5546,7 @@
   }
 
   #section7 .site .right span {
-    margin-left: 28%;
+    margin-left: 37%;
   }
 
   #section7 .site .right p {
@@ -5525,6 +5558,7 @@
   }
   #section7 .site .right .btn {
     left: -42%;
+    top: 48%;
   }
 
   #section8 .site .left h2 {
@@ -5556,7 +5590,7 @@
     font-size: 14px;
     text-align: center;
     width: 100%;
-    margin-left: 0;
+    margin-left: 34px;
     margin-right: 0;
     padding-left: 104px;
   }
@@ -5600,7 +5634,7 @@
   }
 
   #section9 .site .right span {
-    margin-left: 28%;
+    margin-left: 37%;
   }
 
   #section9 .site .right p {
@@ -5610,6 +5644,7 @@
 
   #section9 .site .right .btn {
     left: -40%;
+    top: 48%;
   }
 
   #section10 .site .left h2 {
@@ -5637,8 +5672,8 @@
     font-size: 14px;
     text-align: center;
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 30px;
+    margin-right: 0px;
     padding-left: 104px;
   }
 
@@ -5660,7 +5695,7 @@
     margin-right: 46%;
     position: absolute;
     right: -25%;
-    top: 121%;
+    top: 119%;
   }
 
   #section11 .sec4__items {
