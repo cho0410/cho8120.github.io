@@ -762,6 +762,16 @@
   width: 39%;
   height: 50%;
 }
+#section2 .sec2_about .hover8 .back .high {
+  position: absolute;
+  left: 0%;
+  top: 59%;
+  background: url(../images/high.svg) no-repeat;
+  background-size: contain;
+  width: 50%;
+  width: 39%;
+  height: 50%;
+}
 
 #section2 .sec2_about .hover8 .front {
   transition: transform 1.5s;
