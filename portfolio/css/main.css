@@ -2182,7 +2182,7 @@
   height: 316px;
   position: absolute;
   top: 94%;
-  left: 4%;
+  left: 0%;
 }
 #section13 .site1 .right .i2 {
   background: url(../images/clock1.svg) no-repeat;
@@ -3799,7 +3799,7 @@
   }
   #section13 .site1 .right .i1 {
     top: 94%;
-    left: 2%;
+    left: 0%;
   }
   #section13 .site2 .right .i2 {
     top: 66%;
@@ -4109,7 +4109,7 @@
   }
   #section13 .site1 .right .i1 {
     top: 86%;
-    left: 1%;
+    left: 0%;
   }
   #section13 .site1 .right .i2 {
     top: 77%;
