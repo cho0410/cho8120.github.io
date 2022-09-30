@@ -2311,7 +2311,7 @@
 
 #footer {
   color: #000;
-  background: #fff;
+  background: #fffdf2;
 }
 
 #footer .f_cont {
@@ -2369,7 +2369,7 @@
 .f_mail {
   width: 100%;
   padding: 20px 30px;
-  border: 1px solid #000;
+  border: 3px solid rgb(39 60 90);
   border-radius: 30px;
 }
 
@@ -2380,11 +2380,13 @@
   font-size: 17px;
   line-height: 1.2;
   font-weight: 200;
-  font-family: "Fabringo";
+  font-family: "NexonLv1Gothic";
   letter-spacing: 1px;
   border: none;
   border-bottom: 1px solid #ccc;
   outline: none;
+  border-radius: 6px;
+  background: #e5e5e5;
 }
 
 .f_mail .fEmail {
@@ -2399,7 +2401,7 @@
   padding: 10px 30px;
   margin: 10px 0;
   font-size: 16px;
-  font-family: "Fabringo";
+  font-family: "NexonLv1Gothic";
   cursor: pointer;
   border: 1px solid #ccc;
 }
