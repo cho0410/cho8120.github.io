@@ -1717,9 +1717,14 @@
   z-index: 2;
   border: 0.4rem solid #000;
   border-radius: 29px;
-  background: url(../images/card.svg) no-repeat center;
+  /* background: url(../images/card.svg) no-repeat center; */
   position: absolute;
   bottom: 7%;
+}
+#section10 .site .right iframe {
+  border-radius: 20px;
+  margin-top: 1px;
+  margin-left: 1px;
 }
 
 #section10 .site .left .btn {
@@ -1886,10 +1891,14 @@
   color: #000;
 }
 
-#section11 .sec4__items__btnSt a:hover {
-  color: #000;
+#section11 .sec4__items__btn:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.3s;
 }
-
+#section11 .sec4__items a {
+  cursor: pointer;
+}
 #section11 .sec4__items__btnSt a::before {
   content: "";
   position: absolute;
