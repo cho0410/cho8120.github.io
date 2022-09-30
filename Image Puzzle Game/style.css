@@ -22,7 +22,6 @@
 ul {
   margin-top: 1rem;
   list-style: none;
-  border: 2px solid var(--mint);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }

@@ -4,9 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTFOLIO</title>
-    <script>
-      window.location.href = "html/main1.html";
-    </script>
+    <style>
+      body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        /* background: linear-gradient(#42c487 0%, #81a5ff 100%); */
+        color: white;
+        align-items: center;
+        font-family: "Abel";
+        color: #000;
+      }
+
+      .container {
+        text-align: center;
+        width: 400px;
+        position: relative;
+      }
+
+      .counter {
+        font-size: 40px;
+      }
+
+      .loading-bar-back {
+        position: absolute;
+        height: 8px;
+        background: #fff;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+      }
+
+      .loading-bar-front {
+        position: absolute;
+        height: 8px;
+        background: linear-gradient(
+          to right,
+          rgb(255, 177, 121) 0,
+          rgb(203, 246, 242) 100%
+        );
+        width: 0%;
+        border-radius: 5px;
+        border: none;
+      }
+    </style>
   </head>
-  <body></body>
+
+  <body>
+    <div class="container">
+      <h1>Loading</h1>
+      <div class="counter">0%</div>
+      <hr class="loading-bar-back" />
+      <hr class="loading-bar-front" />
+    </div>
+
+    <script>
+      const counterEl = document.querySelector(".counter");
+      const barEl = document.querySelector(".loading-bar-front");
+
+      let idx = 0;
+
+      updateNum();
+
+      function updateNum() {
+        counterEl.innerText = idx + "%";
+        barEl.style.width = idx + "%";
+        idx++;
+        if (idx < 101) {
+          setTimeout(updateNum, 40);
+        }
+      }
+      // 일정시간이 지나면 이동시키기 :  setTimeout(함수명, 호출시간);
+      function forwarding() {
+        window.location.href = "html/main1.html";
+      }
+
+      setTimeout(forwarding, 5000);
+    </script>
+  </body>
 </html>

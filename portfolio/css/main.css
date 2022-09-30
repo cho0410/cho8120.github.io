@@ -27,6 +27,7 @@
 .b {
   font-family: "Berkshire Swash";
 }
+
 /* mouse cursor */
 #cursor {
   position: fixed;
@@ -53,6 +54,7 @@
       height 0.3s cubic-bezier(0.25, 1, 0.5, 1);
   }
 }
+/*****BUTTON*****/
 .button {
   width: 100px;
   height: 40px;
@@ -78,8 +80,6 @@
   position: absolute;
   left: 63%;
 }
-
-/*****BUTTON 3D*****/
 .container-button--2 {
   display: flex;
   margin-left: 4%;
@@ -129,8 +129,6 @@
 }
 
 /* layout */
-#contents {
-}
 
 #section1 {
   height: 100vh;
@@ -1321,6 +1319,10 @@
   margin-left: 18%;
   text-align: right;
 }
+#section7 .site .left iframe {
+  border-radius: 20px;
+  margin-left: 1px;
+}
 
 #section7 .site .left .top-box {
   width: 768px;
@@ -1410,7 +1412,10 @@
   top: 72%;
   left: 56%;
 }
-
+#section8 .site .right iframe {
+  border-radius: 20px;
+  margin-top: 2px;
+}
 #section8 .site .left {
   width: 50%;
   height: 500px;
@@ -1469,7 +1474,7 @@
   z-index: 2;
   border: 0.4rem solid #000;
   border-radius: 29px;
-  background: url(../images/music.jpg) no-repeat center center;
+  /* background: url(../images/music.jpg) no-repeat center center; */
   position: absolute;
   bottom: 7%;
 }
@@ -1584,14 +1589,16 @@
   margin-left: 18%;
   text-align: right;
 }
-
+#section9 .site .left iframe {
+  border-radius: 20px;
+}
 #section9 .site .left .top-box {
   width: 768px;
   height: 500px;
   z-index: 2;
   border: 0.4rem solid #000;
   border-radius: 29px;
-  background: url(../images/puzzle.svg) no-repeat bottom center;
+  /* background: url(../images/puzzle.svg) no-repeat bottom center; */
   position: absolute;
   bottom: 7%;
 }
